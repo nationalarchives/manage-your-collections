@@ -1,0 +1,548 @@
+/* -- Custom tabs -- */
+nav#tabs-alternative {
+    border: 0;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+nav#tabs-alternative li {
+    display: inline-block;
+    margin: 0 0 0 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+nav#tabs-alternative ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    margin-bottom: -1px;
+}
+
+nav#tabs-alternative li a {
+    padding: 15px 10px;
+    display: block;
+    background-color: #efefef;
+}
+
+/* -- end custom tabs -- */
+
+/* -- Custom search box -- */
+.search-box {
+    margin: 0 0 50px;
+}
+
+.search-box .breather {
+    padding: 0;
+}
+
+.search-box input[type="search"] {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    width: 25%;
+    margin: 5px 0;
+    min-width: 200px;
+}
+
+.search-box label {
+    display: none;
+}
+
+/* -- end custom search box -- */
+
+/* -- Custom table styles -- */
+table {
+    background-color: transparent;
+}
+
+caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left;
+}
+
+th {
+    text-align: left;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+}
+
+.table > tbody + tbody {
+    border-top: 2px solid #ddd;
+}
+
+.table .table {
+    background-color: #fff;
+}
+
+table col[class*="col-"] {
+    position: static;
+    display: table-column;
+    float: none;
+}
+
+table td[class*="col-"],
+table th[class*="col-"] {
+    position: static;
+    display: table-cell;
+    float: none;
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.striped tbody tr {
+    border-bottom: 1px solid #eee;
+}
+
+.striped {
+    width: 100%;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-y: hidden;
+
+}
+
+thead th {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Bitter', sans-serif;
+    padding: 10px;
+    background-color: #efefef;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+    padding: 10px;
+}
+
+tbody tr:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+tbody tr.expanded td {
+    background: #efefef url('../images/arrow.png') no-repeat center -3px;
+    text-align: center;
+
+}
+
+.striped tr td:first-child, .striped tr th:first-child {
+    width: 100px;
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+.striped tr.open {
+    border-bottom: 0;
+}
+
+/* -- end custom table styles -- */
+
+/* -- Custom pagination  -- */
+.manage-collections .pagination {
+    margin-bottom: 1.5em;
+}
+
+.manage-collections .pagination li {
+    font-family: 'Open sans', sans-serif;
+    line-height: 20px;
+    font-size: 1em;
+    min-width: 20px;
+    padding: 0.2em;
+    color: #222;
+    background-color: transparent;
+    border: 1px solid #ddd;
+}
+
+.manage-collections .pagination li a {
+    color: #2A5DB0;
+}
+
+.manage-collections .pagination li.next {
+    background: none;
+    border: 0;
+}
+
+.manage-collections .pagination li.current {
+    color: #222;
+    background-color: #efefef;
+    font-weight: bold;
+}
+
+/* -- End custom pagination  -- */
+
+/* -- Custom overlay/modal box  -- */
+.js .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2001;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.js .modal {
+    min-height: 250px;
+    position: fixed;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 2002;
+    width: 90%;
+    top: 20%;
+    left: 5%;
+}
+
+.js .modal .breather {
+    margin: 20px 10px;
+}
+
+.js .modal h4 {
+    font-size: 1.3em;
+}
+
+/* -- end custom overlay/modal box  -- */
+
+/* -- Custom input[type=file] styles -- */
+.js .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    /* 20px */
+    font-size: 0.8em;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.no-js .inputfile + label {
+    display: none;
+}
+
+.inputfile:focus + label,
+.inputfile.has-focus + label {
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+    /* pointer-events: none; */
+    /* in case of FastClick lib use */
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    /* 4px */
+    margin-right: 0.25em;
+    /* 4px */
+}
+
+.inputfile-6 + label {
+    color: #099;
+}
+
+.inputfile-6 + label {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 0;
+}
+
+.inputfile-6:focus + label,
+.inputfile-6.has-focus + label,
+.inputfile-6 + label:hover {
+    border-color: #099;
+}
+
+.inputfile-6 + label span,
+.inputfile-6 + label strong {
+    padding: 0.625rem 1.25rem;
+    /* 10px 20px */
+}
+
+.inputfile-6 + label span {
+    width: 100px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.inputfile-6 + label strong {
+    height: 100%;
+    color: #fff;
+    background-color: #999;
+    display: inline-block;
+}
+
+.inputfile-6:focus + label strong,
+.inputfile-6.has-focus + label strong,
+.inputfile-6 + label:hover strong {
+    background-color: #099;
+}
+
+/* -- end custom input[type=file] styles -- */
+
+/* -- Miscellaneous custom styles/overrides  -- */
+.left-to-right {
+    margin: 30px 0 0;
+    width: 100%;
+}
+
+.title {
+    font-weight: bold;
+    width: 100px;
+}
+
+.inline {
+    margin: 0;
+    width: 100%;
+}
+
+.inline li {
+    display: inline-block;
+    font-size: 0.9em;
+    color: #222;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 2px;
+}
+
+.inline li a {
+    margin-left: 15px;
+}
+
+.option-box .breather {
+    padding: 1em 0;
+}
+
+.option-box a {
+    margin-bottom: 0;
+}
+
+.left-to-right a.discoveryPrimaryCallToActionLink {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+    background: transparent;
+    color: #2b669a;
+}
+
+.inline li span {
+    margin: 5px 0;
+}
+
+.condensed td {
+    padding: 4px;
+}
+
+.name {
+    float: left;
+    margin: 20px 0;
+    color: #222;
+}
+
+.small {
+    font-size: 0.9em;
+}
+
+.table-title {
+    font-family: 'Bitter', sans-serif;
+    margin-top: 12px;
+}
+
+.expanded button {
+    background-color: #099;
+    color: #FFF;
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.overlay h4 {
+    margin-bottom: 20px;
+}
+
+.form-spacer {
+    padding: 0;
+    margin: 0;
+}
+
+.button-container input[type=submit] {
+    margin-right: 10px;
+}
+
+.no-js .form {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+/* -- end miscellaneous custom styles/overrides  -- */
+
+@media screen and (min-width: 768px) {
+    nav#tabs-alternative li a {
+        padding: 15px 40px;
+    }
+
+    nav#tabs-alternative li {
+        border: solid 1px #ccc;
+        margin-bottom: 0;
+    }
+
+    nav#tabs-alternative li.selected {
+        border-bottom: 1px solid #fff;
+    }
+
+    nav#tabs-alternative li.selected a {
+        background-color: #fff;
+    }
+
+    nav#tabs-alternative {
+        border-bottom: 1px solid #ccc;
+    }
+
+    nav#tabs-alternative li {
+        width: auto;
+    }
+
+    .search-box {
+        background-color: #efefef;
+        border: 1px solid #ccc;
+        margin: 0 0 30px;
+    }
+
+    .search-box .breather {
+        padding: 1em;
+    }
+
+    .table-responsive {
+        min-height: .01%;
+        overflow-x: auto;
+    }
+
+    .option-box {
+        background-color: #dfdfdf;
+    }
+
+    .js .modal {
+        top: 15%;
+        left: 15%;
+        width: 70%;
+    }
+
+    .js .modal .breather {
+        margin: 40px;
+    }
+
+    .inputfile-6 + label span {
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .left-to-right {
+        float: right;
+        margin: 0;
+        width: auto;
+    }
+
+    .inline {
+        margin-top: 5px;
+    }
+
+    .inline li {
+        font-size: 0.9em;
+        color: #222;
+        margin-left: 20px;
+        display: inline;
+        border: 0;
+    }
+
+    .left-to-right a.discoveryPrimaryCallToActionLink {
+
+        text-align: center;
+        font-size: 0.9em;
+        margin: 1px 0 1px 10px;
+        background-color: #099;
+        color: #FFF;
+    }
+
+    .name {
+        float: right;
+        margin: 10px 0 0;
+    }
+
+    .js .modal {
+        top: 30%;
+        left: 30%;
+        width: 40%;
+    }
+}
+
+
+
