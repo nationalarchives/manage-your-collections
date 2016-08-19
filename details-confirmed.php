@@ -42,6 +42,7 @@
                 <div class="clr" role="tabpanel" aria-labelledby="panel-1">
 
                     <!-- SUMMARY BOX -->
+                    <span class="emphasis-block"><span>Your collection was successfully uploaded</span></span>
                     <div class="search-box" id="details">
                             <div class="detail-container">
                                 <div class="breather">
@@ -89,7 +90,7 @@
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
-                    <form class="form" id="download-form" action="details-confirmed.php" method="post">
+                    <form class="form" id="download-form" action="download" method="post">
                         <div class="breather">
                             <h4>Download a file</h4>
                             <p class="form-spacer">

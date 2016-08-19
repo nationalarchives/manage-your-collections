@@ -41,7 +41,7 @@
                     </ul>
                 </nav><!-- end tabs-alternative -->
                 <h2>Follow our two-step process</h2>
-                <br>
+                <span class="emphasis-block"><span>Your collection was successfully uploaded</span></span>
                     <!-- STEP 1 -->
                     <div class="search-box" id="step-1">
                             <h3>Step 1: Download our blank template</h3>

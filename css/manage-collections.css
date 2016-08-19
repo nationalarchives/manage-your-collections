@@ -3,15 +3,17 @@ nav#tabs-alternative {
     border: 0;
     display: inline-block;
     width: 100%;
-    margin-bottom: 30px;
+    margin: 30px 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #ccc;
 }
 
 nav#tabs-alternative li {
     display: inline-block;
-    margin: 0 0 0 0;
+    margin: 0;
     width: 100%;
-    border: 1px solid #ccc;
     margin-bottom: 5px;
+    margin-right: 10px;
 }
 
 nav#tabs-alternative ul {
@@ -22,37 +24,56 @@ nav#tabs-alternative ul {
     width: 100%;
     margin-bottom: -1px;
 }
-
 nav#tabs-alternative li a {
-    padding: 15px 10px;
+    padding: 5px 5px;
     display: block;
+}
+nav#tabs-alternative li a.active {
     background-color: #efefef;
 }
-
+nav#tabs-alternative + h2 {
+    margin: 20px 0 15px 0;
+}
 /* -- end custom tabs -- */
 
 /* -- Custom search box -- */
 .search-box {
     margin: 0 0 50px;
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 5px;
 }
-
 .search-box .breather {
-    padding: 0;
+    padding: 1em;
 }
 
 .search-box input[type="search"] {
     padding: 0.5em;
     border: 1px solid #ccc;
-    width: 25%;
+    background: #efefef;
+    width: 95%;
     margin: 5px 0;
     min-width: 200px;
+}
+.search-box input[type="submit"] {
+    padding: 0.55em 1.5em;
+    display: inline-block;
 }
 
 .search-box label {
     display: none;
 }
-
-/* -- end custom search box -- */
+.detail-container {
+    background: #efefef;
+}
+.detail-container h2 {
+    text-align: left;
+    color: #222;
+    font-size: 1.3em;
+}
+.detail-container table {
+    text-align: left;
+}
+    /* -- end custom search box -- */
 
 /* -- Custom table styles -- */
 table {
@@ -143,21 +164,11 @@ table th[class*="col-"] {
 
 thead th {
     text-align: left;
-    font-weight: bold;
-    font-family: 'Bitter', sans-serif;
     padding: 10px;
-    background-color: #efefef;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
 }
 
 tbody td {
     padding: 10px;
-}
-
-tbody tr:hover {
-    background-color: #fafafa;
-    cursor: pointer;
 }
 
 tbody tr.expanded td {
@@ -168,6 +179,9 @@ tbody tr.expanded td {
 
 .striped tr td:first-child, .striped tr th:first-child {
     width: 100px;
+}
+.striped tr:nth-child(even) {
+    background-color: #f8f8f8;
 }
 
 .table-responsive {
@@ -343,6 +357,9 @@ tbody tr.expanded td {
 /* -- end custom input[type=file] styles -- */
 
 /* -- Miscellaneous custom styles/overrides  -- */
+h2 {
+    color: #222;
+}
 .left-to-right {
     margin: 30px 0 0;
     width: 100%;
@@ -363,22 +380,25 @@ tbody tr.expanded td {
     font-size: 0.9em;
     color: #222;
     width: 100%;
-    border-bottom: 1px solid #ddd;
     padding: 2px;
+    margin: 5px 0;
 }
-
-.inline li a {
-    margin-left: 15px;
+.option-box-primary {
+    background-color: #efefef;
 }
-
-.option-box .breather {
+.option-box-primary .breather {
     padding: 1em 0;
 }
-
-.option-box a {
+.option-box-primary a {
     margin-bottom: 0;
 }
-
+.option-box-secondary {
+    padding: 20px 0 10px;
+}
+.inline li:first-child {
+    font-size: 1.2em;
+    margin-right: 50px;
+}
 .left-to-right a.discoveryPrimaryCallToActionLink {
     margin: 0;
     text-align: center;
@@ -389,7 +409,7 @@ tbody tr.expanded td {
 }
 
 .inline li span {
-    margin: 5px 0;
+    margin: 5px 10px 5px 0;
 }
 
 .condensed td {
@@ -397,8 +417,8 @@ tbody tr.expanded td {
 }
 
 .name {
-    float: left;
-    margin: 20px 0;
+    text-align: left;
+    margin: 10px 0 5px 0;
     color: #222;
 }
 
@@ -441,17 +461,61 @@ tbody tr.expanded td {
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
+.item p:first-child {
+    margin: 0;
+    color: #999;
+}
+.item p {
+    margin: 0.3em;
+}
+.item {
+    margin: 0;
+    padding: 20px 0 20px 10px;
+    border-bottom: 1px solid #eee;
+}
+.item:nth-child(even) {
+    background: #f8f8f8;
+}
+.item a.item-button {
+    margin: 15px 0 0 0;
+    width: 100px;
+    text-align: center;
+}
+.filter-space {
+    margin-bottom: 10px;
+}
+.min {
+    min-height: 800px;
+}
+.item span {
+    color: #222;
+}
+p.warning {
+    color: red;
+    font-size: 0.9em;
+}
+.details {
+    width: 100%;
+    border-top: 1px solid #efefef;
+    font-size: 0.9em ;
+}
+.details ul {
+    margin: 0.5em 0.4em;
+    color: #999;
 
+}
 /* -- end miscellaneous custom styles/overrides  -- */
 
 @media screen and (min-width: 768px) {
     nav#tabs-alternative li a {
-        padding: 15px 40px;
+        padding: 7px 20px;
+    }
+        nav#tabs-alternative li a.active {
+        padding: 7px 20px;
     }
 
     nav#tabs-alternative li {
-        border: solid 1px #ccc;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     nav#tabs-alternative li.selected {
@@ -462,33 +526,27 @@ tbody tr.expanded td {
         background-color: #fff;
     }
 
-    nav#tabs-alternative {
-        border-bottom: 1px solid #ccc;
-    }
-
     nav#tabs-alternative li {
         width: auto;
     }
 
     .search-box {
-        background-color: #efefef;
-        border: 1px solid #ccc;
         margin: 0 0 30px;
     }
-
+    .center {
+        text-align: center;
+    }
     .search-box .breather {
         padding: 1em;
     }
-
+    .search-box input[type=search] {
+        margin-bottom: 13px;
+        width: 40%;
+    }
     .table-responsive {
         min-height: .01%;
         overflow-x: auto;
     }
-
-    .option-box {
-        background-color: #dfdfdf;
-    }
-
     .js .modal {
         top: 15%;
         left: 15%;
@@ -502,6 +560,15 @@ tbody tr.expanded td {
     .inputfile-6 + label span {
         width: 200px;
     }
+    .item a.item-button {
+    float: right;
+    margin: -40px 20px 0 0;
+    width: 100px;
+    text-align: center;
+    }
+    .name {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -512,29 +579,24 @@ tbody tr.expanded td {
     }
 
     .inline {
-        margin-top: 5px;
+        margin: 7px 0;
+        font-size: 0.9em;
     }
 
     .inline li {
-        font-size: 0.9em;
+        font-size: 1em;
         color: #222;
-        margin-left: 20px;
         display: inline;
         border: 0;
+        margin-right: 15px;
     }
 
     .left-to-right a.discoveryPrimaryCallToActionLink {
-
         text-align: center;
         font-size: 0.9em;
         margin: 1px 0 1px 10px;
         background-color: #099;
         color: #FFF;
-    }
-
-    .name {
-        float: right;
-        margin: 10px 0 0;
     }
 
     .js .modal {
