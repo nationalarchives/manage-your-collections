@@ -40,7 +40,6 @@
                     </ul>
                 </nav><!-- end tabs-alternative -->
                 <h2>Collections which have been added, edited or deleted</h2>
-                <span class="emphasis-block"><span>Your collection was successfully restored</span></span>
                     <form class="filter-space" ction="" method="post">
                             <p class="form-spacer">
                                 <label for="history-options">Showing</label>
@@ -54,13 +53,7 @@
                             </p>
                     </form>
 
-                    <!-- HiSTORY LIST -->
-                    <div class="item clr">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>IAID: <a href="">6d8d9214-b18a-41ab-82cf-01f149be5e33d</a></p>
-                        <p>Upload (Excel format) - Requested</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">Download</a>
-                    </div>
+                    <!-- HISTORY LIST -->
                     <div class="item clr">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
                         <p>IAID: <a href="">6d8d9214-b18a-41ab-82cf-01f149be5e33d</a></p>
@@ -68,8 +61,14 @@
                         <a href="" class="discoveryPrimaryCallToActionLink item-button">View</a>
                     </div>
                     <div class="item clr">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>IAID: <span>6d8d9214-b18a-41ab-82cf-01f149be5e33d</span></p>
+                        <p>10 Jun 2016 at 19:11 by Bill Smith</p>
+                        <p>IAID: <a href="">3nrg9214-b18a-41ab-8egcf-01f149be5e33d</a></p>
+                        <p>Upload (Excel format) - Requested</p>
+                        <a href="" class="discoveryPrimaryCallToActionLink item-button">View</a>
+                    </div>
+                    <div class="item clr">
+                        <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                        <p>IAID: <span>20d8d9214-b18a-41ab-82cf-01f149be5e33d</span></p>
                         <p class="deleted">Deleted</p>
                         
                         <div class="details">
@@ -77,22 +76,39 @@
                                 <li>Ref no: 0/449</li>
                                 <li>Title: Georgie Dale</li>
                                 <li>Date: 1918-1928</li>
+                                <li>Reason for deletion:</li>
                             </ul>
                         </div>
                         <p class="warning">5 days left to restore this collection</p>
                         <a href="" class="discoveryPrimaryCallToActionLink item-button">Restore</a>
                     </div>
                     <div class="item clr">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                        <p>1 Dec 2015 at 13:02 by Jane Gray</p>
                         <p>IAID: <a href="">6d8d9214-b18a-41ab-82cf-01f149be5e33d</a></p>
-                        <p>Upload (Excel format) - Requested</p>
+                        <p>Download (Excel format) - Requested</p>
                         <a href="" class="discoveryPrimaryCallToActionLink item-button">Download</a>
                     </div>                    
                     <div class="item clr">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>IAID: <a href="">6d8d9214-b18a-41ab-82cf-01f149be5e33d</a></p>
-                        <p>Upload (Excel format) - Requested</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">Download</a>
+                        <p>12 Nov 2015 at 10:24 by Bill Smith</p>
+                        <p>IAID: <a href="">930dd9214-b18a-41ab-82cf-01f149be5e33d</a></p>
+                        <p>Restored</p>
+                        <a href="" class="discoveryPrimaryCallToActionLink item-button">View</a>
+                    </div>
+                    <div class="item clr">
+                        <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                        <p>IAID: <span>20d8d9214-b18a-41ab-82cf-01f149be5e33d</span></p>
+                        <p class="deleted">Deleted</p>
+
+                        <div class="details">
+                            <ul>
+                                <li>Ref no: 0/449</li>
+                                <li>Title: Georgie Dale</li>
+                                <li>Date: 1918-1928</li>
+                                <li>Reason for deletion:</li>
+                            </ul>
+                        </div>
+                        <p class="warning">5 days left to restore this collection</p>
+                        <a href="" class="discoveryPrimaryCallToActionLink item-button">Restore</a>
                     </div>
 
             </div><!-- end breather -->

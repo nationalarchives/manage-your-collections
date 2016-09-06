@@ -22,9 +22,9 @@ $(document).ready(function () {
     var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='download' class='discoveryPrimaryCallToActionLink'>Download file</a></div><!-- end breather --></div><!-- end option-box -->";
     $(optionBox).appendTo('#step-1');
 
-    // Append option box to step 2
+    // Append option box to step 3
     var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='upload' class='discoveryPrimaryCallToActionLink'>Upload file</a></div><!-- end breather --></div><!-- end option-box -->";
-    $(optionBox).appendTo('#step-2');
+    $(optionBox).appendTo('#step-3');
 
     // Wrap the forms in overlays
     $(".form").wrap(function () {
@@ -53,10 +53,14 @@ $(document).ready(function () {
 
         // Hide details
         $('.details').hide();
+
+        // Add a show details link
         $('.deleted').append(' <a class="smaller" href="">(show details)</a>');
+
+        // When the show details link is clicked, show the next details container and change text to hide details
         $('.smaller').on('click', function (e) {
             e.preventDefault();
-            $('.details').toggle();
+            $(this).parent().next('.details').toggle();
             var show = $(this).text();
             if (show == '(show details)') {
                 $(this).text('(hide details)');

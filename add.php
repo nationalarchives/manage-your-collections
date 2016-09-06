@@ -61,17 +61,30 @@
                             </p>
                             <div class="button-container">
                                 <input type="submit" value="Download"/>
-                                <a href="" class="cancel">Cancel</a>
+                                <a href="" class="discoveryPrimaryCallToActionLink">Upload file</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
 
                     <!-- STEP 2 -->
                     <div class="search-box" id="step-2">
-                        <h3>Step 2: Upload the completed template</h3>
+                        <h3>Step 2: Validate your completed template</h3>
+                        <p>User our automated checker to ensure your completed file meets our upload criteria</p>
+
+                        <div class="option-box-primary">
+                            <div class="breather">
+                                    <a href="" class="discoveryPrimaryCallToActionLink">Validate file</a>
+                            </div><!-- end breather -->
+                        </div>
+                    </div><!-- end search-box -->
+
+                    <!-- STEP 3 -->
+                    <div class="search-box" id="step-3">
+                        <h3>Step 3: Upload the completed template</h3>
                         <p>Submit the completed template file to add your collection to Discovery</p>
                     </div><!-- end search-box -->
                 </div><!-- end tab panel-1 -->
+
 
                 <form class="form" id="upload-form" action="upload" method="post">
                     <div class="breather">

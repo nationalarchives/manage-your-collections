@@ -51,19 +51,19 @@
                                             <tbody>
                                             <tr>
                                                 <td class="title">Ref no</td>
-                                                <td>B10253</td>
+                                                <td>0/0432</td>
                                             </tr>
                                             <tr>
                                                 <td class="title">Title</td>
-                                                <td>Canon H. Davies to Rev V. Holcroft</td>
+                                                <td>HALTON, THOMAS</td>
                                             </tr>
                                             <tr>
                                                 <td class="title">Desc</td>
-                                                <td>This is a description</td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td class="title">Date</td>
-                                                <td>1918-1928</td>
+                                                <td>1686</td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -123,23 +123,19 @@
                     <h4>Recent activity for this collection</h4>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>Upload (Excel format)</p>
                     </div>
                     <div class="item">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>13 Jul 2016 at 13:01 by Bill Smith</p>
+                        <p>Upload (Excel format)</p>
                     </div>
                     <div class="item">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>1 Jun 2016 at 16:00 by Bill Smith</p>
+                        <p>Restored</p>
                     </div>
                     <div class="item">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
-                    </div>                    
-                    <div class="item">
-                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>1 Jun 2016 at 15:38 by Bill Smith</p>
+                        <p>Deleted</p>
                     </div>
                 </div><!-- end tab panel-1 -->
 

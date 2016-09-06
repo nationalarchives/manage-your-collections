@@ -42,7 +42,7 @@
                 <div class="clr" role="tabpanel" aria-labelledby="panel-1">
 
                     <!-- SUMMARY BOX -->
-                    <span class="emphasis-block"><span>Your collection was successfully uploaded</span></span>
+                    <span class="emphasis-block"><span>Your collection was successfully downloaded</span></span>
                     <div class="search-box" id="details">
                             <div class="detail-container">
                                 <div class="breather">
@@ -52,19 +52,19 @@
                                             <tbody>
                                             <tr>
                                                 <td class="title">Ref no</td>
-                                                <td>B10253</td>
+                                                <td>0/0432</td>
                                             </tr>
                                             <tr>
                                                 <td class="title">Title</td>
-                                                <td>Canon H. Davies to Rev V. Holcroft</td>
+                                                <td>HALTON, THOMAS</td>
                                             </tr>
                                             <tr>
                                                 <td class="title">Desc</td>
-                                                <td>This is a description</td>
+                                                <td>-</td>
                                             </tr>
                                             <tr>
                                                 <td class="title">Date</td>
-                                                <td>1918-1928</td>
+                                                <td>1686</td>
                                             </tr>
                                             </tbody>
                                         </table>
