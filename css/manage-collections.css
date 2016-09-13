@@ -502,7 +502,16 @@ p.warning {
 .details ul {
     margin: 0.5em 0.4em;
     color: #999;
-
+}
+.disabled {
+    color: #aaa;
+    background-color: #ddd;
+}
+.disabled:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: #aaa;
+    cursor: default;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 

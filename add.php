@@ -46,6 +46,13 @@
                     <div class="search-box" id="step-1">
                             <h3>Step 1: Download our blank template</h3>
                             <p>Choose between EAD and Excel format and download the template to your computer</p>
+
+                            <div class='option-box-primary'>
+                                <div class='breather clr'>
+                                    <a href='' class='discoveryPrimaryCallToActionLink'>Download file</a>
+                                </div><!-- end breather -->
+                            </div><!-- end option-box -->
+
                     </div><!-- end search-box -->
 
                     <form class="form" id="download-form" action="add-confirm.php" method="post">
@@ -77,6 +84,8 @@
                             </div><!-- end breather -->
                         </div>
                     </div><!-- end search-box -->
+
+                    <input id="isreadonly" type="hidden" name="" value="">
 
                     <!-- STEP 3 -->
                     <div class="search-box" id="step-3">

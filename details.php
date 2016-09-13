@@ -118,7 +118,7 @@
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
-
+                    <input id="isreadonly" type="hidden" name="" value="">
                     <!-- RECENT ACTIVITY LIST -->
                     <h4>Recent activity for this collection</h4>
                     <div class="item">
