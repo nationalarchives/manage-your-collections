@@ -41,7 +41,7 @@
                 </nav><!-- end tabs-alternative -->
                 <h2>Collections which have been added, edited or deleted</h2>
                 <span class="emphasis-block margin-bottom-large"><span>The following collection has been deleted:<br><small>Ref no: 0/0432, Title: Halton, Thomas</small></span></span>
-                    <form class="filter-space" ction="" method="post">
+                    <form class="filter-space" action="" method="post">
                             <p class="form-spacer">
                                 <label for="history-options">Showing</label>
                                 <select id="history-options">
