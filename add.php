@@ -40,19 +40,12 @@
                         <li><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
-                <h2>Follow our two-step process</h2>
+                <h2>Follow our three-step process</h2>
                 <br>
                     <!-- STEP 1 -->
                     <div class="search-box" id="step-1">
                             <h3>Step 1: Download our blank template</h3>
                             <p>Choose between EAD and Excel format and download the template to your computer</p>
-
-                            <div class='option-box-primary'>
-                                <div class='breather clr'>
-                                    <a href='' class='discoveryPrimaryCallToActionLink'>Download file</a>
-                                </div><!-- end breather -->
-                            </div><!-- end option-box -->
-
                     </div><!-- end search-box -->
 
                     <form class="form" id="download-form" action="add-confirm.php" method="post">
@@ -75,7 +68,7 @@
 
                     <!-- STEP 2 -->
                     <div class="search-box" id="step-2">
-                        <h3>Step 2: Validate your completed template</h3>
+                        <h3 class="margin-top-medium">Step 2: Validate your completed template</h3>
                         <p>User our automated checker to ensure your completed file meets our upload criteria</p>
 
                         <div class="option-box-primary">
@@ -85,11 +78,9 @@
                         </div>
                     </div><!-- end search-box -->
 
-                    <input id="isreadonly" type="hidden" name="" value="">
-
                     <!-- STEP 3 -->
                     <div class="search-box" id="step-3">
-                        <h3>Step 3: Upload the completed template</h3>
+                        <h3 class="margin-top-medium">Step 3: Upload the completed template</h3>
                         <p>Submit the completed template file to add your collection to Discovery</p>
                     </div><!-- end search-box -->
                 </div><!-- end tab panel-1 -->

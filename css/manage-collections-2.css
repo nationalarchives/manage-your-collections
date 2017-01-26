@@ -178,7 +178,7 @@ tbody tr.expanded td {
 }
 
 .striped tr td:first-child, .striped tr th:first-child {
-    width: 100px;
+    width: 175px;
 }
 .striped tr:nth-child(even) {
     background-color: #f8f8f8;
@@ -413,7 +413,7 @@ h2 {
 }
 
 .condensed td {
-    padding: 4px;
+    padding: 7px;
 }
 
 .name {
@@ -461,19 +461,63 @@ h2 {
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
+.item {
+    padding: 10px;
+    border-top: 2px solid #ccc;
+}
+.item:last-child {
+    margin-bottom: 2em;
+}
 .item p:first-child {
-    color: #999;
+    color: #666;
+    margin: 0;
+    font-size: 0.9em;
 }
 .item p {
     margin: 0.3em;
 }
-.item {
+.item h3 {
+    font-size: 1em;
+}
+.progress-indicator {
+    border-top: 1px dotted #999;
+}
+.progress-indicator p {
+    padding-top: 10px;
+    text-align: right;
+}
+.progress-indicator ul {
     margin: 0;
-    padding: 20px 0 20px 10px;
+    padding: 10px 5px 5px 5px;
+    font-size: 0.85em;
+    color: #666;
+    text-align: right;
+}
+.progress-indicator ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background: url(../images/ok.png) no-repeat center left;
+    padding-left: 17px;
+}
+.error p {
+    background: darkred;
+    padding: 5px 15px;
+    color: #fff !important;
+    display: inline-block;
+}
+.spacer {
+    margin: 0;
+    padding: 20px 0 10px 10px;
     border-bottom: 1px solid #eee;
 }
+.spacer {
+
+}
 .item:nth-child(even) {
-    background: #f8f8f8;
+    background: #efefef;
+}
+.item:nth-child(even) .spacer {
+    border-bottom: 1px solid #e1e1e1;
 }
 .item a.item-button {
     margin: 15px 0 0 0;
@@ -486,16 +530,14 @@ h2 {
 .min {
     min-height: 800px;
 }
-.item span {
-    color: #222;
-}
+
 .warning {
     color: red !important;
 }
 .details {
     width: 100%;
     border-top: 1px solid #efefef;
-    font-size: 0.9em ;
+    font-size: 0.9em;
 }
 .details ul {
     margin: 0.5em 0.4em;
@@ -504,22 +546,34 @@ h2 {
 .removed td {
     color: #666;
 }
+p.larger {
+
+    margin: 0;
+    padding-top: 5px;
+}
+p.larger .highlight {
+    background: transparent;
+    color: #099;
+}
 .marked {
+    font-family: 'Open Sans', sans-serif;
     margin-left: 15px;
-    padding: 1px 5px;
-    background-color: #CB0D07;
-    font-size: 0.65em;
+    padding: 3px 7px;
+    background: #CB0D07;
+    font-size: 0.7em;
     color: #fff;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
 }
 .collection {
     margin-top: 1.2em !important;
+    margin-bottom: 1.2em;
 }
 .collection p {
     color: #222 !important;
-    margin: 0.3em !important;
+    margin: 0.3em 0 !important;
     font-size: 0.9em;
 }
 p.footnote, .footnote span {
@@ -528,11 +582,20 @@ p.footnote, .footnote span {
 .margin-top-medium {
     margin-top: 20px;
 }
-/* 
-.changed {
-  animation: pulse 2s 2;
+.button {
+    background: #099;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 0.8em;
 }
-
+.emphasis-block button {
+    margin-left: 20px;
+    background-color: #222;
+    padding: 4px 5px;
+    color: #fff;
+}
 @keyframes pulse {
 
   50% {
@@ -542,17 +605,48 @@ p.footnote, .footnote span {
     background-color: rgba(252, 228, 92, 0);
   }
 }
-*/
+
+.changed {
+  animation: pulse 2s 2;
+}
 
 .progress-bar {
-    border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
-    height: 10px;
 }
-.progress-bar p {
-    float: left;
+.progress-bar ul {
+    display: inline-block;
+    margin: 0.5em 1em;
+    font-size: 0.8em;
 }
-
+.progress-bar ul li {
+    display: inline-block;
+    padding-right: 50px;
+    color: #999;
+}
+p.status {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
+.striped td .highlight {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    padding: 3px 7px;
+    font-size: 0.7em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.top-large {
+    padding-top: 20px;
+}
+.top-none {
+    margin-top: 0;
+}
+#hierarchy li {
+    list-style-image: url(../images/list-marker.png);
+    margin-bottom: .2em;
+}
 /* -- end miscellaneous custom styles/overrides  -- */
 
 @media screen and (min-width: 768px) {
@@ -577,10 +671,6 @@ p.footnote, .footnote span {
 
     nav#tabs-alternative li {
         width: auto;
-    }
-
-    .search-box {
-        margin: 0 0 10px;
     }
     .center {
         text-align: center;
@@ -610,10 +700,10 @@ p.footnote, .footnote span {
         width: 200px;
     }
     .item a.item-button {
-    float: right;
-    margin: -40px 20px 0 0;
-    width: 100px;
-    text-align: center;
+        float: right;
+        margin: -40px 20px 0 0;
+        width: 100px;
+        text-align: center;
     }
     .name {
         text-align: center;

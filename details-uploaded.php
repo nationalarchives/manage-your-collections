@@ -42,6 +42,7 @@
                 <div class="clr" role="tabpanel" aria-labelledby="panel-1">
 
                     <!-- SUMMARY BOX -->
+                    <span class="emphasis-block"><span>Your collection was successfully uploaded. Please track progress on your <a href="history.php">history</a></span></span>
                     <div class="search-box" id="details">
                             <div class="detail-container">
                                 <div class="breather">
@@ -73,7 +74,7 @@
                     </div><!-- end search-box -->
 
                     <!-- FORMS -->
-                    <form class="form" id="delete-form" action="history-delete-confirm.php" method="post">
+                    <form class="form" id="delete-form" action="delete" method="post">
                         <div class="breather">
                             <h4>Delete this collection</h4>
                             <p class="form-spacer">
@@ -91,7 +92,7 @@
                     </form>
                     <form class="form" id="download-form" action="details-confirmed.php" method="post">
                         <div class="breather">
-                            <h4>Choose a file</h4>
+                            <h4>Download a file</h4>
                             <p class="form-spacer">
                                 <input type="radio" name="subject" value="ead" id="ead" checked>
                                 <label for="ead">EAD format</label>
@@ -101,12 +102,12 @@
                                 <label for="excel">Excel format</label>
                             </p>
                             <div class="button-container">
-                                <input type="submit" value="Choose a format"/>
+                                <input type="submit" value="Download"/>
                                 <a href="" class="cancel">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
-                    <form class="form" id="upload-form" action="details-uploaded.php" method="post">
+                    <form class="form" id="upload-form" action="details-confirmed.php" method="post">
                         <div class="breather">
                             <h4>Upload a file</h4>
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6"
@@ -123,19 +124,23 @@
                     <h4>Recent activity for this collection</h4>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Upload (Excel format)</p>
+                        <p>Import (Excel format) - Requested</p>
                     </div>
                     <div class="item">
-                        <p>13 Jul 2016 at 13:01 by Bill Smith</p>
-                        <p>Upload (Excel format)</p>
+                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                        <p>Import (Excel format) - Requested</p>
                     </div>
                     <div class="item">
-                        <p>1 Jun 2016 at 16:00 by Bill Smith</p>
-                        <p>Restored</p>
+                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                        <p>Import (Excel format) - Requested</p>
                     </div>
                     <div class="item">
-                        <p>1 Jun 2016 at 15:38 by Bill Smith</p>
-                        <p>Deleted</p>
+                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                        <p>Import (Excel format) - Requested</p>
+                    </div>                    
+                    <div class="item">
+                        <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                        <p>Import (Excel format) - Requested</p>
                     </div>
                 </div><!-- end tab panel-1 -->
 

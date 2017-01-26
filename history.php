@@ -56,59 +56,101 @@
                     <!-- HISTORY LIST -->
                     <div class="item clr">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>IAID: <a href="">6d8d9214-b18a-41ab-82cf-01f149be5e33d</a></p>
-                        <p>Upload (Excel format) - Requested</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">View</a>
+                        
+                        <div class="collection">
+                            <h3>Upload (Excel format)</h3>
+                            <p>Ref: <a href="">0/0432</a></p>
+                            <p>Title: <a href="">HALTON, THOMAS</a></p>
+                            <p class="larger"><span class="highlight">Currently updating the collection (takes up to 3 days)</span></p>
+                        </div>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li>Virus scanned</li>
+                                <li>Data validated</li>
+                                <li>Collection updated</li>
+                                <li>Previewed</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div>
                     </div>
+
                     <div class="item clr">
                         <p>10 Jun 2016 at 19:11 by Bill Smith</p>
-                        <p>IAID: <a href="">3nrg9214-b18a-41ab-8egcf-01f149be5e33d</a></p>
-                        <p>Upload (Excel format) - Requested</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">View</a>
+                        
+                        <div class="collection">
+                            <h3>Upload (Excel format) <span class="marked">Failed</span></h3>
+                            <p>Ref: <a href="">0/0432</a></p>
+                            <p>Title: <a href="">HALTON, THOMAS</a></p>
+                            <a class="button" href="report.php">See validation report</a>
+                        </div>
+                        <div class="progress-indicator">
+                            <p><span class="warning">Upload failed</span></p>
+                        </div>
+
                     </div>
                     <div class="item clr">
                         <p>1 Apr 2016 at 12:03 by Bill Smith</p>
-                        <p>IAID: <span>20d8d9214-b18a-41ab-82cf-01f149be5e33d</span></p>
-                        <p class="deleted">Deleted</p>
-                        
-                        <div class="details">
-                            <ul>
-                                <li>Ref no: 0/449</li>
-                                <li>Title: Georgie Dale</li>
-                                <li>Date: 1918-1928</li>
-                                <li>Reason for deletion:</li>
-                            </ul>
+
+                        <div class="collection">
+                            <h3>Deleted</h3>
+                            <p>Ref: <a href="">0/0432</a></p>
+                            <p>Title: <a href="">HALTON, THOMAS</a></p>
+                            <a class="button" href="">Restore</a>
                         </div>
-                        <p class="warning">5 days left to restore this collection</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">Restore</a>
+                        <div class="progress-indicator">
+                            <p><span class="warning">5 days left to restore this collection</span></p>
+                        </div>
                     </div>
                     <div class="item clr">
                         <p>1 Dec 2015 at 13:02 by Jane Gray</p>
-                        <p>IAID: <a href="">6d8d9214-b18a-41ab-82cf-01f149be5e33d</a></p>
-                        <p>Download (Excel format) - Requested</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">Download</a>
+                        
+                        <div class="collection">
+                            <h3>Upload (Excel format)</h3>
+                            <p>Ref: <a href="">0/0432</a></p>
+                            <p>Title: <a href="">HALTON, THOMAS</a></p>
+                            <p class="larger"><span class="highlight">Currently updating the collection (takes up to 3 days)</span></p>
+                        </div>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li>Virus scanned</li>
+                                <li>Data validated</li>
+                                <li>Collection updated</li>
+                                <li>Previewed</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div>
                     </div>                    
                     <div class="item clr">
                         <p>12 Nov 2015 at 10:24 by Bill Smith</p>
-                        <p>IAID: <a href="">930dd9214-b18a-41ab-82cf-01f149be5e33d</a></p>
-                        <p>Restored</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">View</a>
+                        
+                        <div class="collection">
+                            <h3>Upload (Excel format)</h3>
+                            <p>Ref: <a href="">0/0432</a></p>
+                            <p>Title: <a href="">HALTON, THOMAS</a></p>
+                            <a class="button" href="preview.php">Preview and approve</a>
+                        </div>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li>Virus scanned</li>
+                                <li>Data validated</li>
+                                <li>Collection updated</li>
+                                <li>Previewed</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="item clr">
                         <p>1 Apr 2016 at 12:03 by Bill Smith</p>
-                        <p>IAID: <span>20d8d9214-b18a-41ab-82cf-01f149be5e33d</span></p>
-                        <p class="deleted">Deleted</p>
-
-                        <div class="details">
-                            <ul>
-                                <li>Ref no: 0/449</li>
-                                <li>Title: Georgie Dale</li>
-                                <li>Date: 1918-1928</li>
-                                <li>Reason for deletion:</li>
-                            </ul>
+                        
+                        <div class="collection">
+                            <h3>Deleted</h3>
+                            <p>Ref: <a href="">0/0432</a></p>
+                            <p>Title: <a href="">HALTON, THOMAS</a></p>
+                            <a class="button" href="">See validation report</a>
                         </div>
-                        <p class="warning">5 days left to restore this collection</p>
-                        <a href="" class="discoveryPrimaryCallToActionLink item-button">Restore</a>
+                        <div class="progress-indicator">
+                            <p><span class="warning">5 days left to restore this collection</span></p>
+                        </div>
                     </div>
 
             </div><!-- end breather -->

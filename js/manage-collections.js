@@ -15,21 +15,16 @@ $(document).ready(function () {
     });
 
     // Append option box to summary box
-    var readOnly = 'isreadonly';
-    if($('#' + readOnly).length == 0) {
-        var optionBox = "<div class='option-box-primary'> <div class='breather clr'> <a id='delete' href='' class='discoveryPrimaryCallToActionLink left small'>Delete this collection</a> </div></div><div class='option-box-secondary'> <ul class='inline'> <li>To edit this collection</li><li><span>Step 1</span><a href='' class='discoveryPrimaryCallToActionLink' id='download'>Download template</a></li><li><span>Step 2</span><a href='' class='discoveryPrimaryCallToActionLink' id='upload'>Upload changes</a></li></ul></div>";
-        $(optionBox).appendTo('#details');
-    }
-    else {
-        var optionBox = "<div class='option-box-primary'> <div class='breather clr'> <a href='' class='discoveryPrimaryCallToActionLink left small disabled'>Delete this collection</a> </div></div><div class='option-box-secondary'> <ul class='inline'> <li>To edit this collection</li><li><span>Step 1</span><a href='' class='discoveryPrimaryCallToActionLink' id='download'>Download template</a></li><li><span>Step 2</span><a href='' class='discoveryPrimaryCallToActionLink disabled'>Upload changes</a></li></ul></div>";
-        $(optionBox).appendTo('#details');
-    }
-    var readOnly = 'isreadonly';
-    if($('#' + readOnly).length == 0) {
-        // Append option box to step 3
-        var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='upload' class='discoveryPrimaryCallToActionLink'>Upload file</a></div><!-- end breather --></div><!-- end option-box -->";
-        $(optionBox).appendTo('#step-3');
-    }
+    var optionBox = "<div class='option-box-primary'> <div class='breather clr'> <a id='delete' href='' class='discoveryPrimaryCallToActionLink left small'>Delete this collection</a> </div></div><div class='option-box-secondary'> <ul class='inline'> <li>To edit this collection</li><li><span>Step 1</span><a href='' class='discoveryPrimaryCallToActionLink' id='download'>Get your collection</a></li><li><span>Step 2</span><a href='' class='discoveryPrimaryCallToActionLink' id='upload'>Upload changes</a></li></ul></div>";
+    $(optionBox).appendTo('#details');
+
+    // Append option box to step 1
+    var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='download' class='discoveryPrimaryCallToActionLink'>Get your collection</a></div><!-- end breather --></div><!-- end option-box -->";
+    $(optionBox).appendTo('#step-1');
+
+    // Append option box to step 3
+    var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='upload' class='discoveryPrimaryCallToActionLink'>Upload file</a></div><!-- end breather --></div><!-- end option-box -->";
+    $(optionBox).appendTo('#step-3');
 
     // Wrap the forms in overlays
     $(".form").wrap(function () {
