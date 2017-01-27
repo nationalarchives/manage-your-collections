@@ -21,7 +21,7 @@
                     </li>
                     <a href="/sign-in" id="bookmarkLink">Bookmark</a>
                 </ul>
-            </nav>
+            </nav><!-- end page-controls -->
         </div><!-- end col -->
     </section>
     <section class="row">
@@ -30,6 +30,7 @@
                 <h1><span><span>Edit collection</span></span></h1>
             </div><!-- end heading-holding-banner -->
             <div class="breather">
+
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
                     <ul class="nav-tabs">
@@ -39,22 +40,23 @@
                         <li><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
+
+                <!-- MAIN CONTENT -->
                 <h2>Collections which have been added, edited or deleted</h2>
                 <span class="emphasis-block margin-bottom-large"><span>The following collection has been deleted:<br><small>Ref no: 0/0432, Title: Halton, Thomas</small></span></span>
-                    <form class="filter-space" action="" method="post">
-                            <p class="form-spacer">
-                                <label for="history-options">Showing</label>
-                                <select id="history-options">
-                                    <option>All history</option>
-                                    <option>Added collections only</option>
-                                    <option>Deleted collections only</option>
-                                    <option>Restored collections only</option>
-                                    <option>Edited collections only</option>
-                                </select>
-                            </p>
-                    </form>
+                <form class="filter-space" action="" method="post">
+                    <p class="form-spacer">
+                        <label for="history-options">Showing</label>
+                        <select id="history-options">
+                            <option>All history</option>
+                            <option>Deleted collections only</option>
+                            <option>Added/edited collections only</option>
+                        </select>
+                        <input type="submit" class="button" value="Filter">
+                    </p>
+                </form>
 
-                    <!-- HISTORY LIST -->
+                <!-- ITEM LIST -->
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
 
@@ -63,20 +65,19 @@
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
                         <a class="button" href="">Restore</a>
-                    </div>
+                    </div><!-- end collection -->
                     <div class="progress-indicator">
                         <p><span class="warning">5 days left to restore this collection</span></p>
-                    </div>
-                </div>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
                 <div class="item clr">
                     <p>1 Dec 2015 at 13:02 by Jane Gray</p>
-
                     <div class="collection">
-                        <h3>Upload (Excel format)</h3>
+                        <h3>Uploading</h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
-                        <p class="larger"><span class="highlight">Currently updating the collection (takes up to 3 days)</span></p>
-                    </div>
+                    </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
                             <li>Virus scanned</li>
@@ -85,17 +86,16 @@
                             <li>Previewed</li>
                             <li>Queued for publishing</li>
                         </ul>
-                    </div>
-                </div>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
                 <div class="item clr">
                     <p>12 Nov 2015 at 10:24 by Bill Smith</p>
-
                     <div class="collection">
-                        <h3>Upload (Excel format)</h3>
+                        <h3>Uploading</h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
-                        <p class="larger"><span class="highlight">Currently updating the collection (takes up to 3 days)</span></p>
-                    </div>
+                    </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
                             <li>Virus scanned</li>
@@ -104,21 +104,20 @@
                             <li>Previewed</li>
                             <li>Queued for publishing</li>
                         </ul>
-                    </div>
-                </div>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
-
                     <div class="collection">
                         <h3>Deleted</h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
-                        <a class="button" href="">See validation report</a>
-                    </div>
+                    </div><!-- end collection -->
                     <div class="progress-indicator">
                         <p><span class="warning">5 days left to restore this collection</span></p>
-                    </div>
-                </div>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
 
             </div><!-- end breather -->
         </div><!-- end col -->

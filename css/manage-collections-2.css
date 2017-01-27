@@ -496,8 +496,11 @@ h2 {
 .progress-indicator ul li {
     display: inline-block;
     margin-left: 25px;
-    background: url(../images/ok.png) no-repeat center left;
     padding-left: 17px;
+    background: url(../images/progress.png) no-repeat center left;
+}
+.progress-indicator ul li.complete {
+    background: url(../images/ok.png) no-repeat center left;
 }
 .error p {
     background: darkred;
@@ -570,6 +573,17 @@ p.larger .highlight {
 .collection {
     margin-top: 1.2em !important;
     margin-bottom: 1.2em;
+    padding-left: 90px;
+}
+
+.upload {
+    background: url(../images/upload.png) no-repeat left top;
+}
+.download {
+    background: url(../images/download.png) no-repeat left top;
+}
+.delete {
+    background: url(../images/delete.png) no-repeat left top;
 }
 .collection p {
     color: #222 !important;
@@ -586,6 +600,7 @@ p.footnote, .footnote span {
     background: #099;
     padding: 5px 10px;
     display: inline-block;
+    text-align: right;
     margin-top: 10px;
     color: #fff;
     font-size: 0.8em;
@@ -595,6 +610,10 @@ p.footnote, .footnote span {
     background-color: #222;
     padding: 4px 5px;
     color: #fff;
+}
+.error-block    {
+    background-color: #fee2e2;
+    border-left: 6px solid #CB0D07;
 }
 @keyframes pulse {
 
@@ -646,6 +665,9 @@ p.status {
 #hierarchy li {
     list-style-image: url(../images/list-marker.png);
     margin-bottom: .2em;
+}
+.item small {
+    font-size: 0.9em;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 
