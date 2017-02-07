@@ -42,7 +42,8 @@
 
                 <!-- Search list -->
                 <h2>Sample preview</h2>
-                <span class="emphasis-block"><span>Are you happy with your uploaded changes?<button>Approve</button></span></span>
+                <p>Below is a randomly selected item from your uploaded collection to show how it will appear in Discovery</p>
+                <span class="emphasis-block"><span>Are you happy with your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
                 <h3 class="top-large">HALTON, THOMAS</h3>
                 <div class="table table-responsive">
                     <table class="condensed striped top-none">

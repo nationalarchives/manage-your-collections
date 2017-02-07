@@ -42,8 +42,10 @@
                         <label for="history-options">Showing</label>
                         <select id="history-options">
                             <option>All history</option>
-                            <option>Deleted collections only</option>
                             <option>Added/edited collections only</option>
+                            <option>Deleted collections only</option>
+                            <option>Restored collections</option>
+                            <option>Downloaded collections</option>
                         </select>
                         <input type="submit" class="button" value="Filter">
                     </p>
@@ -53,7 +55,7 @@
                 <div class="item clr">
                     <p>2 Aug 2016 at 16:18 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload - <small>may take up to 3 days</small></h3>
+                        <h3>Upload - <small>In progress</small></h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
                     </div><!-- end collection -->
@@ -77,8 +79,14 @@
                         <a class="button" href="report.php">See error report</a>
                     </div>
                     <div class="progress-indicator">
-                        <p><span class="warning">Upload failed on 12 Dec 16</span></p>
-                    </div>
+                        <ul>
+                            <li class="complete">Virus scanned</li>
+                            <li class="incomplete">Data validated</li>
+                            <li>Collection updated</li>
+                            <li>Previewed</li>
+                            <li>Queued for publishing</li>
+                        </ul>
+                    </div><!-- end progress-indicator -->
                 </div>
 
                 <div class="item clr">
@@ -94,15 +102,21 @@
                     </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
-                <div class="item clr">
+                <div class="item clr warning-block">
                     <p>1 Dec 2015 at 13:02 by Jane Gray</p>
                     <div class="collection upload">
-                        <h3>Upload - <small class="warning">Cancelled</small></h3>
+                        <h3>Upload - <small>Cancelled</small></h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
                     </div><!-- end collection -->
                     <div class="progress-indicator">
-                        <p><span class="warning">Upload cancelled on 10 Dec 16</span></p>
+                        <ul>
+                            <li class="complete">Virus scanned</li>
+                            <li class="complete">Data validated</li>
+                            <li class="complete">Collection updated</li>
+                            <li class="incomplete">Previewed</li>
+                            <li>Queued for publishing</li>
+                        </ul>
                     </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
@@ -110,7 +124,7 @@
                     <p>12 Nov 2015 at 10:24 by Bill Smith</p>
 
                     <div class="collection upload">
-                        <h3>Upload - <small>may take up to 3 days</small></h3>
+                        <h3>Upload - <small>In progress</small></h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
                         <a class="button" href="preview.php">Preview and approve</a>

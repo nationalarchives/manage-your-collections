@@ -123,11 +123,11 @@
                     <h4>Recent activity for this collection</h4>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Upload (Excel format)</p>
+                        <p>Upload</p>
                     </div>
                     <div class="item">
                         <p>13 Jul 2016 at 13:01 by Bill Smith</p>
-                        <p>Upload (Excel format)</p>
+                        <p>Upload - <span class="warning">Failed</span></p>
                     </div>
                     <div class="item">
                         <p>1 Jun 2016 at 16:00 by Bill Smith</p>

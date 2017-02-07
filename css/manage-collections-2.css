@@ -502,6 +502,9 @@ h2 {
 .progress-indicator ul li.complete {
     background: url(../images/ok.png) no-repeat center left;
 }
+.progress-indicator ul li.incomplete {
+    background: url(../images/not-ok.png) no-repeat center left;
+}
 .error p {
     background: darkred;
     padding: 5px 15px;
@@ -575,7 +578,6 @@ p.larger .highlight {
     margin-bottom: 1.2em;
     padding-left: 90px;
 }
-
 .upload {
     background: url(../images/upload.png) no-repeat left top;
 }
@@ -584,6 +586,12 @@ p.larger .highlight {
 }
 .delete {
     background: url(../images/delete.png) no-repeat left top;
+}
+.error-block .upload {
+    background: url(../images/upload-error.png) no-repeat left top;
+}
+.warning-block .upload {
+    background: url(../images/upload-warning.png) no-repeat left top;
 }
 .collection p {
     color: #222 !important;
@@ -615,8 +623,23 @@ p.footnote, .footnote span {
     background-color: #fee2e2;
     border-left: 6px solid #CB0D07;
 }
-@keyframes pulse {
+.error-block .button {
+    background: #c80c00;
+}
+.warning-block    {
+    background-color: #faf0b7;
+    border-left: 6px solid #cc6600;
+}
+.warning-block .warning {
+    color: #cc6600 !important;
+}
+button.secondary {
+    background: #cc6600;
+    margin-left: 5px;
+    color: #fff;
+}
 
+@keyframes pulse {
   50% {
     background-color: rgba(252, 228, 92, .3);
   }
@@ -624,11 +647,9 @@ p.footnote, .footnote span {
     background-color: rgba(252, 228, 92, 0);
   }
 }
-
 .changed {
   animation: pulse 2s 2;
 }
-
 .progress-bar {
     border-bottom: 1px solid #ccc;
 }
@@ -675,22 +696,18 @@ p.status {
     nav#tabs-alternative li a {
         padding: 7px 20px;
     }
-        nav#tabs-alternative li a.active {
+    nav#tabs-alternative li a.active {
         padding: 7px 20px;
     }
-
     nav#tabs-alternative li {
         margin: 0;
     }
-
     nav#tabs-alternative li.selected {
         border-bottom: 1px solid #fff;
     }
-
     nav#tabs-alternative li.selected a {
         background-color: #fff;
     }
-
     nav#tabs-alternative li {
         width: auto;
     }
@@ -713,11 +730,9 @@ p.status {
         left: 15%;
         width: 70%;
     }
-
     .js .modal .breather {
         margin: 40px;
     }
-
     .inputfile-6 + label span {
         width: 200px;
     }
@@ -738,12 +753,10 @@ p.status {
         margin: 0;
         width: auto;
     }
-
     .inline {
         margin: 7px 0;
         font-size: 0.9em;
     }
-
     .inline li {
         font-size: 1em;
         color: #222;
@@ -751,7 +764,6 @@ p.status {
         border: 0;
         margin-right: 15px;
     }
-
     .left-to-right a.discoveryPrimaryCallToActionLink {
         text-align: center;
         font-size: 0.9em;
@@ -759,7 +771,6 @@ p.status {
         background-color: #099;
         color: #FFF;
     }
-
     .js .modal {
         top: 30%;
         left: 30%;
