@@ -8,20 +8,7 @@
                 </ul>
             </nav>
         </div><!-- end col -->
-        <div class="col starts-at-full ends-at-half clr">
-            <nav id="page-controls">
-                <ul>
-                    <li>
-                        <a href="http://www.nationalarchives.gov.uk/help/discovery-help.htm" target="_blank"
-                           onclick="dcsMultiTrack('DCS.dcsuri','/SearchHelp', 'WT.ti', 'Search Help', 'WT.cg_n', 'Search Help', 'WT.dl','0');"
-                           id="helpLink">
-                            Discovery help
-                        </a>
-                    </li>
-                    <a href="/sign-in" id="bookmarkLink">Bookmark</a>
-                </ul>
-            </nav>
-        </div><!-- end col -->
+        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">
@@ -81,14 +68,14 @@
                                 <td><a href="" title="">WRIGHT, WILLIAM</a></td>
                                 <td><a href="" title="">1727 - 1784</a></td>
                             </tr>
-                            <tr class="removed">
+                            <tr>
                                 <td>0/431</td>
-                                <td>COLE, RICHARD<span class="marked">Deleted</span></td>
+                                <td>COLE, RICHARD</td>
                                 <td>1828</td>
                             </tr>
-                            <tr class="removed">
+                            <tr>
                                 <td>0/449</td>
-                                <td>Georgie Dale<span class="marked">Deleted</span></td>
+                                <td>Georgie Dale</td>
                                 <td>1828</td>
                             </tr>
                             <tr>
@@ -96,9 +83,9 @@
                                 <td><a href="" title="">Cocks, Thomas Somers</a></td>
                                 <td><a href="" title="">1808 - 1907</a></td>
                             </tr>
-                            <tr class="removed">
+                            <tr>
                                 <td>0/487</td>
-                                <td>Independent Gas Light & Coke Company<span class="marked">Deleted</span></td>
+                                <td>Independent Gas Light & Coke Company</td>
                                 <td>1829 - 1830</td>
                             </tr>
                             <tr>

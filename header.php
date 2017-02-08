@@ -2,7 +2,7 @@
 <html lang="en-gb" class="no-js">
 <head>
     <meta charset="utf-8">
-    <title>The National Archives | Search results:nelson</title>
+    <title>The National Archives | Manage Your Collections</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1.0">
@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/jquery.ui.menu.css">
     <link rel="stylesheet" href="css/jquery.ui.theme.css">
     <link rel="stylesheet" href="css/hopscotch.min.css">
-    <link rel="stylesheet" href="css/manage-collections-2.css?ver=30">
+    <link rel="stylesheet" href="css/manage-collections.css?ver=1">
     <!--[if IE 7]>
     <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer7.css">
     <![endif]-->

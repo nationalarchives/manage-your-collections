@@ -1,4 +1,5 @@
 /* -- Custom tabs -- */
+
 nav#tabs-alternative {
     border: 0;
     display: inline-block;
@@ -7,15 +8,12 @@ nav#tabs-alternative {
     padding-bottom: 10px;
     border-bottom: 3px solid #ccc;
 }
-
 nav#tabs-alternative li {
     display: inline-block;
     margin: 0;
     width: 100%;
-    margin-bottom: 5px;
-    margin-right: 10px;
+    margin: 0 10px 5px 0;
 }
-
 nav#tabs-alternative ul {
     display: inline-block;
     list-style: none;
@@ -36,7 +34,7 @@ nav#tabs-alternative + h2 {
 }
 /* -- end custom tabs -- */
 
-/* -- Custom search box -- */
+/* -- Main search box -- */
 .search-box {
     margin: 0 0 50px;
     border-bottom: 3px solid #ccc;
@@ -45,7 +43,6 @@ nav#tabs-alternative + h2 {
 .search-box .breather {
     padding: 1em;
 }
-
 .search-box input[type="search"] {
     padding: 0.5em;
     border: 1px solid #ccc;
@@ -58,7 +55,6 @@ nav#tabs-alternative + h2 {
     padding: 0.55em 1.5em;
     display: inline-block;
 }
-
 .search-box label {
     display: none;
 }
@@ -73,30 +69,26 @@ nav#tabs-alternative + h2 {
 .detail-container table {
     text-align: left;
 }
-    /* -- end custom search box -- */
+/* -- end main search box -- */
 
 /* -- Custom table styles -- */
 table {
     background-color: transparent;
 }
-
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
     color: #777;
     text-align: left;
 }
-
 th {
     text-align: left;
 }
-
 .table {
     width: 100%;
     max-width: 100%;
 
 }
-
 .table > thead > tr > th,
 .table > tbody > tr > th,
 .table > tfoot > tr > th,
@@ -108,12 +100,10 @@ th {
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
-
 .table > thead > tr > th {
     vertical-align: bottom;
     border-bottom: 2px solid #ddd;
 }
-
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
 .table > thead:first-child > tr:first-child > th,
@@ -122,37 +112,41 @@ th {
 .table > thead:first-child > tr:first-child > td {
     border-top: 0;
 }
-
 .table > tbody + tbody {
     border-top: 2px solid #ddd;
 }
-
 .table .table {
     background-color: #fff;
 }
-
 table col[class*="col-"] {
     position: static;
     display: table-column;
     float: none;
 }
-
 table td[class*="col-"],
 table th[class*="col-"] {
     position: static;
     display: table-cell;
     float: none;
 }
-
 .table-responsive {
     min-height: .01%;
     overflow-x: auto;
+    width: 100%;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
 }
-
-.striped tbody tr {
-    border-bottom: 1px solid #eee;
+thead th {
+    text-align: left;
+    padding: 10px;
 }
-
+tbody td {
+    padding: 10px;
+}
+tbody tr.expanded td {
+    background: #efefef url('../images/arrow.png') no-repeat center -3px;
+    text-align: center;
+}
 .striped {
     width: 100%;
     margin: 20px 0;
@@ -161,46 +155,40 @@ table th[class*="col-"] {
     overflow-y: hidden;
 
 }
-
-thead th {
-    text-align: left;
-    padding: 10px;
+.striped tbody tr {
+    border-bottom: 1px solid #eee;
 }
-
-tbody td {
-    padding: 10px;
-}
-
-tbody tr.expanded td {
-    background: #efefef url('../images/arrow.png') no-repeat center -3px;
-    text-align: center;
-
-}
-
 .striped tr td:first-child, .striped tr th:first-child {
-    width: 100px;
+    width: 120px;
 }
 .striped tr:nth-child(even) {
     background-color: #f8f8f8;
 }
-
-.table-responsive {
-    width: 100%;
-    overflow-y: hidden;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-}
-
 .striped tr.open {
     border-bottom: 0;
 }
-
+.striped td .highlight {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 15px;
+    padding: 3px 7px;
+    font-size: 0.7em;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.condensed td {
+    padding: 7px;
+}
+.table-title {
+    font-family: 'Bitter', sans-serif;
+    margin-top: 12px;
+}
 /* -- end custom table styles -- */
 
 /* -- Custom pagination  -- */
 .manage-collections .pagination {
     margin-bottom: 1.5em;
 }
-
 .manage-collections .pagination li {
     font-family: 'Open sans', sans-serif;
     line-height: 20px;
@@ -211,22 +199,18 @@ tbody tr.expanded td {
     background-color: transparent;
     border: 1px solid #ddd;
 }
-
 .manage-collections .pagination li a {
     color: #2A5DB0;
 }
-
 .manage-collections .pagination li.next {
     background: none;
     border: 0;
 }
-
 .manage-collections .pagination li.current {
     color: #222;
     background-color: #efefef;
     font-weight: bold;
 }
-
 /* -- End custom pagination  -- */
 
 /* -- Custom overlay/modal box  -- */
@@ -239,7 +223,6 @@ tbody tr.expanded td {
     z-index: 2001;
     background-color: rgba(0, 0, 0, 0.6);
 }
-
 .js .modal {
     min-height: 250px;
     position: fixed;
@@ -250,15 +233,12 @@ tbody tr.expanded td {
     top: 20%;
     left: 5%;
 }
-
 .js .modal .breather {
     margin: 20px 10px;
 }
-
 .js .modal h4 {
     font-size: 1.3em;
 }
-
 /* -- end custom overlay/modal box  -- */
 
 /* -- Custom input[type=file] styles -- */
@@ -270,7 +250,6 @@ tbody tr.expanded td {
     position: absolute;
     z-index: -1;
 }
-
 .inputfile + label {
     /* 20px */
     font-size: 0.8em;
@@ -283,22 +262,18 @@ tbody tr.expanded td {
     padding: 0.625rem 1.25rem;
     /* 10px 20px */
 }
-
 .no-js .inputfile + label {
     display: none;
 }
-
 .inputfile:focus + label,
 .inputfile.has-focus + label {
     outline: 1px dotted #000;
     outline: -webkit-focus-ring-color auto 5px;
 }
-
 .inputfile + label * {
     /* pointer-events: none; */
     /* in case of FastClick lib use */
 }
-
 .inputfile + label svg {
     width: 1em;
     height: 1em;
@@ -309,29 +284,24 @@ tbody tr.expanded td {
     margin-right: 0.25em;
     /* 4px */
 }
-
 .inputfile-6 + label {
     color: #099;
 }
-
 .inputfile-6 + label {
     border: 1px solid #ccc;
     background-color: #fff;
     padding: 0;
 }
-
 .inputfile-6:focus + label,
 .inputfile-6.has-focus + label,
 .inputfile-6 + label:hover {
     border-color: #099;
 }
-
 .inputfile-6 + label span,
 .inputfile-6 + label strong {
     padding: 0.625rem 1.25rem;
     /* 10px 20px */
 }
-
 .inputfile-6 + label span {
     width: 100px;
     display: inline-block;
@@ -340,41 +310,35 @@ tbody tr.expanded td {
     overflow: hidden;
     vertical-align: top;
 }
-
 .inputfile-6 + label strong {
     height: 100%;
     color: #fff;
     background-color: #999;
     display: inline-block;
 }
-
 .inputfile-6:focus + label strong,
 .inputfile-6.has-focus + label strong,
 .inputfile-6 + label:hover strong {
     background-color: #099;
 }
-
 /* -- end custom input[type=file] styles -- */
 
 /* -- Miscellaneous custom styles/overrides  -- */
-h2 {
+h2, h4 {
     color: #222;
 }
 .left-to-right {
     margin: 30px 0 0;
     width: 100%;
 }
-
 .title {
     font-weight: bold;
     width: 100px;
 }
-
 .inline {
     margin: 0;
     width: 100%;
 }
-
 .inline li {
     display: inline-block;
     font-size: 0.9em;
@@ -383,6 +347,16 @@ h2 {
     padding: 2px;
     margin: 5px 0;
 }
+.left-to-right a.discoveryPrimaryCallToActionLink {
+    margin: 0;
+    text-align: center;
+    font-size: 0.9em;
+    padding: 5px;
+    background: transparent;
+    color: #2b669a;
+}
+
+/* -- Option boxes -- */
 .option-box-primary {
     background-color: #efefef;
 }
@@ -395,42 +369,23 @@ h2 {
 .option-box-secondary {
     padding: 20px 0 10px;
 }
+
+/* -- Inline styles -- */
 .inline li:first-child {
     font-size: 1.2em;
     margin-right: 50px;
 }
-.left-to-right a.discoveryPrimaryCallToActionLink {
-    margin: 0;
-    text-align: center;
-    font-size: 0.9em;
-    padding: 5px;
-    background: transparent;
-    color: #2b669a;
-}
-
 .inline li span {
     margin: 5px 10px 5px 0;
 }
-
-.condensed td {
-    padding: 4px;
-}
-
 .name {
     text-align: left;
     margin: 10px 0 5px 0;
     color: #222;
 }
-
 .small {
     font-size: 0.9em;
 }
-
-.table-title {
-    font-family: 'Bitter', sans-serif;
-    margin-top: 12px;
-}
-
 .expanded button {
     background-color: #099;
     color: #FFF;
@@ -438,47 +393,94 @@ h2 {
     padding: 5px 10px;
     font-size: 0.9em;
 }
-
 .button-container {
     margin-top: 20px;
 }
-
 .overlay h4 {
     margin-bottom: 20px;
 }
-
 .form-spacer {
     padding: 0;
     margin: 0;
 }
-
 .button-container input[type=submit] {
     margin-right: 10px;
 }
-
 .no-js .form {
     border-bottom: 1px solid #ccc;
     margin-bottom: 30px;
     padding-bottom: 30px;
 }
+.item {
+    padding: 10px;
+    border-top: 2px solid #ccc;
+}
+.item:last-child {
+    margin-bottom: 2em;
+}
 .item p:first-child {
-    color: #999;
+    color: #666;
+    margin: 0;
+    font-size: 0.9em;
 }
 .item p {
     margin: 0.3em;
 }
-.item {
-    margin: 0;
-    padding: 20px 0 20px 10px;
-    border-bottom: 1px solid #eee;
+.item h3 {
+    font-size: 1em;
 }
 .item:nth-child(even) {
-    background: #f8f8f8;
+    background: #efefef;
+}
+.item:nth-child(even) .spacer {
+    border-bottom: 1px solid #e1e1e1;
 }
 .item a.item-button {
     margin: 15px 0 0 0;
     width: 100px;
     text-align: center;
+}
+
+/* -- Progress bar (within item) -- */
+.progress-indicator {
+    border-top: 1px dotted #999;
+}
+.progress-indicator p {
+    padding-top: 10px;
+    text-align: right;
+}
+.progress-indicator ul {
+    margin: 0;
+    padding: 10px 5px 5px 5px;
+    font-size: 0.85em;
+    color: #666;
+    text-align: left;
+}
+.progress-indicator ul li {
+    display: inline-block;
+    margin: 0 25px 0 0;
+    line-height: 2em;
+    padding: 0 0 0 17px;
+    background: url(../images/progress.png) no-repeat center left;
+}
+.progress-indicator ul li.complete {
+    background: url(../images/ok.png) no-repeat center left;
+}
+.progress-indicator ul li.incomplete {
+    background: url(../images/not-ok.png) no-repeat center left;
+}
+/* -- end Progress bar (within item) -- */
+
+.error p {
+    background: darkred;
+    padding: 5px 15px;
+    color: #fff !important;
+    display: inline-block;
+}
+.spacer {
+    margin: 0;
+    padding: 20px 0 10px 10px;
+    border-bottom: 1px solid #eee;
 }
 .filter-space {
     margin-bottom: 10px;
@@ -486,16 +488,13 @@ h2 {
 .min {
     min-height: 800px;
 }
-.item span {
-    color: #222;
-}
 .warning {
     color: red !important;
 }
 .details {
     width: 100%;
     border-top: 1px solid #efefef;
-    font-size: 0.9em ;
+    font-size: 0.9em;
 }
 .details ul {
     margin: 0.5em 0.4em;
@@ -504,22 +503,49 @@ h2 {
 .removed td {
     color: #666;
 }
+p.larger {
+    margin: 0;
+    padding-top: 5px;
+}
+p.larger .highlight {
+    background: transparent;
+    color: #099;
+}
 .marked {
+    font-family: 'Open Sans', sans-serif;
     margin-left: 15px;
-    padding: 1px 5px;
-    background-color: #CB0D07;
-    font-size: 0.65em;
+    padding: 3px 7px;
+    background: #CB0D07;
+    font-size: 0.7em;
     color: #fff;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
 }
 .collection {
     margin-top: 1.2em !important;
+    margin-bottom: 1.2em;
+    padding-left: 90px;
+}
+.upload {
+    background: url(../images/upload.png) no-repeat left top;
+}
+.download {
+    background: url(../images/download.png) no-repeat left top;
+}
+.delete {
+    background: url(../images/delete.png) no-repeat left top;
+}
+.error-block .upload {
+    background: url(../images/upload-error.png) no-repeat left top;
+}
+.warning-block .upload {
+    background: url(../images/upload-warning.png) no-repeat left top;
 }
 .collection p {
     color: #222 !important;
-    margin: 0.3em !important;
+    margin: 0.3em 0 !important;
     font-size: 0.9em;
 }
 p.footnote, .footnote span {
@@ -528,59 +554,75 @@ p.footnote, .footnote span {
 .margin-top-medium {
     margin-top: 20px;
 }
-/* 
-.changed {
-  animation: pulse 2s 2;
+.button {
+    background: #099;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 0.8em;
 }
-
-@keyframes pulse {
-
-  50% {
-    background-color: rgba(252, 228, 92, .3);
-  }
-  100% {
-    background-color: rgba(252, 228, 92, 0);
-  }
+.emphasis-block button {
+    margin-left: 20px;
+    background-color: #222;
+    padding: 4px 5px;
+    color: #fff;
 }
-*/
-
-.progress-bar {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    height: 10px;
+.error-block    {
+    background-color: #fee2e2;
+    border-left: 6px solid #CB0D07;
 }
-.progress-bar p {
-    float: left;
+.error-block .button {
+    background: #c80c00;
 }
-
+.warning-block    {
+    background-color: #faf0b7;
+    border-left: 6px solid #cc6600;
+}
+.warning-block .warning {
+    color: #cc6600 !important;
+}
+button.secondary {
+    background: #cc6600;
+    margin-left: 5px;
+    color: #fff;
+}
+p.status {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
+.top-large {
+    padding-top: 20px;
+}
+.top-none {
+    margin-top: 0;
+}
+#hierarchy li {
+    list-style-image: url(../images/list-marker.png);
+    margin-bottom: .2em;
+}
 /* -- end miscellaneous custom styles/overrides  -- */
 
 @media screen and (min-width: 768px) {
     nav#tabs-alternative li a {
         padding: 7px 20px;
     }
-        nav#tabs-alternative li a.active {
+    nav#tabs-alternative li a.active {
         padding: 7px 20px;
     }
-
     nav#tabs-alternative li {
         margin: 0;
     }
-
     nav#tabs-alternative li.selected {
         border-bottom: 1px solid #fff;
     }
-
     nav#tabs-alternative li.selected a {
         background-color: #fff;
     }
-
     nav#tabs-alternative li {
         width: auto;
-    }
-
-    .search-box {
-        margin: 0 0 10px;
     }
     .center {
         text-align: center;
@@ -601,22 +643,27 @@ p.footnote, .footnote span {
         left: 15%;
         width: 70%;
     }
-
     .js .modal .breather {
         margin: 40px;
     }
-
     .inputfile-6 + label span {
         width: 200px;
     }
     .item a.item-button {
-    float: right;
-    margin: -40px 20px 0 0;
-    width: 100px;
-    text-align: center;
+        float: right;
+        margin: -40px 20px 0 0;
+        width: 100px;
+        text-align: center;
     }
     .name {
         text-align: center;
+    }
+    .progress-indicator ul {
+        text-align: right;
+    }
+    .progress-indicator ul li {
+        margin: 0 0 0 25px;
+        line-height: 2em;
     }
 }
 
@@ -626,12 +673,10 @@ p.footnote, .footnote span {
         margin: 0;
         width: auto;
     }
-
     .inline {
         margin: 7px 0;
         font-size: 0.9em;
     }
-
     .inline li {
         font-size: 1em;
         color: #222;
@@ -639,7 +684,6 @@ p.footnote, .footnote span {
         border: 0;
         margin-right: 15px;
     }
-
     .left-to-right a.discoveryPrimaryCallToActionLink {
         text-align: center;
         font-size: 0.9em;
@@ -647,7 +691,6 @@ p.footnote, .footnote span {
         background-color: #099;
         color: #FFF;
     }
-
     .js .modal {
         top: 30%;
         left: 30%;

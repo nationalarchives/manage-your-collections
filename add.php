@@ -9,20 +9,7 @@
                 </ul>
             </nav>
         </div><!-- end col -->
-        <div class="col starts-at-full ends-at-half clr">
-            <nav id="page-controls">
-                <ul>
-                    <li>
-                        <a href="http://www.nationalarchives.gov.uk/help/discovery-help.htm" target="_blank"
-                           onclick="dcsMultiTrack('DCS.dcsuri','/SearchHelp', 'WT.ti', 'Search Help', 'WT.cg_n', 'Search Help', 'WT.dl','0');"
-                           id="helpLink">
-                            Discovery help
-                        </a>
-                    </li>
-                    <a href="/sign-in" id="bookmarkLink">Bookmark</a>
-                </ul>
-            </nav>
-        </div><!-- end col -->
+        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box min">
@@ -60,44 +47,30 @@
                                 <label for="excel">Excel format</label>
                             </p>
                             <div class="button-container">
-                                <input type="submit" value="Download"/>
-                                <a href="" class="discoveryPrimaryCallToActionLink">Upload file</a>
+                                <input type="submit" value="Choose a format"/>
+                                <a href="" class="cancel">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
 
                     <!-- STEP 2 -->
                     <div class="search-box" id="step-2">
-                        <h3 class="margin-top-medium">Step 2: Validate your completed template</h3>
-                        <p>User our automated checker to ensure your completed file meets our upload criteria</p>
-
-                        <div class="option-box-primary">
-                            <div class="breather">
-                                    <a href="" class="discoveryPrimaryCallToActionLink">Validate file</a>
-                            </div><!-- end breather -->
-                        </div>
-                    </div><!-- end search-box -->
-
-                    <!-- STEP 3 -->
-                    <div class="search-box" id="step-3">
-                        <h3 class="margin-top-medium">Step 3: Upload the completed template</h3>
+                        <h3 class="margin-top-medium">Step 2: Upload the completed template</h3>
                         <p>Submit the completed template file to add your collection to Discovery</p>
                     </div><!-- end search-box -->
-                </div><!-- end tab panel-1 -->
 
-
-                <form class="form" id="upload-form" action="upload" method="post">
-                    <div class="breather">
-                        <h4>Upload a file</h4>
-                        <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6"
-                               accept="image/*"/>
-                        <label for="file-input"><span></span><strong>Choose a file</strong></label>
-                        <div class="button-container">
-                            <input type="submit" value="Upload"/>
-                            <a href="" class="cancel">Cancel</a>
-                        </div><!-- end button-container -->
-                    </div><!-- end breather -->
-                </form>
+                    <form class="form" id="upload-form" action="upload" method="post">
+                        <div class="breather">
+                            <h4>Upload a file</h4>
+                            <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6"
+                                   accept="image/*"/>
+                            <label for="file-input"><span></span><strong>Choose a file</strong></label>
+                            <div class="button-container">
+                                <input type="submit" value="Upload"/>
+                                <a href="" class="cancel">Cancel</a>
+                            </div><!-- end button-container -->
+                        </div><!-- end breather -->
+                    </form>
 
             </div><!-- end breather -->
         </div><!-- end col -->

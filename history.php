@@ -9,14 +9,7 @@
                 </ul>
             </nav>
         </div><!-- end col -->
-        <div class="col starts-at-full ends-at-half clr">
-            <nav id="page-controls">
-                <ul>
-                    <li><a href="http://www.nationalarchives.gov.uk/help/discovery-help.htm" target="_blank" onclick="dcsMultiTrack('DCS.dcsuri','/SearchHelp', 'WT.ti', 'Search Help', 'WT.cg_n', 'Search Help', 'WT.dl','0');" id="helpLink">Discovery help</a></li>
-                    <a href="/sign-in" id="bookmarkLink">Bookmark</a>
-                </ul>
-            </nav><!-- end page-controls -->
-        </div><!-- end col -->
+        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">
@@ -73,19 +66,13 @@
                 <div class="item clr error-block">
                     <p>10 Jun 2016 at 19:11 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload - <small class="warning">Failed</small></h3>
+                        <h3>Upload - <small>Failed</small></h3>
                         <p>Ref: <a href="">0/0432</a></p>
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
                         <a class="button" href="report.php">See error report</a>
                     </div>
                     <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Virus scanned</li>
-                            <li class="incomplete">Data validated</li>
-                            <li>Collection updated</li>
-                            <li>Previewed</li>
-                            <li>Queued for publishing</li>
-                        </ul>
+                        <p><span class="warning">Upload failed on 12 Dec 2016</span></p>
                     </div><!-- end progress-indicator -->
                 </div>
 
@@ -110,13 +97,7 @@
                         <p>Title: <a href="">HALTON, THOMAS</a></p>
                     </div><!-- end collection -->
                     <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Virus scanned</li>
-                            <li class="complete">Data validated</li>
-                            <li class="complete">Collection updated</li>
-                            <li class="incomplete">Previewed</li>
-                            <li>Queued for publishing</li>
-                        </ul>
+                        <p><span>Upload cancelled on 10 Dec 2016</span></p>
                     </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
@@ -152,6 +133,21 @@
                         <p>Ready for download</p>
                     </div><!-- end progress-indicator -->
                 </div><!-- end item -->
+
+                <div class="paginationWrapper manage-collections">
+                    <ul class="pagination">
+                        <li class="current"><span>1</span></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">4</a></li>
+                        <li><a href="">5</a></li>
+                        <li><a href="">6</a></li>
+                        <li><a href="">7</a></li>
+                        <li><a href="">8</a></li>
+                        <li><a href="">9</a></li>
+                        <li class="next"><a href="">Next</a></li>
+                    </ul>
+                </div><!-- end paginationWrapper -->
 
             </div><!-- end breather -->
         </div><!-- end col -->
