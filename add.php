@@ -38,7 +38,7 @@
 
                     <form class="form" id="download-form" action="add-confirm.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogDownload">
-                            <h4 role="dialogDownload">Choose a format</h4>
+                            <h4 id="dialogDownload">Choose a format</h4>
                             <p class="form-spacer">
                                 <input type="radio" name="subject" value="ead" id="ead" checked>
                                 <label for="ead">EAD format</label>
@@ -68,7 +68,7 @@
                             <label for="file-input"><span></span><strong>Choose a file</strong></label>
                             <div class="button-container">
                                 <input type="submit" value="Upload"/>
-                                <a href="" class="cancel">Cancel</a>
+                                <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>

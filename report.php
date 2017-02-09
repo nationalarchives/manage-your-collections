@@ -29,7 +29,7 @@
 
                 <!-- Search list -->
                 <h2>Validation report</h2>
-                <span role="alert" class="emphasis-block">Failed on 12 December 2016 at 12:02pm</span></span>
+                <span role="alert" class="emphasis-block">Failed on 12 December 2016 at 12:02pm</span>
                 <div class="search-box">
                     <div class="detail-container">
                         <div class="breather">
@@ -89,7 +89,6 @@
                             <td>66</td>
                             <td>Missing field <span class="highlight">Warning</span></td>
                         </tr>
-
                         </tbody>
                     </table>
                 </div><!-- end table-responsive -->

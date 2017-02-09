@@ -44,6 +44,8 @@ $(document).ready(function () {
 
 /* -- NON-TNA AUTHORED JS --
 
+Used to apply custom styles to input[type=file]
+
 CUSTOM INPUT[TYPE=FILE]
 By Osvaldas Valutis, www.osvaldas.info
 Available for use under the MIT License

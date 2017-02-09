@@ -32,7 +32,8 @@
                     <div class="search-box center">
                         <div class="breather">
                             <form action="search" method="post">
-                                <label for="search-collections">Search a collection</label><input type="search" id="search-collections" name="search-collections" value="0/0432">
+                                <label for="search-collections">Search a collection</label>
+                                <input type="search" id="search-collections" name="search-collections" value="0/0432">
                                 <input type="submit" name="submit" value="Search">
                             </form>
                         </div><!-- end breather -->

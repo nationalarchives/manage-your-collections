@@ -79,7 +79,7 @@
                     </form>
                     <form class="form" id="download-form" action="details-confirmed.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogueDownload">
-                            <h4 role="dialogueDownload">Choose a format</h4>
+                            <h4 id="dialogueDownload">Choose a format</h4>
                             <p class="form-spacer">
                                 <input type="radio" name="subject" value="ead" id="ead" checked>
                                 <label for="ead">EAD format</label>
@@ -90,7 +90,7 @@
                             </p>
                             <div class="button-container">
                                 <input type="submit" value="Submit"/>
-                                <a href="" class="cancel">Cancel</a>
+                                <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
@@ -102,7 +102,7 @@
                             <label for="file-input"><span></span><strong>Choose a file</strong></label>
                             <div class="button-container">
                                 <input type="submit" value="Upload"/>
-                                <a href="" class="cancel">Cancel</a>
+                                <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
@@ -111,23 +111,23 @@
                     <h3>Recent activity for this collection</h3>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>Upload</p>
                     </div>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>Upload</p>
                     </div>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>Upload</p>
                     </div>
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>Upload</p>
                     </div>                    
                     <div class="item">
                         <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                        <p>Import (Excel format) - Requested</p>
+                        <p>Upload</p>
                     </div>
                 </div><!-- end tab panel-1 -->
 

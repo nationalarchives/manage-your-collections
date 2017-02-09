@@ -33,7 +33,7 @@
                         <div class="breather">
                             <form action="index-results.php" method="post">
                                 <label for="search-collections">Search a collection</label>
-                                <input role="search" type="search" id="search-collections" name="search-collections">
+                                <input type="search" id="search-collections" name="search-collections">
                                 <input type="submit" name="submit" value="Search">
                             </form>
                         </div><!-- end breather -->
