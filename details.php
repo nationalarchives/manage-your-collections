@@ -19,14 +19,14 @@
             <div class="breather">
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
-                    <ul class="nav-tabs">
+                    <ul class="nav-tabs" role="menu">
                         <li><a href="index.php" class="active">Find a collection</a></li>
                         <li><a href="add.php">Add a collection</a></li>
                         <li><a href="history.php">View history</a></li>
                         <li><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
-                <div class="clr" role="tabpanel" aria-labelledby="panel-1">
+                <div class="clr">
 
                     <!-- SUMMARY BOX -->
                     <div class="search-box" id="details">
@@ -61,8 +61,8 @@
 
                     <!-- FORMS -->
                     <form class="form" id="delete-form" action="history-delete-confirm.php" method="post">
-                        <div class="breather">
-                            <h4>Delete this collection</h4>
+                        <div class="breather" role="dialog" aria-labelledby="dialogDelete">
+                            <h4 id="dialogDelete">Delete this collection</h4>
                             <p class="form-spacer">
                                 <label for="reason-deletion">Reason for deletion</label>
                                 <select id="reason-deletion">
@@ -76,9 +76,10 @@
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
+
                     <form class="form" id="download-form" action="details-confirmed.php" method="post">
-                        <div class="breather">
-                            <h4>Choose a file</h4>
+                        <div class="breather" role="dialog" aria-labelledby="dialogDownload">
+                            <h4 role="dialogDownload">Choose a format</h4>
                             <p class="form-spacer">
                                 <input type="radio" name="subject" value="ead" id="ead" checked>
                                 <label for="ead">EAD format</label>
@@ -88,16 +89,16 @@
                                 <label for="excel">Excel format</label>
                             </p>
                             <div class="button-container">
-                                <input type="submit" value="Choose a format"/>
+                                <input type="submit" value="Submit"/>
                                 <a href="" class="cancel">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
+
                     <form class="form" id="upload-form" action="details-uploaded.php" method="post">
-                        <div class="breather">
-                            <h4>Upload a file</h4>
-                            <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6"
-                                   accept="image/*"/>
+                        <div class="breather" role="dialog" aria-labelledby="dialogUpload">
+                            <h4 id="dialogUpload">Upload a file</h4>
+                            <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
                             <label for="file-input"><span></span><strong>Choose a file</strong></label>
                             <div class="button-container">
                                 <input type="submit" value="Upload"/>

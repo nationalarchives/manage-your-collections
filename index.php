@@ -19,7 +19,7 @@
 
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
-                    <ul class="nav-tabs">
+                    <ul class="nav-tabs" role="menu">
                         <li><a href="index.php" class="active">Find a collection</a></li>
                         <li><a href="add.php">Add a collection</a></li>
                         <li><a href="history.php">View history</a></li>

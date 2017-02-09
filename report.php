@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
     <section class="row" id="holds-breadcrumb">
         <div class="col starts-at-full ends-at-half clr">
             <nav id="breadcrumb">
@@ -8,7 +8,7 @@
                 </ul>
             </nav>
         </div><!-- end col -->
-        <?php include 'includes/controls.php'; ?>
+        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">
@@ -19,7 +19,7 @@
 
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
-                    <ul class="nav-tabs">
+                    <ul class="nav-tabs" role="menu">
                         <li><a href="index.php">Find a collection</a></li>
                         <li><a href="add.php">Add a collection</a></li>
                         <li><a href="history.php" class="active">View history</a></li>
@@ -29,7 +29,7 @@
 
                 <!-- Search list -->
                 <h2>Validation report</h2>
-                <span class="emphasis-block">Failed on 12 December 2016 at 12:02pm</span></span>
+                <span role="alert" class="emphasis-block">Failed on 12 December 2016 at 12:02pm</span></span>
                 <div class="search-box">
                     <div class="detail-container">
                         <div class="breather">
@@ -97,4 +97,4 @@
             </div><!-- end breather -->
         </div><!-- end col -->
     </section>
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>

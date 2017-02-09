@@ -19,7 +19,7 @@
 
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
-                    <ul class="nav-tabs">
+                    <ul class="nav-tabs" role="menu">
                         <li><a href="index.php">Find a collection</a></li>
                         <li><a href="add.php">Add a collection</a></li>
                         <li><a href="history.php" class="active">View history</a></li>
@@ -30,7 +30,7 @@
                 <!-- Search list -->
                 <h2>Sample preview</h2>
                 <p>Below is a randomly selected item from your uploaded collection to show how it will appear in Discovery</p>
-                <span class="emphasis-block"><span>Are you happy with your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
+                <span role="alert" class="emphasis-block"><span>Are you happy with your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
                 <h3 class="top-large">HALTON, THOMAS</h3>
                 <div class="table table-responsive">
                     <table class="condensed striped top-none">

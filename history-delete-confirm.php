@@ -20,7 +20,7 @@
 
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
-                    <ul class="nav-tabs">
+                    <ul class="nav-tabs" role="menu">
                         <li><a href="index.php">Find a collection</a></li>
                         <li><a href="add.php">Add a collection</a></li>
                         <li><a href="details.php" class="active">View history</a></li>
@@ -30,7 +30,7 @@
 
                 <!-- MAIN CONTENT -->
                 <h2>Collections which have been added, edited or deleted</h2>
-                <span class="emphasis-block margin-bottom-large"><span>The following collection has been deleted:<br><small>Ref no: 0/0432, Title: Halton, Thomas</small></span></span>
+                <span role="alert" class="emphasis-block margin-bottom-large"><span>The following collection has been deleted:<br><small>Ref no: 0/0432, Title: Halton, Thomas</small></span></span>
                 <form class="filter-space" action="" method="post">
                     <p class="form-spacer">
                         <label for="history-options">Showing</label>
