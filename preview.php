@@ -36,19 +36,19 @@
                     <table class="condensed striped top-none">
                         <tbody>
                         <tr>
-                            <td>Reference code</td>
+                            <td class="large">Reference code</td>
                             <td>0/0432</td>
                         </tr>
                         <tr>
-                            <td>Name of creator</td>
+                            <td class="large">Name of creator</td>
                             <td>Lorem ipsum dolor sit amet</td>
                         </tr>
                         <tr>
-                            <td>Dates of creation</td>
+                            <td class="large">Dates of creation</td>
                             <td>1900</td>
                         </tr>
                         <tr>
-                            <td>Level of description</td>
+                            <td class="large">Level of description</td>
                             <td>Consectetur adipiscing elit</td>
                         </tr>
                         </tbody>

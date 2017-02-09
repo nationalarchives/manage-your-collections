@@ -153,13 +153,15 @@ tbody tr.expanded td {
     width: 100%;
     max-width: 100%;
     overflow-y: hidden;
-
 }
 .striped tbody tr {
     border-bottom: 1px solid #eee;
 }
 .striped tr td:first-child, .striped tr th:first-child {
     width: 120px;
+}
+.striped tr td.large, .striped tr th.large {
+    width: 250px;
 }
 .striped tr:nth-child(even) {
     background-color: #f8f8f8;
