@@ -20,10 +20,10 @@
                 <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
                     <ul class="nav-tabs" role="menu">
-                        <li><a href="index.php">Find a collection</a></li>
-                        <li><a href="add.php">Add a collection</a></li>
-                        <li><a href="history.php" class="active">View history</a></li>
-                        <li><a href="help.php">Help</a></li>
+                        <li role="menuitem"><a href="index.php">Find a collection</a></li>
+                        <li role="menuitem"><a href="add.php">Add a collection</a></li>
+                        <li role="menuitem"><a href="history.php" class="active">View history</a></li>
+                        <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
 
@@ -56,7 +56,7 @@
                 </div><!-- end table-responsive -->
                 <h4>Context of this record</h4>
                             <ul id="hierarchy">
-                                <a href="/browse">All departments</a>
+                                <li><a href="/browse">All departments</a></li>
                                 <li class="tree">
                                     <a href="/browse/r/h/C8">AIR - Records created or inherited by the Air Ministry, the Royal Air Force, and related bodies</a>
                                 </li>

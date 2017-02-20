@@ -326,6 +326,9 @@ tbody tr.expanded td {
 /* -- end custom input[type=file] styles -- */
 
 /* -- Miscellaneous custom styles/overrides  -- */
+input:focus, select:focus {
+    outline: 2px solid #FCE45C;
+}
 h2, h4 {
     color: #222;
 }

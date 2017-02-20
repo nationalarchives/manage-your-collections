@@ -21,10 +21,10 @@
                  <!-- TABBED NAVIGATION -->
                 <nav id="tabs-alternative" class="clr">
                     <ul class="nav-tabs" role="menu">
-                        <li><a href="index.php">Find a collection</a></li>
-                        <li><a href="add.php" class="active">Add a collection</a></li>
-                        <li><a href="history.php">View history</a></li>
-                        <li><a href="help.php">Help</a></li>
+                        <li role="menuitem"><a href="index.php">Find a collection</a></li>
+                        <li role="menuitem"><a href="add.php" class="active">Add a collection</a></li>
+                        <li role="menuitem"><a href="history.php">View history</a></li>
+                        <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
 
