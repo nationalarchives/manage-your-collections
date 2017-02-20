@@ -532,6 +532,7 @@ p.larger .highlight {
     margin-top: 1.2em !important;
     margin-bottom: 1.2em;
     padding-left: 90px;
+    min-height: 70px;
 }
 .upload {
     background: url(../images/upload.png) no-repeat left top;
@@ -542,8 +543,17 @@ p.larger .highlight {
 .delete {
     background: url(../images/delete.png) no-repeat left top;
 }
+.restore {
+    background: url(../images/restore.png) no-repeat left top;
+}
 .error-block .upload {
     background: url(../images/upload-error.png) no-repeat left top;
+}
+.error-block .delete {
+    background: url(../images/delete-error.png) no-repeat left top;
+}
+.error-block .restore {
+    background: url(../images/restore-error.png) no-repeat left top;
 }
 .warning-block .upload {
     background: url(../images/upload-warning.png) no-repeat left top;
@@ -575,14 +585,14 @@ p.footnote, .footnote span {
     color: #fff;
 }
 .error-block    {
-    background-color: #fee2e2;
+    background: #fee2e2 !important;
     border-left: 6px solid #CB0D07;
 }
 .error-block .button {
     background: #c80c00;
 }
 .warning-block    {
-    background-color: #faf0b7;
+    background: #faf0b7 !important;
     border-left: 6px solid #cc6600;
 }
 .warning-block .warning {
