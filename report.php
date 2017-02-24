@@ -56,38 +56,222 @@
                     <table class="striped">
                         <thead>
                         <tr>
-                            <th>Line</th>
-                            <th>Error</th>
+                            <th class="x-small"></th>
+                            <th class="x-small">Row</th>
+                            <th class="medium">Column name</th>
+                            <th>Problem</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>66</td>
-                            <td>Missing field <span class="marked">Error</span></td>
+                            <td>IAID</td>
+                            <td>The value must be unique and 39 characters long <br><small>Example format: 30dd879c-ee2f-11db-8314-0800200c9a66</small></td>
                         </tr>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>204</td>
-                            <td>Missing field <span class="marked">Error</span></td>
+                            <td>IAID</td>
+                            <td>The field must not be empty</td>
                         </tr>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>66</td>
-                            <td>Missing field <span class="marked">Error</span></td>
+                            <td>PIAID</td>
+                            <td>The field must not be empty</td>
                         </tr>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>66</td>
-                            <td>Missing field <span class="marked">Error</span></td>
+                            <td>Level of description</td>
+                            <td>The value must be one of the following: <br><small>Fonds, sub-fonds, sub-sub-fonds</small></td>
                         </tr>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>66</td>
-                            <td>Missing field <span class="highlight">Warning</span></td>
+                            <td>Level of description</td>
+                            <td>The field must not be empty</td>
                         </tr>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>66</td>
-                            <td>Missing field <span class="highlight">Warning</span></td>
+                            <td>Title</td>
+                            <td>The value must not be longer that 2,048 characters <br><small>We recommend that the value should be less than 1,024 characters</small></td>
                         </tr>
                         <tr>
+                            <td><span class="marked">Error</span></td>
                             <td>66</td>
-                            <td>Missing field <span class="highlight">Warning</span></td>
+                            <td>Name of Creator(s)</td>
+                            <td>The field must not be empty <i>(fonds level)</i></td>
+                        </tr>
+                        <tr>
+                            <td><span class="marked">Error</span></td>
+                            <td>66</td>
+                            <td>Scope and content</td>
+                            <td>The value must not be longer that 32,767 characters</td>
+                        </tr>
+                        <tr>
+                            <td><span class="marked">Error</span></td>
+                            <td>66</td>
+                            <td>Reference code</td>
+                            <td>The field must not be empty <i>(fonds level)</i></td>
+                        </tr>
+                        <tr>
+                            <td><span class="marked">Error</span></td>
+                            <td>66</td>
+                            <td>Start date</td>
+                            <td>The value should be between 750 and 2025</td>
+                        </tr>
+                        <tr>
+                            <td><span class="marked">Error</span></td>
+                            <td>66</td>
+                            <td>End date</td>
+                            <td>The value should be between 750 and 2025</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Name of Creator(s)</td>
+                            <td>The value should be less than ??? characters</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Reference code</td>
+                            <td>The field must not be empty <i>(file level)</i></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Reference code</td>
+                            <td>The field must not be empty <i>(item level)</i></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Reference code</td>
+                            <td>The value should be less than ??? characters</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Covering dates</td>
+                            <td>The value should be less than ??? characters</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Covering dates</td>
+                            <td>The value should be a year <br><small>Example format: 1948</small></td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>End date</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Extent</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Physical characteristics</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Dimensions</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Language</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Former reference</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Conditions governing access</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Dimensions</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Subjects</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Legal status</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Accruals</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Administrative/biographical history</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Finding aids</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Publication note</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Related units of description</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Immediate source of acquisition</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Arrangement</td>
+                            <td>Missing field</td>
+                        </tr>
+                        <tr>
+                            <td><span class="highlight">Warning</span></td>
+                            <td>66</td>
+                            <td>Note</td>
+                            <td>Missing field</td>
                         </tr>
                         </tbody>
                     </table>

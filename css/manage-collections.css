@@ -138,10 +138,14 @@ table th[class*="col-"] {
 }
 thead th {
     text-align: left;
-    padding: 10px;
+    padding: 5px;
+    color: #666;
+    font-size: 0.9em;
 }
 tbody td {
     padding: 10px;
+    vertical-align: top;
+    font-size: 0.85em;
 }
 tbody tr.expanded td {
     background: #efefef url('../images/arrow.png') no-repeat center -3px;
@@ -157,8 +161,11 @@ tbody tr.expanded td {
 .striped tbody tr {
     border-bottom: 1px solid #eee;
 }
-.striped tr td:first-child, .striped tr th:first-child {
-    width: 120px;
+.striped tr td.x-small, .striped tr th.x-small {
+    width: 40px;
+}
+.striped tr td.medium, .striped tr th.medium {
+    width: 175px;
 }
 .striped tr td.large, .striped tr th.large {
     width: 250px;
@@ -171,7 +178,7 @@ tbody tr.expanded td {
 }
 .striped td .highlight {
     font-family: 'Open Sans', sans-serif;
-    margin-left: 15px;
+    margin-right: 15px;
     padding: 3px 7px;
     font-size: 0.7em;
     -webkit-border-radius: 2px;
@@ -519,7 +526,7 @@ p.larger .highlight {
 }
 .marked {
     font-family: 'Open Sans', sans-serif;
-    margin-left: 15px;
+    margin-right: 15px;
     padding: 3px 7px;
     background: #CB0D07;
     font-size: 0.7em;

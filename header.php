@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/jquery.ui.menu.css">
     <link rel="stylesheet" href="css/jquery.ui.theme.css">
     <link rel="stylesheet" href="css/hopscotch.min.css">
-    <link rel="stylesheet" href="css/manage-collections.css?ewerw=eew10">
+    <link rel="stylesheet" href="css/manage-collections.css?ewerw=eew90">
     <!--[if IE 7]>
     <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer7.css">
     <![endif]-->
