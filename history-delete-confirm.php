@@ -47,16 +47,47 @@
                 <div class="item clr">
                     <p>2 Aug 2016 at 16:18 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload - <small>In progress</small></h3>
-                        <p>Ref: <a href="">0/0432</a></p>
-                        <p>Title: <a href="">HALTON, THOMAS</a></p>
+                        <h3>Upload ready to check</small></h3>
+                        <p>File: GBO8972.xls</p>
+                        <a class="button" href="preview.php">Preview and approve</a>
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
+                            <li class="complete">Requested</li>
+                            <li class="complete">Virus scanned</li>
+                            <li class="complete">Data validated</li>
+                            <li>Previewed</li>
+                            <li>Collection updated</li>
+                            <li>Queued for publishing</li>
+                        </ul>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr">
+                    <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                    <div class="collection upload">
+                        <h3>Uploaded</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                    </div><!-- end collection -->
+                    <div class="progress-indicator">
+                        <p><a href="">View the collection &gt;</a></p>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr">
+                    <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                    <div class="collection upload">
+                        <h3>Upload in progress</h3>
+                        <p>File: GBO8972.xls</p>
+                    </div><!-- end collection -->
+                    <div class="progress-indicator">
+                        <ul>
+                            <li class="complete">Requested</li>
                             <li>Virus scanned</li>
                             <li>Data validated</li>
-                            <li>Collection updated</li>
                             <li>Previewed</li>
+                            <li>Collection updated</li>
                             <li>Queued for publishing</li>
                         </ul>
                     </div><!-- end progress-indicator -->
@@ -65,38 +96,48 @@
                 <div class="item clr error-block">
                     <p>10 Jun 2016 at 19:11 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload - <small>Failed</small></h3>
-                        <p>Ref: <a href="">0/0432</a></p>
-                        <p>Title: <a href="">HALTON, THOMAS</a></p>
+                        <h3>Upload failed</h3>
+                        <p>File: GBO8972.xls</p>
                         <a class="button" href="report.php">See error report</a>
                     </div>
                     <div class="progress-indicator">
-                        <p><span class="warning">Upload failed on 12 Dec 2016</span></p>
+                        <ul>
+                            <li class="complete">Requested</li>
+                            <li class="complete">Virus scanned</li>
+                            <li class="incomplete">Data validated</li>
+                            <li>Previewed</li>
+                            <li>Collection updated</li>
+                            <li>Queued for publishing</li>
+                        </ul>
                     </div><!-- end progress-indicator -->
                 </div>
 
-                <div class="item clr">
-                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
-                    <div class="collection delete">
-                        <h3>Deleted</h3>
-                        <p>Ref: <a href="">0/0432</a></p>
-                        <p>Title: <a href="">HALTON, THOMAS</a></p>
-                        <a class="button" href="">Restore</a>
+                <div class="item clr error-block">
+                    <p>10 Jun 2016 at 19:11 by Bill Smith</p>
+                    <div class="collection upload">
+                        <h3>Upload failed</h3>
+                        <p>File: GBO8972.xls</p>
                     </div>
                     <div class="progress-indicator">
-                        <p><span class="warning">5 days left to restore this collection</span></p>
+                        <p>We had a problem with our system. <a href="">Try uploading your file again &gt;</a></span></p>
                     </div><!-- end progress-indicator -->
-                </div><!-- end item -->
+                </div>
 
                 <div class="item clr warning-block">
                     <p>1 Dec 2015 at 13:02 by Jane Gray</p>
                     <div class="collection upload">
-                        <h3>Upload - <small>Cancelled</small></h3>
-                        <p>Ref: <a href="">0/0432</a></p>
-                        <p>Title: <a href="">HALTON, THOMAS</a></p>
+                        <h3>Upload rejected</h3>
+                        <p>File: GBO8972.xls</p>
                     </div><!-- end collection -->
                     <div class="progress-indicator">
-                        <p><span>Upload cancelled on 10 Dec 2016</span></p>
+                        <ul>
+                            <li class="complete">Requested</li>
+                            <li class="complete">Virus scanned</li>
+                            <li class="complete">Data validated</li>
+                            <li class="incomplete">Previewed</li>
+                            <li>Collection updated</li>
+                            <li>Queued for publishing</li>
+                        </ul>
                     </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
@@ -104,17 +145,16 @@
                     <p>12 Nov 2015 at 10:24 by Bill Smith</p>
 
                     <div class="collection upload">
-                        <h3>Upload - <small>In progress</small></h3>
-                        <p>Ref: <a href="">0/0432</a></p>
-                        <p>Title: <a href="">HALTON, THOMAS</a></p>
-                        <a class="button" href="preview.php">Preview and approve</a>
+                        <h3>Upload in progress</h3>
+                        <p>File: GBO8972.xls</p>
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
+                            <li class="complete">Requested</li>
                             <li class="complete">Virus scanned</li>
                             <li class="complete">Data validated</li>
                             <li class="complete">Collection updated</li>
-                            <li>Previewed</li>
+                            <li class="complete">Previewed</li>
                             <li>Queued for publishing</li>
                         </ul>
                     </div><!-- end progress-indicator -->
@@ -122,14 +162,91 @@
 
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                    <div class="collection delete">
+                        <h3>Deleted</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                        <a class="button" href="">Restore</a>
+                    </div>
+                    <div class="progress-indicator">
+                        <p>5 days left to restore this collection</p>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr error-block">
+                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                    <div class="collection delete">
+                        <h3>Delete failed</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                    </div>
+                    <div class="progress-indicator">
+                        <p>We had a problem with our system. <a href="">Try deleting the collection again &gt;</a></span></p>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr">
+                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection download">
-                        <h3>Download</h3>
-                        <p>Ref: <a href="">0/0432</a></p>
-                        <p>Title: <a href="">HALTON, THOMAS</a></p>
+                        <h3>Download ready</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
                         <a class="button" href="">Download collection</a>
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <p>Ready for download</p>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr error-block">
+                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                    <div class="collection download">
+                        <h3>Download failed</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                    </div><!-- end collection -->
+                    <div class="progress-indicator">
+                        <p>We had a problem with our system. <a href="">Try requesting your download again &gt;</a></span></p>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr">
+                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                    <div class="collection restore">
+                        <h3>Restored</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                    </div><!-- end collection -->
+                    <div class="progress-indicator">
+                        <p><a href="">View collection &gt;</a></span></p>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr">
+                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                    <div class="collection restore">
+                        <h3>Restore in progress</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                    </div><!-- end collection -->
+                    <div class="progress-indicator">
+                        <ul>
+                            <li class="complete">Requested</li>
+                            <li class="complete">Collection restored</li>
+                            <li>Queued for publishing</li>
+                        </ul>
+                    </div><!-- end progress-indicator -->
+                </div><!-- end item -->
+
+                <div class="item clr error-block">
+                    <p>1 Apr 2016 at 12:03 by Bill Smith</p>
+                    <div class="collection restore">
+                        <h3>Restore failed</h3>
+                        <p>Ref: 0/0432</p>
+                        <p>Title: HALTON, THOMAS</p>
+                    </div><!-- end collection -->
+                    <div class="progress-indicator">
+                        <p>We had a problem with our system. <a href="">Try restoring your collection again &gt;</a></span></p>
                     </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 

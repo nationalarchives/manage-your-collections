@@ -417,7 +417,7 @@ h2, h4 {
     padding-bottom: 30px;
 }
 .item {
-    padding: 10px;
+    padding: 10px 10px 1px;
     border-top: 2px solid #ccc;
 }
 .item:last-child {
@@ -449,15 +449,16 @@ h2, h4 {
 /* -- Progress bar (within item) -- */
 .progress-indicator {
     border-top: 1px dotted #999;
+    font-size: 0.8em;
 }
 .progress-indicator p {
-    padding-top: 10px;
-    text-align: right;
+    padding: 5px 0;
+    text-align: left;
+    font-size: 1em !important;
 }
 .progress-indicator ul {
     margin: 0;
-    padding: 10px 5px 5px 5px;
-    font-size: 0.85em;
+    padding: 5px 5px 5px 5px;
     color: #666;
     text-align: left;
 }
@@ -548,6 +549,9 @@ p.larger .highlight {
 }
 .error-block .upload {
     background: url(../images/upload-error.png) no-repeat left top;
+}
+.error-block .download {
+    background: url(../images/download-error.png) no-repeat left top;
 }
 .error-block .delete {
     background: url(../images/delete-error.png) no-repeat left top;
@@ -679,6 +683,9 @@ p.status {
     .progress-indicator ul li {
         margin: 0 0 0 25px;
         line-height: 2em;
+    }
+    .progress-indicator p {
+        text-align: right;
     }
 }
 
