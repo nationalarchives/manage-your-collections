@@ -55,26 +55,49 @@
                     </table>
                 </div><!-- end table-responsive -->
                 <h4>Context of this record</h4>
-                            <ul id="hierarchy">
-                                <li><a href="/browse">All departments</a></li>
-                                <li class="tree">
-                                    <a href="/browse/r/h/C8">AIR - Records created or inherited by the Air Ministry, the Royal Air Force, and related bodies</a>
-                                </li>
-                                <li class="tree">
-                                    <a href="/browse/r/h/C955">Records of the Department of the Master General of Personnel and the Air Member for Personnel</a>
-                                </li>
-                                <li class="tree">
-                                    <a href="/browse/r/h/C2130">AIR 76 - Air Ministry: Department of the Master-General of Personnel: Officers' Service Records</a>
-                                </li>
-                                <li class="tree">
-                                    <a href="/browse/r/h/C510468">AIR 76/350 - Milman, Hugh - Mitchell, Basil</a>
-                                </li>
-                                <li class="tree">
-                                    <a href="/browse/r/h/D8206854">AIR 76/350/126 - Name   Minall, Alfred Hamblyn     Date of Birth:   25 July 1899</a>
+                <div class="containing-panel">
+                            <ul>
+                                <li>Level 1</li>
+                                <li>Level 1</a></li>
+                                <li>Level 1
+                                    <ul>
+                                        <li>Level 2
+                                            <ul>
+                                                <li>Level 3
+                                                    <ul>
+                                                        <li>Level 4
+                                                            <ul>
+                                                                <li>Level 5
+                                                                    <ul>
+                                                                        <li>Level 6
+                                                                            <ul>
+                                                                                <li>Level 7
+                                                                                    <ul>
+                                                                                        <li>Level 8
+                                                                                            <ul>
+                                                                                                <li>Level 9
+                                                                                                    <ul>
+                                                                                                        <li class="current">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi bibendum non urna et aliquam. Donec rhoncus felis dui, a ultricies nulla facilisis at. Morbi elementum nibh sit amet urna pulvinar, et ultrices erat tristique.</li>
+                                                                                                    </ul>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
-
-
+                </div><!-- end containing-panel -->
             </div><!-- end breather -->
         </div><!-- end col -->
     </section>

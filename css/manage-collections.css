@@ -162,13 +162,13 @@ tbody tr.expanded td {
     border-bottom: 1px solid #eee;
 }
 .striped tr td.x-small, .striped tr th.x-small {
-    width: 40px;
+    width: auto;
 }
 .striped tr td.medium, .striped tr th.medium {
-    width: 175px;
+    width: auto;
 }
 .striped tr td.large, .striped tr th.large {
-    width: 250px;
+    width: auto;
 }
 .striped tr:nth-child(even) {
     background-color: #f8f8f8;
@@ -625,9 +625,32 @@ p.status {
 .top-none {
     margin-top: 0;
 }
-#hierarchy li {
+
+.containing-panel {
+    background: #f8f8f8;
+    margin-bottom: 1em;
+    padding: 1em 0;
+    border: 1px solid #eee;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: inline-block;
+    white-space: nowrap;
+}
+.containing-panel ul {
+    margin: 0 0 0 1.5em;
+}
+.containing-panel ul li {
+    margin: 0.3em 0;
+    color: #666;
+}
+.containing-panel ul li > ul li:last-child {
     list-style-image: url(../images/list-marker.png);
-    margin-bottom: .2em;
+}
+.containing-panel .current {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 
@@ -694,6 +717,15 @@ p.status {
     .progress-indicator p {
         text-align: right;
     }
+    .striped tr td.x-small, .striped tr th.x-small {
+        width: 40px;
+    }
+    .striped tr td.medium, .striped tr th.medium {
+        width: 175px;
+    }
+    .striped tr td.large, .striped tr th.large {
+        width: 250px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -725,6 +757,18 @@ p.status {
         left: 30%;
         width: 40%;
     }
+    .containing-panel {
+        background: #f8f8f8;
+        margin-bottom: 1em;
+        padding: 1em 0;
+        border: 1px solid #eee;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: auto;
+        display: block;
+        white-space: normal;
+    }
+
 }
 
 
