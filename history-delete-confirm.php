@@ -53,7 +53,6 @@
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
-                            <li class="complete">Requested</li>
                             <li class="complete">Virus scanned</li>
                             <li class="complete">Data validated</li>
                             <li>Previewed</li>
@@ -83,7 +82,6 @@
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
-                            <li class="complete">Requested</li>
                             <li>Virus scanned</li>
                             <li>Data validated</li>
                             <li>Previewed</li>
@@ -102,7 +100,6 @@
                     </div>
                     <div class="progress-indicator">
                         <ul>
-                            <li class="complete">Requested</li>
                             <li class="complete">Virus scanned</li>
                             <li class="incomplete">Data validated</li>
                             <li>Previewed</li>
@@ -131,7 +128,6 @@
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
-                            <li class="complete">Requested</li>
                             <li class="complete">Virus scanned</li>
                             <li class="complete">Data validated</li>
                             <li class="incomplete">Previewed</li>
@@ -150,7 +146,6 @@
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
-                            <li class="complete">Requested</li>
                             <li class="complete">Virus scanned</li>
                             <li class="complete">Data validated</li>
                             <li class="complete">Collection updated</li>
@@ -231,7 +226,6 @@
                     </div><!-- end collection -->
                     <div class="progress-indicator">
                         <ul>
-                            <li class="complete">Requested</li>
                             <li class="complete">Collection restored</li>
                             <li>Queued for publishing</li>
                         </ul>
