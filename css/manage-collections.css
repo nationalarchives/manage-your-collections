@@ -168,7 +168,7 @@ tbody tr.expanded td {
     width: auto;
 }
 .striped tr td.large, .striped tr th.large {
-    width: auto;
+    width: auto2;
 }
 .striped tr:nth-child(even) {
     background-color: #f8f8f8;
@@ -643,6 +643,9 @@ p.status {
 .containing-panel ul li {
     margin: 0.3em 0;
     color: #666;
+}
+.containing-panel ul li ul {
+    display: none;
 }
 .containing-panel ul li > ul li:last-child {
     list-style-image: url(../images/list-marker.png);

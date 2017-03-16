@@ -39,6 +39,13 @@ $(document).ready(function () {
         $('.overlay').hide();
     });
 
+    $('.containing-panel li a').on('click', function (e) {
+        if (jQuery(this).parent().has('ul')) {
+            e.preventDefault();
+        }
+        $(this).next('ul').toggle();
+    });
+
 });
 
 
