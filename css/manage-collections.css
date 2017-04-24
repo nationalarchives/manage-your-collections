@@ -424,8 +424,8 @@ h2, h4 {
     padding-bottom: 30px;
 }
 .item {
-    padding: 10px 10px 1px;
-    border-top: 2px solid #ccc;
+    padding: 20px 10px 10px;
+    border-bottom: 1px solid #ccc;
 }
 .item:last-child {
     margin-bottom: 2em;
@@ -442,10 +442,9 @@ h2, h4 {
     font-size: 1em;
 }
 .item:nth-child(even) {
-    background: #efefef;
 }
 .item:nth-child(even) .spacer {
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid #999;
 }
 .item a.item-button {
     margin: 15px 0 0 0;
@@ -455,8 +454,7 @@ h2, h4 {
 
 /* -- Progress bar (within item) -- */
 .progress-indicator {
-    border-top: 1px dotted #999;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .progress-indicator p {
     padding: 5px 0;
@@ -465,7 +463,7 @@ h2, h4 {
 }
 .progress-indicator ul {
     margin: 0;
-    padding: 5px 5px 5px 5px;
+    padding: 0 5px 0 5px;
     color: #666;
     text-align: left;
 }
@@ -475,6 +473,9 @@ h2, h4 {
     line-height: 2em;
     padding: 0 0 0 17px;
     background: url(../images/progress.png) no-repeat center left;
+}
+.progress-indicator ul li:first-child {
+    margin-left: 0;
 }
 .progress-indicator ul li.complete {
     background: url(../images/ok.png) no-repeat center left;
@@ -574,6 +575,9 @@ p.larger .highlight {
     margin: 0.3em 0 !important;
     font-size: 0.9em;
 }
+.collection p.warning {
+    color: red !important;
+}
 p.footnote, .footnote span {
     color: #999 !important;
 }
@@ -585,9 +589,9 @@ p.footnote, .footnote span {
     padding: 5px 10px;
     display: inline-block;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 0;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.75em;
 }
 .emphasis-block button {
     margin-left: 20px;
@@ -597,14 +601,18 @@ p.footnote, .footnote span {
 }
 .error-block    {
     background: #fee2e2 !important;
-    border-left: 6px solid #CB0D07;
+    border-bottom: 2px solid #fff;
 }
-.error-block .button {
-    background: #c80c00;
+.item .button {
+    background: transparent;
+    color: #222;
+    border: 1px solid #999;
+    padding: 0.4em 0.7em;
+    margin-top: 5px;
 }
 .warning-block    {
-    background: #faf0b7 !important;
-    border-left: 6px solid #cc6600;
+    background: #efefef !important;
+    border-bottom: 2px solid #fff;
 }
 .warning-block .warning {
     color: #cc6600 !important;
@@ -638,22 +646,65 @@ p.status {
     white-space: nowrap;
 }
 .containing-panel ul {
-    margin: 0 0 0 1.5em;
+     margin: 0 0 0 1.5em;
 }
 .containing-panel ul li {
-    margin: 0.3em 0;
-    color: #666;
+    margin: 0.5em 0;
+    font-size: 1em;
+    color: #333;
 }
+.containing-panel ul li.plus {
+    padding: 0 0 0 1.5em;
+    background: url('../images/plus.png') no-repeat;
+    color: #2A5DB0;
+}
+.containing-panel ul li.expanded {
+    padding: 0 0 0 1.5em;
+    background: url('../images/minus.png') no-repeat;
+}
+
+.containing-panel ul li:hover {
+    cursor: pointer;
+}
+
 .containing-panel ul li ul {
     display: none;
 }
-.containing-panel ul li > ul li:last-child {
-    list-style-image: url(../images/list-marker.png);
+.containing-panel li.expanded > ul {
+    display: block !important;
 }
 .containing-panel .current {
     color: #333;
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
+}
+.information {
+    background: none;
+    border: 0;
+    text-align: left;
+    font-size: 0.8em;
+    padding: 0.6em;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+    margin-top: 20px;
+}
+hr {
+    margin: 10px 0 25px;
+    border: 0;
+    border-top: 1px dotted #999;
+
+}
+.toc {
+    margin-bottom: 40px;
+}
+.toc li {
+    padding: 7px;
+    border-bottom: 1px dotted #ccc;
+}
+.back {
+    text-align: left;
+    font-size: 0.9em;
+    margin: 0;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 
@@ -711,14 +762,14 @@ p.status {
         text-align: center;
     }
     .progress-indicator ul {
-        text-align: right;
+        margin-bottom: 0.8em;
     }
     .progress-indicator ul li {
         margin: 0 0 0 25px;
         line-height: 2em;
     }
     .progress-indicator p {
-        text-align: right;
+       display: inline;
     }
     .striped tr td.x-small, .striped tr th.x-small {
         width: 40px;

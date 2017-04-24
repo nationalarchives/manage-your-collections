@@ -1,5 +1,8 @@
 /* -- TNA AUTHORED JS -- */
 
+
+
+
 $(document).ready(function () {
 
     // Append option box to summary box
@@ -39,11 +42,17 @@ $(document).ready(function () {
         $('.overlay').hide();
     });
 
-    $('.containing-panel li a').on('click', function (e) {
-        if (jQuery(this).parent().has('ul')) {
-            e.preventDefault();
+    /* $('.containing-panel ul li').each(function(){
+        if ($(this).parent().has('ul')) {
+            $(this).wrapInner("<a href=\"#\"></a>");
         }
-        $(this).next('ul').toggle();
+    }); */
+
+    $( ".containing-panel ul" ).parent().addClass('plus');
+
+    $('li').on('click', function(e) {
+        $(this).toggleClass('expanded');
+        e.stopPropagation();
     });
 
 });

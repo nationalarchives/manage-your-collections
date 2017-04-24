@@ -1,19 +1,18 @@
 <?php include 'header.php'; ?>
     <section class="row" id="holds-breadcrumb">
-        <div class="col starts-at-full ends-at-half clr">
+        <div class="col starts-at-full clr">
             <nav id="breadcrumb">
                 <ul>
                     <li><a href="http://www.nationalarchives.gov.uk">Home</a></li>
-                    <li>Manage your collection</li>
+                    <li>Manage your collections</li>
                 </ul>
             </nav>
         </div><!-- end col -->
-        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">
             <div class="heading-holding-banner">
-                <h1><span><span>Manage your collection</span></span></h1>
+                <h1><span><span>Manage your collections</span></span></h1>
             </div><!-- end heading-holding-banner -->
             <div class="breather">
 

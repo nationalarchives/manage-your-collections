@@ -1,14 +1,13 @@
 <?php include 'header.php'; ?>
     <section class="row" id="holds-breadcrumb">
-        <div class="col starts-at-full ends-at-half clr">
+        <div class="col starts-at-full clr">
             <nav id="breadcrumb">
                 <ul>
                     <li><a href="http://www.nationalarchives.gov.uk">Home</a></li>
-                    <li>Manage your collection</li>
+                    <li>Manage your collections</li>
                 </ul>
             </nav>
         </div><!-- end col -->
-        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">
@@ -28,13 +27,17 @@
                 </nav><!-- end tabs-alternative -->
 
                 <!-- Search list -->
-                <h2>Sample preview</h2>
-                <p>Below is a randomly selected item from your uploaded collection to show how it will appear in Discovery</p>
+                <h2>Preview of GBO8972.xls</h2>
                 <span role="alert" class="emphasis-block"><span>Are you happy with your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
-                <h3 class="top-large">HALTON, THOMAS</h3>
+                <p>This is a basic preview of your recent upload which shows you how an item will appear in Discovery and how your collection hierarchy will be displayed. Please reject this preview and re-upload your file if you notice any errors.</p>
+                <h3 class="top-large">Step 1: Check a sample item</h3>
                 <div class="table table-responsive">
                     <table class="condensed striped top-none">
                         <tbody>
+                        <tr>
+                            <td class="large">Title</td>
+                            <td>HALTON, THOMAS</td>
+                        </tr>
                         <tr>
                             <td class="large">Reference code</td>
                             <td>0/0432</td>
@@ -54,611 +57,612 @@
                         </tbody>
                     </table>
                 </div><!-- end table-responsive -->
-                <h4>Explore a sample hierarchy from your collection</h4>
+                <h3>Step 2: Check your collection hierarchy</h3>
+                <p>Select a level to expand the collection</p>
                 <div class="containing-panel">
                     <ul>
-                        <li class="level 1"><a href="">IOR - India Office Records - 1600-1948</a>
+                        <li><span>IOR - India Office Records - 1600-1948</span>
                             <ul>
-                                <li class="level 2"><a href="">IOR/059/IOR/L/MIL - Records of the Military Department - 1708-1957</a>
+                                <li><span>IIOR/059/IOR/L/MIL - Records of the Military Department - 1708-1957</span>
                                     <ul>
-                                        <li class="level 5"><a href="">IOR/L/MIL/1 - Records of the Military Committees of the East
-                                                India Company and Council of India - 1809-1937</a>
+                                        <li><span>IIOR/L/MIL/1 - Records of the Military Committees of the East
+                                                India Company and Council of India - 1809-1937</span>
                                             <ul>
-                                                <li class="level 6">IOR/L/MIL/1/1-3 - Extracts on recruiting from the
-                                                    minutes of the Committee of Correspondence - 1818-1834
+                                                <li><span>IOR/L/MIL/1/1-3 - Extracts on recruiting from the
+                                                    minutes of the Committee of Correspondence - 1818-1834</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/1/1 - Extracts on recruiting from
+                                                        <li><span>IOR/L/MIL/1/1 - Extracts on recruiting from
                                                             the minutes of the Committee of Correspondence - 11 Sep
-                                                            1818-27 Dec 1822
+                                                            1818-27 Dec 1822</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/2 - Extracts on recruiting from
+                                                        <li><span>IOR/L/MIL/1/2 - Extracts on recruiting from
                                                             the minutes of the Committee of Correspondence - 8 Jan
-                                                            1823-30 Dec 1831
+                                                            1823-30 Dec 1831</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/3 - Extracts on recruiting from
+                                                        <li><span>IOR/L/MIL/1/3 - Extracts on recruiting from
                                                             the minutes of the Committee of Correspondence - 31 Jan
-                                                            1832-26 Feb 1834
+                                                            1832-26 Feb 1834</span>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="level 6">IOR/L/MIL/1/4-8 - Committee of Correspondence
-                                                    reports on passing Assistant-Surgeons - 1811-1827
+                                                <li><span>IOR/L/MIL/1/4-8 - Committee of Correspondence
+                                                    reports on passing Assistant-Surgeons - 1811-1827</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/1/4 - Committee of Correspondence
+                                                        <li><span>IOR/L/MIL/1/4 - Committee of Correspondence
                                                             reports on passing Assistant-Surgeons - 17 Apr 1811-10 Apr
-                                                            1816
+                                                            1816</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/5 - Committee of Correspondence
+                                                        <li><span>IOR/L/MIL/1/5 - Committee of Correspondence
                                                             reports on passing Assistant-Surgeons - 8 May 1816-12 Apr
-                                                            1820
+                                                            1820</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/6 - Committee of Correspondence
+                                                        <li><span>IOR/L/MIL/1/6 - Committee of Correspondence
                                                             reports on passing Assistant-Surgeons - 17 May 1820-10 Apr
-                                                            1822
+                                                            1822</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/7 - Committee of Correspondence
+                                                        <li><span>IOR/L/MIL/1/7 - Committee of Correspondence
                                                             reports on passing Assistant-Surgeons - 17 Apr 1822-6 Apr
-                                                            1825
+                                                            1825</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/8 - Committee of Correspondence
+                                                        <li><span>IOR/L/MIL/1/8 - Committee of Correspondence
                                                             reports on passing Assistant-Surgeons - 20 Apr 1825-29 Aug
-                                                            1827
+                                                            1827</span>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="level 6">IOR/L/MIL/1/9-16 - Reports of the Military Seminary
-                                                    Committee - 1809-1834
+                                                <li><span>IOR/L/MIL/1/9-16 - Reports of the Military Seminary
+                                                    Committee - 1809-1834</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/1/9 - Reports of the Military
-                                                            Seminary Committee - 19 Apr 1809-29 Mar 1811
+                                                        <li><span>IOR/L/MIL/1/9 - Reports of the Military
+                                                            Seminary Committee - 19 Apr 1809-29 Mar 1811</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/10 - Reports of the Military
-                                                            Seminary Committee - 17 Apr 1811-11 Apr 1815
+                                                        <li><span>IOR/L/MIL/1/10 - Reports of the Military
+                                                            Seminary Committee - 17 Apr 1811-11 Apr 1815</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/11 - Reports of the Military
-                                                            Seminary Committee - 10 May 1815-12 Apr 1820
+                                                        <li><span>IOR/L/MIL/1/11 - Reports of the Military
+                                                            Seminary Committee - 10 May 1815-12 Apr 1820</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/12 - Reports of the Military
-                                                            Seminary Committee - 3 May 1820-3 Apr 1823
+                                                        <li><span>IOR/L/MIL/1/12 - Reports of the Military
+                                                            Seminary Committee - 3 May 1820-3 Apr 1823</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/13 - Reports of the Military
-                                                            Seminary Committee - 16 Apr 1823-13 Apr 1825
+                                                        <li><span>IOR/L/MIL/1/13 - Reports of the Military
+                                                            Seminary Committee - 16 Apr 1823-13 Apr 1825</span>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="level 6">IOR/L/MIL/1/17-26 - Copy minutes of the Political
-                                                    and Military Committee relating to the Military Seminary - 1834-1859
+                                                <li><span>IOR/L/MIL/1/17-26 - Copy minutes of the Political
+                                                    and Military Committee relating to the Military Seminary - 1834-1859</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/1/17 - Copy minutes of the
+                                                        <li><span>IOR/L/MIL/1/17 - Copy minutes of the
                                                             Political and Military Committee relating to the Military
-                                                            Seminary - 18 Apr 1834-12 Apr 1837
+                                                            Seminary - 18 Apr 1834-12 Apr 1837</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/18 - Copy minutes of the
+                                                        <li><span>IOR/L/MIL/1/18 - Copy minutes of the
                                                             Political and Military Committee relating to the Military
-                                                            Seminary - 19 Apr 1837-10 Apr 1839
+                                                            Seminary - 19 Apr 1837-10 Apr 1839</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/19 - Copy minutes of the
+                                                        <li><span>IOR/L/MIL/1/19 - Copy minutes of the
                                                             Political and Military Committee relating to the Military
-                                                            Seminary - 19 Apr 1839-14 Apr 1841
+                                                            Seminary - 19 Apr 1839-14 Apr 1841</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/20 - Copy minutes of the
+                                                        <li><span>IOR/L/MIL/1/20 - Copy minutes of the
                                                             Political and Military Committee relating to the Military
-                                                            Seminary - 21 Apr 1841-11 Apr 1843
+                                                            Seminary - 21 Apr 1841-11 Apr 1843</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/1/21 - Copy minutes of the
+                                                        <li><span>IOR/L/MIL/1/21 - Copy minutes of the
                                                             Political and Military Committee relating to the Military
-                                                            Seminary - 21 Apr 1843-8 Apr 1845
+                                                            Seminary - 21 Apr 1843-8 Apr 1845</span>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="level 6"> - Addiscombe Seminary Committee Warrant Book -
-                                                    1832-1855
+                                                <li><span> - Addiscombe Seminary Committee Warrant Book -
+                                                    1832-1855</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/1/27 - Addiscombe Seminary
-                                                            Committee Warrant Book - 15 Aug 1832-12 Dec 1855
+                                                        <li><span>IOR/L/MIL/1/27 - Addiscombe Seminary
+                                                            Committee Warrant Book - 15 Aug 1832-12 Dec 1855</span>
                                                         </li>
                                                     </ul>
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="level 5">IOR/L/MIL/2 - Military Home Correspondence - 1830-1881
+                                        <li><span>IOR/L/MIL/2 - Military Home Correspondence - 1830-1881</span>
                                             <ul>
-                                                <li class="level 6">IOR/L/MIL/2/1-720 - Military Home Correspondence:
-                                                    Letters Received - 1830-1860
+                                                <li class="level 6"><span>IOR/L/MIL/2/1-720 - Military Home Correspondence:
+                                                    Letters Received - 1830-1860</span>
                                                     <ul>
-                                                        <li class="level 7">IOR/L/MIL/2/1-7 - Military Home
-                                                            Correspondence: Letters Received - 1830
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1-7 - Military Home
+                                                            Correspondence: Letters Received - 1830</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1 - Military Home
-                                                                    Correspondence: Letters Received - Jan 1830-Feb 1830
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1 - Military Home
+                                                                    Correspondence: Letters Received - Jan 1830-Feb 1830</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/2 - Military Home
-                                                                    Correspondence: Letters Received - Mar 1830-Apr 1830
+                                                                <li class="level 9"><span>IOR/L/MIL/2/2 - Military Home
+                                                                    Correspondence: Letters Received - Mar 1830-Apr 1830</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/3 - Military Home
-                                                                    Correspondence: Letters Received - May 1830-Jun 1830
+                                                                <li class="level 9"><span>IOR/L/MIL/2/3 - Military Home
+                                                                    Correspondence: Letters Received - May 1830-Jun 1830</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/4 - Military Home
-                                                                    Correspondence: Letters Received - Jun 1830-Jul 1830
+                                                                <li class="level 9"><span>IOR/L/MIL/2/4 - Military Home
+                                                                    Correspondence: Letters Received - Jun 1830-Jul 1830</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/5 - Military Home
-                                                                    Correspondence: Letters Received - Aug 1830
+                                                                <li class="level 9"><span>IOR/L/MIL/2/5 - Military Home
+                                                                    Correspondence: Letters Received - Aug 1830</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/8-13 - Military Home
-                                                            Correspondence: Letters Received - 1831
+                                                        <li class="level 7"><span>IOR/L/MIL/2/8-13 - Military Home
+                                                            Correspondence: Letters Received - 1831</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/8 - Military Home
-                                                                    Correspondence: Letters Received - Jan 1831-Feb 1831
+                                                                <li class="level 9"><span>IOR/L/MIL/2/8 - Military Home
+                                                                    Correspondence: Letters Received - Jan 1831-Feb 1831</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/9 - Military Home
-                                                                    Correspondence: Letters Received - Mar 1831-Apr 1831
+                                                                <li class="level 9"><span>IOR/L/MIL/2/9 - Military Home
+                                                                    Correspondence: Letters Received - Mar 1831-Apr 1831</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/10 - Military Home
-                                                                    Correspondence: Letters Received - May 1831-Jun 1831
+                                                                <li class="level 9"><span>IOR/L/MIL/2/10 - Military Home
+                                                                    Correspondence: Letters Received - May 1831-Jun 1831</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/11 - Military Home
-                                                                    Correspondence: Letters Received - Jul 1831-Aug 1831
+                                                                <li class="level 9"><span>IOR/L/MIL/2/11 - Military Home
+                                                                    Correspondence: Letters Received - Jul 1831-Aug 1831</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/12 - Military Home
-                                                                    Correspondence: Letters Received - Sep 1831-Oct 1831
+                                                                <li class="level 9"><span>IOR/L/MIL/2/12 - Military Home
+                                                                    Correspondence: Letters Received - Sep 1831-Oct 1831</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/14-19 - Military Home
-                                                            Correspondence: Letters Received - 1832
+                                                        <li class="level 7"><span>IOR/L/MIL/2/14-19 - Military Home
+                                                            Correspondence: Letters Received - 1832</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/14 - Military Home
-                                                                    Correspondence: Letters Received - Jan 1832-Feb 1832
+                                                                <li class="level 9"><span>IOR/L/MIL/2/14 - Military Home
+                                                                    Correspondence: Letters Received - Jan 1832-Feb 1832</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/15 - Military Home
-                                                                    Correspondence: Letters Received - Mar 1832-Apr 1832
+                                                                <li class="level 9"><span>IOR/L/MIL/2/15 - Military Home
+                                                                    Correspondence: Letters Received - Mar 1832-Apr 1832</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/16 - Military Home
-                                                                    Correspondence: Letters Received - May 1832-Jun 1832
+                                                                <li class="level 9"><span>IOR/L/MIL/2/16 - Military Home
+                                                                    Correspondence: Letters Received - May 1832-Jun 1832</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/17 - Military Home
-                                                                    Correspondence: Letters Received - Jul 1832-Aug 1832
+                                                                <li class="level 9"><span>IOR/L/MIL/2/17 - Military Home
+                                                                    Correspondence: Letters Received - Jul 1832-Aug 1832</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/18 - Military Home
-                                                                    Correspondence: Letters Received - Sep 1832-Oct 1832
+                                                                <li class="level 9"><span>IOR/L/MIL/2/18 - Military Home
+                                                                    Correspondence: Letters Received - Sep 1832-Oct 1832</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/20-25 - Military Home
-                                                            Correspondence: Letters Received - 1833
+                                                        <li class="level 7"><span>IOR/L/MIL/2/20-25 - Military Home
+                                                            Correspondence: Letters Received - 1833</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/20 - Military Home
-                                                                    Correspondence: Letters Received - Jan 1833-Feb 1833
+                                                                <li class="level 9"><span>IOR/L/MIL/2/20 - Military Home
+                                                                    Correspondence: Letters Received - Jan 1833-Feb 1833</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/21 - Military Home
-                                                                    Correspondence: Letters Received - Mar 1833-Apr 1833
+                                                                <li class="level 9"><span>IOR/L/MIL/2/21 - Military Home
+                                                                    Correspondence: Letters Received - Mar 1833-Apr 1833</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/22 - Military Home
-                                                                    Correspondence: Letters Received - May 1833-Jun 1833
+                                                                <li class="level 9"><span>IOR/L/MIL/2/22 - Military Home
+                                                                    Correspondence: Letters Received - May 1833-Jun 1833</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/23 - Military Home
-                                                                    Correspondence: Letters Received - Jul 1833-Aug 1833
+                                                                <li class="level 9"><span>IOR/L/MIL/2/23 - Military Home
+                                                                    Correspondence: Letters Received - Jul 1833-Aug 1833</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/24 - Military Home
-                                                                    Correspondence: Letters Received - Sep 1833-Oct 1833
+                                                                <li class="level 9"><span>IOR/L/MIL/2/24 - Military Home
+                                                                    Correspondence: Letters Received - Sep 1833-Oct 1833</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/26-34 - Military Home
-                                                            Correspondence: Letters Received - 1834
+                                                        <li class="level 7"><span>IOR/L/MIL/2/26-34 - Military Home
+                                                            Correspondence: Letters Received - 1834</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/26 - Military Home
-                                                                    Correspondence: Letters Received - Jan 1834-Feb 1834
+                                                                <li class="level 9"><span>IOR/L/MIL/2/26 - Military Home
+                                                                    Correspondence: Letters Received - Jan 1834-Feb 1834</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/27 - Military Home
-                                                                    Correspondence: Letters Received - Mar 1834-Apr 1834
+                                                                <li class="level 9"><span>IOR/L/MIL/2/27 - Military Home
+                                                                    Correspondence: Letters Received - Mar 1834-Apr 1834</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/28 - Military Home
-                                                                    Correspondence: Letters Received - May 1834
+                                                                <li class="level 9"><span>IOR/L/MIL/2/28 - Military Home
+                                                                    Correspondence: Letters Received - May 1834</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/29 - Military Home
-                                                                    Correspondence: Letters Received - 3-11 Jun 1834
+                                                                <li class="level 9"><span>IOR/L/MIL/2/29 - Military Home
+                                                                    Correspondence: Letters Received - 3-11 Jun 1834</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/30 - Military Home
-                                                                    Correspondence: Letters Received - 12-25 Jun 1834
+                                                                <li class="level 9"><span>IOR/L/MIL/2/30 - Military Home
+                                                                    Correspondence: Letters Received - 12-25 Jun 1834</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="level 6">IOR/L/MIL/2/721-1048 - Military Home Correspondence:
-                                                    Letters Received - 1861-1881
+                                                <li class="level 6"><span>IOR/L/MIL/2/721-1048 - Military Home Correspondence:
+                                                    Letters Received - 1861-1881</span>
                                                     <ul>
-                                                        <li class="level 7">IOR/L/MIL/2/721-738 - Military Home
-                                                            Correspondence: Letters Received - 1861
+                                                        <li class="level 7"><span>IOR/L/MIL/2/721-738 - Military Home
+                                                            Correspondence: Letters Received - 1861</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/721 - Military Home
-                                                                    Correspondence, Letters Received - Jan 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/721 - Military Home
+                                                                    Correspondence, Letters Received - Jan 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/722 - Military Home
-                                                                    Correspondence, Letters Received - Feb 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/722 - Military Home
+                                                                    Correspondence, Letters Received - Feb 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/723 - Military Home
-                                                                    Correspondence, Letters Received - Mar 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/723 - Military Home
+                                                                    Correspondence, Letters Received - Mar 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/724 - Military Home
-                                                                    Correspondence, Letters Received - Apr 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/724 - Military Home
+                                                                    Correspondence, Letters Received - Apr 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/725 - Military Home
-                                                                    Correspondence, Letters Received - May 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/725 - Military Home
+                                                                    Correspondence, Letters Received - May 1861</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/739-754 - Military Home
-                                                            Correspondence: Letters Received - 1862
+                                                        <li class="level 7"><span>IOR/L/MIL/2/739-754 - Military Home
+                                                            Correspondence: Letters Received - 1862</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/739 - Military Home
-                                                                    Correspondence, Letters Received - Jan 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/739 - Military Home
+                                                                    Correspondence, Letters Received - Jan 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/740 - Military Home
-                                                                    Correspondence, Letters Received - Feb 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/740 - Military Home
+                                                                    Correspondence, Letters Received - Feb 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/741 - Military Home
-                                                                    Correspondence, Letters Received - Mar 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/741 - Military Home
+                                                                    Correspondence, Letters Received - Mar 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/742 - Military Home
-                                                                    Correspondence, Letters Received - Apr 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/742 - Military Home
+                                                                    Correspondence, Letters Received - Apr 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/743 - Military Home
-                                                                    Correspondence, Letters Received - May 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/743 - Military Home
+                                                                    Correspondence, Letters Received - May 1862</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/755-768 - Military Home
-                                                            Correspondence: Letters Received - 1863
+                                                        <li class="level 7"><span>IOR/L/MIL/2/755-768 - Military Home
+                                                            Correspondence: Letters Received - 1863</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/755 - Military Home
-                                                                    Correspondence, Letters Received - Jan 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/755 - Military Home
+                                                                    Correspondence, Letters Received - Jan 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/756 - Military Home
-                                                                    Correspondence, Letters Received - Jan 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/756 - Military Home
+                                                                    Correspondence, Letters Received - Jan 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/757 - Military Home
-                                                                    Correspondence, Letters Received - Feb 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/757 - Military Home
+                                                                    Correspondence, Letters Received - Feb 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/758 - Military Home
-                                                                    Correspondence, Letters Received - Mar 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/758 - Military Home
+                                                                    Correspondence, Letters Received - Mar 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/759 - Military Home
-                                                                    Correspondence, Letters Received - Apr 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/759 - Military Home
+                                                                    Correspondence, Letters Received - Apr 1863</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/769-780 - Military Home
-                                                            Correspondence: Letters Received - 1864
+                                                        <li class="level 7"><span>IOR/L/MIL/2/769-780 - Military Home
+                                                            Correspondence: Letters Received - 1864</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/769 - Military Home
-                                                                    Correspondence, Letters Received - Jan 1864
+                                                                <li class="level 9"><span>IOR/L/MIL/2/769 - Military Home
+                                                                    Correspondence, Letters Received - Jan 1864</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/770 - Military Home
-                                                                    Correspondence, Letters Received - Feb 1864
+                                                                <li class="level 9"><span>IOR/L/MIL/2/770 - Military Home
+                                                                    Correspondence, Letters Received - Feb 1864</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/771 - Military Home
-                                                                    Correspondence, Letters Received - Mar 1864
+                                                                <li class="level 9"><span>IOR/L/MIL/2/771 - Military Home
+                                                                    Correspondence, Letters Received - Mar 1864</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/772 - Military Home
-                                                                    Correspondence, Letters Received - Apr 1864
+                                                                <li class="level 9"><span>IOR/L/MIL/2/772 - Military Home
+                                                                    Correspondence, Letters Received - Apr 1864</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/773 - Military Home
-                                                                    Correspondence, Letters Received - May 1864
+                                                                <li class="level 9"><span>IOR/L/MIL/2/773 - Military Home
+                                                                    Correspondence, Letters Received - May 1864</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/781-793 - Military Home
-                                                            Correspondence: Letters Received - 1865
+                                                        <li class="level 7"><span>IOR/L/MIL/2/781-793 - Military Home
+                                                            Correspondence: Letters Received - 1865</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/781 - Military Home
-                                                                    Correspondence, Letters Received - Jan 1865
+                                                                <li class="level 9"><span>IOR/L/MIL/2/781 - Military Home
+                                                                    Correspondence, Letters Received - Jan 1865</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/782 - Military Home
-                                                                    Correspondence, Letters Received - Feb 1865
+                                                                <li class="level 9"><span>IOR/L/MIL/2/782 - Military Home
+                                                                    Correspondence, Letters Received - Feb 1865</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/783 - Military Home
-                                                                    Correspondence, Letters Received - Mar 1865
+                                                                <li class="level 9"><span>IOR/L/MIL/2/783 - Military Home
+                                                                    Correspondence, Letters Received - Mar 1865</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/784 - Military Home
-                                                                    Correspondence, Letters Received - Apr 1865
+                                                                <li class="level 9"><span>IOR/L/MIL/2/784 - Military Home
+                                                                    Correspondence, Letters Received - Apr 1865</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/785 - Military Home
-                                                                    Correspondence, Letters Received - May 1865
+                                                                <li class="level 9"><span>IOR/L/MIL/2/785 - Military Home
+                                                                    Correspondence, Letters Received - May 1865</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="level 6">IOR/L/MIL/2/1049-1229 - Military Home
-                                                    Correspondence: Letters to the Horse Guards - 1859-1881
+                                                    Correspondence: Letters to the Horse Guards - 1859-1881</span>
                                                     <ul>
                                                         <li class="level 7">IOR/L/MIL/2/1049 - Military Home
-                                                            Correspondence: Letters to the Horse Guards - 1859
+                                                            Correspondence: Letters to the Horse Guards - 1859</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1049 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1859
+                                                                    Correspondence: Letters to the Horse Guards - 1859</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1050-1056 - Military Home
-                                                            Correspondence: Letters to the Horse Guards - 1860
+                                                            Correspondence: Letters to the Horse Guards - 1860</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1050 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1860
+                                                                    Correspondence: Letters to the Horse Guards - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1051 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1860
+                                                                    Correspondence: Letters to the Horse Guards - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1052 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1860
+                                                                    Correspondence: Letters to the Horse Guards - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1053 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1860
+                                                                    Correspondence: Letters to the Horse Guards - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1054 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1860
+                                                                    Correspondence: Letters to the Horse Guards - 1860</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1057-1063 - Military Home
-                                                            Correspondence: Letters to the Horse Guards - 1861
+                                                            Correspondence: Letters to the Horse Guards - 1861</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1057 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1861
+                                                                    Correspondence: Letters to the Horse Guards - 1861</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1058 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1861
+                                                                    Correspondence: Letters to the Horse Guards - 1861</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1059 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1861
+                                                                    Correspondence: Letters to the Horse Guards - 1861</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1060 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1861
+                                                                    Correspondence: Letters to the Horse Guards - 1861</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1061 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1861
+                                                                    Correspondence: Letters to the Horse Guards - 1861</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1064-1070 - Military Home
-                                                            Correspondence: Letters to the Horse Guards - 1862
+                                                            Correspondence: Letters to the Horse Guards - 1862</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1064 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1862
+                                                                    Correspondence: Letters to the Horse Guards - 1862</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1065 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1862
+                                                                    Correspondence: Letters to the Horse Guards - 1862</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1066 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1862
+                                                                    Correspondence: Letters to the Horse Guards - 1862</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1067 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1862
+                                                                    Correspondence: Letters to the Horse Guards - 1862</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1068 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1862
+                                                                    Correspondence: Letters to the Horse Guards - 1862</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1071-1078 - Military Home
-                                                            Correspondence: Letters to the Horse Guards - 1863
+                                                            Correspondence: Letters to the Horse Guards - 1863</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1071 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1863
+                                                                    Correspondence: Letters to the Horse Guards - 1863</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1072 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1863
+                                                                    Correspondence: Letters to the Horse Guards - 1863</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1073 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1863
+                                                                    Correspondence: Letters to the Horse Guards - 1863</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1074 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1863
+                                                                    Correspondence: Letters to the Horse Guards - 1863</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1075 - Military Home
-                                                                    Correspondence: Letters to the Horse Guards - 1863
+                                                                    Correspondence: Letters to the Horse Guards - 1863</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="level 6">IOR/L/MIL/2/1230-1400 - Military Home
-                                                    Correspondence: Letters to the War Office - 1859-1881
+                                                    Correspondence: Letters to the War Office - 1859-1881</span>
                                                     <ul>
                                                         <li class="level 7">IOR/L/MIL/2/1230 - Military Home
-                                                            Correspondence: Letters to the War Office - 1859
+                                                            Correspondence: Letters to the War Office - 1859</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1230 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1859
+                                                                    Correspondence: Letters to the War Office - 1859</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1231-1239 - Military Home
-                                                            Correspondence: Letters to the War Office - 1860
+                                                            Correspondence: Letters to the War Office - 1860</span>
                                                             <ul>
                                                                 <li class="level 9">IOR/L/MIL/2/1231 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1860
+                                                                    Correspondence: Letters to the War Office - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1232 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1860
+                                                                    Correspondence: Letters to the War Office - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1233 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1860
+                                                                    Correspondence: Letters to the War Office - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1234 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1860
+                                                                    Correspondence: Letters to the War Office - 1860</span>
                                                                 </li>
                                                                 <li class="level 9">IOR/L/MIL/2/1235 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1860
+                                                                    Correspondence: Letters to the War Office - 1860</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1240-1249 - Military Home
-                                                            Correspondence: Letters to the War Office - 1861
+                                                            Correspondence: Letters to the War Office - 1861</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1240 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1240 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1241 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1241 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1242 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1242 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1243 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1243 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1861</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1244 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1861
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1244 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1861</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                         <li class="level 7">IOR/L/MIL/2/1250-1257 - Military Home
-                                                            Correspondence: Letters to the War Office - 1862
+                                                            Correspondence: Letters to the War Office - 1862</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1250 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1250 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1251 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1251 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1252 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1252 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1253 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1253 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1862</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1254 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1862
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1254 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1862</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/1258-1264 - Military Home
-                                                            Correspondence: Letters to the War Office - 1863
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1258-1264 - Military Home
+                                                            Correspondence: Letters to the War Office - 1863</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1258 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1258 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1259 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1259 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1260 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1260 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1261 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1261 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1863</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1262 - Military Home
-                                                                    Correspondence: Letters to the War Office - 1863
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1262 - Military Home
+                                                                    Correspondence: Letters to the War Office - 1863</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class="level 6">IOR/L/MIL/2/1401-1446 - Military Home
-                                                    Correspondence: Letters to the Admiralty - 1873-1881
+                                                    Correspondence: Letters to the Admiralty - 1873-1881</span>
                                                     <ul>
-                                                        <li class="level 7">IOR/L/MIL/2/1401-1405 - Military Home
-                                                            Correspondence: Letters to the Admiralty - 1873
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1401-1405 - Military Home
+                                                            Correspondence: Letters to the Admiralty - 1873</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1401 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1873
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1401 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1873</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1402 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1873
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1402 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1873</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1403 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1873
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1403 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1873</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1404 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1873
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1404 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1873</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1405 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1873
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1405 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1873</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/1406-1410 - Military Home
-                                                            Correspondence: Letters to the Admiralty - 1874
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1406-1410 - Military Home
+                                                            Correspondence: Letters to the Admiralty - 1874</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1406 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1874
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1406 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1874</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1407 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1874
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1407 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1874</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1408 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1874
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1408 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1874</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1409 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1874
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1409 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1874</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1410 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1874
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1410 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1874</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/1411-1415 - Military Home
-                                                            Correspondence: Letters to the Admiralty - 1875
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1411-1415 - Military Home
+                                                            Correspondence: Letters to the Admiralty - 1875</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1411 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1875
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1411 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1875</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1412 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1875
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1412 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1875</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1413 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1875
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1413 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1875</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1414 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1875
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1414 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1875</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1415 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1875
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1415 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1875</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/1416-1420 - Military Home
-                                                            Correspondence: Letters to the Admiralty - 1876
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1416-1420 - Military Home
+                                                            Correspondence: Letters to the Admiralty - 1876</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1416 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1876
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1416 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1876</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1417 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1876
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1417 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1876</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1418 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1876
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1418 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1876</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1419 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1876
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1419 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1876</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1420 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1876
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1420 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1876</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
-                                                        <li class="level 7">IOR/L/MIL/2/1421-1425 - Military Home
-                                                            Correspondence: Letters to the Admiralty - 1877
+                                                        <li class="level 7"><span>IOR/L/MIL/2/1421-1425 - Military Home
+                                                            Correspondence: Letters to the Admiralty - 1877</span>
                                                             <ul>
-                                                                <li class="level 9">IOR/L/MIL/2/1421 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1877
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1421 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1877</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1422 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1877
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1422 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1877</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1423 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1877
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1423 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1877</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1424 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1877
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1424 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1877</span>
                                                                 </li>
-                                                                <li class="level 9">IOR/L/MIL/2/1425 - Military Home
-                                                                    Correspondence: Letters to the Admiralty - 1877
+                                                                <li class="level 9"><span>IOR/L/MIL/2/1425 - Military Home
+                                                                    Correspondence: Letters to the Admiralty - 1877</span>
                                                                 </li>
                                                             </ul>
                                                         </li>
@@ -666,45 +670,45 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="level 5">IOR/L/MIL/3 - Military Correspondence with India - 1803-1937
+                                        <li class="level 5"><span>IOR/L/MIL/3 - Military Correspondence with India - 1803-1937</span>
                                             <ul>
-                                                <li class="level 6">IOR/L/MIL/3/1-78 - Military Letters from Bengal and
-                                                    India (Board's Copies) - 1803-1858
+                                                <li class="level 6"><span>IOR/L/MIL/3/1-78 - Military Letters from Bengal and
+                                                    India (Board's Copies) - 1803-1858</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/3/1 - Military Letters from Bengal
-                                                            and India (Board's Copies) - Aug 1803-Jan 1805
+                                                        <li class="level 9"><span>IOR/L/MIL/3/1 - Military Letters from Bengal
+                                                            and India (Board's Copies) - Aug 1803-Jan 1805</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/2 - Military Letters from Bengal
-                                                            and India (Board's Copies) - Mar 1805-Sep 1805
+                                                        <li class="level 9"><span>IOR/L/MIL/3/2 - Military Letters from Bengal
+                                                            and India (Board's Copies) - Mar 1805-Sep 1805</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/3 - Military Letters from Bengal
-                                                            and India (Board's Copies) - Nov 1805-Feb 1808
+                                                        <li class="level 9"><span>IOR/L/MIL/3/3 - Military Letters from Bengal
+                                                            and India (Board's Copies) - Nov 1805-Feb 1808</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/4 - Military Letters from Bengal
-                                                            and India (Board's Copies) - Mar 1809-Aug 1809
+                                                        <li class="level 9"><span>IOR/L/MIL/3/4 - Military Letters from Bengal
+                                                            and India (Board's Copies) - Mar 1809-Aug 1809</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/5 - Military Letters from Bengal
-                                                            and India (Board's Copies) - Oct 1809-Apr 1811
+                                                        <li class="level 9"><span>IOR/L/MIL/3/5 - Military Letters from Bengal
+                                                            and India (Board's Copies) - Oct 1809-Apr 1811</span>
                                                         </li>
                                                     </ul>
                                                 </li>
-                                                <li class="level 6">IOR/L/MIL/3/79-122 - Military and Marine Letters
-                                                    from India - 1858-1879
+                                                <li class="level 6"><span>IOR/L/MIL/3/79-122 - Military and Marine Letters
+                                                    from India - 1858-1879</span>
                                                     <ul>
-                                                        <li class="level 9">IOR/L/MIL/3/79 - Military and Marine Letters
-                                                            from India - Jan 1858-Jun 1858
+                                                        <li class="level 9"><span>IOR/L/MIL/3/79 - Military and Marine Letters
+                                                            from India - Jan 1858-Jun 1858</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/80 - Military and Marine Letters
-                                                            from India - Jul 1858-Dec 1858
+                                                        <li class="level 9"><span>IOR/L/MIL/3/80 - Military and Marine Letters
+                                                            from India - Jul 1858-Dec 1858</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/81 - Military and Marine Letters
-                                                            from India - 1859
+                                                        <li class="level 9"><span>IOR/L/MIL/3/81 - Military and Marine Letters
+                                                            from India - 1859</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/82 - Military and Marine Letters
-                                                            from India - Jan 1860-Jun 1860
+                                                        <li class="level 9"><span>IOR/L/MIL/3/82 - Military and Marine Letters
+                                                            from India - Jan 1860-Jun 1860</span>
                                                         </li>
-                                                        <li class="level 9">IOR/L/MIL/3/83 - Military and Marine Letters
-                                                            from India - Jul 1860-Dec 1860
+                                                        <li class="level 9"><span>IOR/L/MIL/3/83 - Military and Marine Letters
+                                                            from India - Jul 1860-Dec 1860</span>
                                                         </li>
                                                     </ul>
                                                 </li>

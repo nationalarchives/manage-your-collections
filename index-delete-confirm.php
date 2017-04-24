@@ -1,14 +1,13 @@
 <?php include 'header.php'; ?>
     <section class="row" id="holds-breadcrumb">
-        <div class="col starts-at-full ends-at-half clr">
+        <div class="col starts-at-full clr">
             <nav id="breadcrumb">
                 <ul>
                     <li><a href="http://www.nationalarchives.gov.uk">Home</a></li>
-                    <li>Manage your collection</li>
+                    <li>Manage your collections</li>
                 </ul>
             </nav>
         </div><!-- end col -->
-        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">

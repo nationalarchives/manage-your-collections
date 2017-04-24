@@ -1,15 +1,14 @@
 <?php include 'header.php'; ?>
     <section class="row" id="holds-breadcrumb">
-        <div class="col starts-at-full ends-at-half clr">
+        <div class="col starts-at-full clr">
             <nav id="breadcrumb">
                 <ul>
                     <li><a href="http://www.nationalarchives.gov.uk">Home</a></li>
-                    <li><a href="index.php">Manage your collection</a></li>
+                    <li><a href="index.php">Manage your collections</a></li>
                     <li>View history</li>
                 </ul>
             </nav>
         </div><!-- end col -->
-        <?php include 'controls.php'; ?>
     </section>
     <section class="row">
         <div class="col starts-at-full clr box">
@@ -44,205 +43,191 @@
                     </p>
                 </form>
 
+                <div class="">
+                    <span role="alert" class="emphasis-block information"><span>Collection updates may take up to 3 days. To see the most current information, please refresh this page regularly. <button>Refresh</button></span></span>
+                </div>
                 <!-- ITEM LIST -->
                 <div class="item clr">
-                    <p>2 Aug 2016 at 16:18 by Bill Smith</p>
+                    <p>10 Jun 2016 at 19:11 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload ready to check</small></h3>
-                        <p>File: GBO8972.xls</p>
-                        <a class="button" href="preview.php">Preview and approve</a>
+                        <h3>GBO8972.xls - upload ready to check</small></h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li class="complete">Data validated</li>
+                                <li>Previewed</li>
+                                <li>Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
+                        <a class="button" href="preview.php">Preview and approve &gt;</a>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Virus scanned</li>
-                            <li class="complete">Data validated</li>
-                            <li>Previewed</li>
-                            <li>Collection updated</li>
-                            <li>Queued for publishing</li>
-                        </ul>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>2 Aug 2016 at 16:18 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Uploaded</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <h3>GBO8972.xls - uploaded</h3>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
+                        <a class="button" href="">View in the live catalogue &gt;</a>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <p><a href="">View the collection &gt;</a></p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>2 Aug 2016 at 16:18 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload in progress</h3>
-                        <p>File: GBO8972.xls</p>
+                        <h3>GBO8972.xls - upload in progress</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li>Data validated</li>
+                                <li>Previewed</li>
+                                <li>Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <ul>
-                            <li>Virus scanned</li>
-                            <li>Data validated</li>
-                            <li>Previewed</li>
-                            <li>Collection updated</li>
-                            <li>Queued for publishing</li>
-                        </ul>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr error-block">
                     <p>10 Jun 2016 at 19:11 by Bill Smith</p>
+
                     <div class="collection upload">
-                        <h3>Upload failed</h3>
-                        <p>File: GBO8972.xls</p>
-                        <a class="button" href="report.php">See error report</a>
+                        <h3>GBO8972.xls - upload failed</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li class="incomplete">Data validated</li>
+                                <li>Previewed</li>
+                                <li>Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
+                        <a class="button" href="report.php">See error report &gt;</a>
                     </div>
-                    <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Virus scanned</li>
-                            <li class="incomplete">Data validated</li>
-                            <li>Previewed</li>
-                            <li>Collection updated</li>
-                            <li>Queued for publishing</li>
-                        </ul>
-                    </div><!-- end progress-indicator -->
+
                 </div>
 
                 <div class="item clr error-block">
                     <p>10 Jun 2016 at 19:11 by Bill Smith</p>
                     <div class="collection upload">
-                        <h3>Upload failed</h3>
-                        <p>File: GBO8972.xls</p>
+                        <h3>GBO8972.xls - upload failed</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li class="complete">Data validated</li>
+                                <li class="complete">Previewed</li>
+                                <li class="incomplete">Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
+                        <p class="warning">We had a problem with our system. <a class="" href="">Try uploading your file again &gt;</a></p>
                     </div>
-                    <div class="progress-indicator">
-                        <p>We had a problem with our system. <a href="">Try uploading your file again &gt;</a></span></p>
-                    </div><!-- end progress-indicator -->
+
                 </div>
 
                 <div class="item clr warning-block">
                     <p>1 Dec 2015 at 13:02 by Jane Gray</p>
                     <div class="collection upload">
-                        <h3>Upload rejected</h3>
-                        <p>File: GBO8972.xls</p>
+                        <h3>GBO8972.xls - preview rejected</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li class="complete">Data validated</li>
+                                <li class="incomplete">Previewed</li>
+                                <li>Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Virus scanned</li>
-                            <li class="complete">Data validated</li>
-                            <li class="incomplete">Previewed</li>
-                            <li>Collection updated</li>
-                            <li>Queued for publishing</li>
-                        </ul>
-                    </div><!-- end progress-indicator -->
+
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>12 Nov 2015 at 10:24 by Bill Smith</p>
-
                     <div class="collection upload">
-                        <h3>Upload in progress</h3>
-                        <p>File: GBO8972.xls</p>
+                        <h3>GBO8972.xls - Upload in progress</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li class="complete">Data validated</li>
+                                <li class="complete">Collection updated</li>
+                                <li class="complete">Previewed</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Virus scanned</li>
-                            <li class="complete">Data validated</li>
-                            <li class="complete">Collection updated</li>
-                            <li class="complete">Previewed</li>
-                            <li>Queued for publishing</li>
-                        </ul>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection delete">
                         <h3>Deleted</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
+                        <p class="warning">5 days left to restore this collection</p>
                         <a class="button" href="">Restore</a>
+
                     </div>
-                    <div class="progress-indicator">
-                        <p>5 days left to restore this collection</p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr error-block">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection delete">
                         <h3>Delete failed</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
+                        <p class="warning">We had a problem with our system. <a class="" href="">Try uploading your file again &gt;</a></p>
                     </div>
-                    <div class="progress-indicator">
-                        <p>We had a problem with our system. <a href="">Try deleting the collection again &gt;</a></span></p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection download">
                         <h3>Download ready</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
                         <a class="button" href="">Download collection</a>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <p>Ready for download</p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr error-block">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection download">
                         <h3>Download failed</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
+                        <p class="warning">We had a problem with our system. <a class="" href="">Try downloading your file again &gt;</a></p>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <p>We had a problem with our system. <a href="">Try requesting your download again &gt;</a></span></p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection restore">
                         <h3>Restored</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
+                        <a class="button" href="">View the live collection &gt;</a>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <p><a href="">View collection &gt;</a></span></p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="item clr">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection restore">
                         <h3>Restore in progress</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Collection restored</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <ul>
-                            <li class="complete">Collection restored</li>
-                            <li>Queued for publishing</li>
-                        </ul>
-                    </div><!-- end progress-indicator -->
+
                 </div><!-- end item -->
 
                 <div class="item clr error-block">
                     <p>1 Apr 2016 at 12:03 by Bill Smith</p>
                     <div class="collection restore">
                         <h3>Restore failed</h3>
-                        <p>Ref: 0/0432</p>
-                        <p>Title: HALTON, THOMAS</p>
+                        <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
+                        <p class="warning">We had a problem with our system. <a class="" href="">Try restoring your file again &gt;</a></p>
                     </div><!-- end collection -->
-                    <div class="progress-indicator">
-                        <p>We had a problem with our system. <a href="">Try restoring your collection again &gt;</a></span></p>
-                    </div><!-- end progress-indicator -->
                 </div><!-- end item -->
 
                 <div class="paginationWrapper manage-collections">

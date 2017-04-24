@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/jquery.ui.menu.css">
     <link rel="stylesheet" href="css/jquery.ui.theme.css">
     <link rel="stylesheet" href="css/hopscotch.min.css">
-    <link rel="stylesheet" href="css/manage-collections.css?ewerw=eew28">
+    <link rel="stylesheet" href="css/manage-collections.css?ewerw=eew25">
     <!--[if IE 7]>
     <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer7.css">
     <![endif]-->
@@ -311,12 +311,6 @@
             <ul>
                 <li id="signin"><a href="/sign-in">Sign in</a></li>
                 <li id="register"><a href="/register">Register</a></li>
-                <li id="miniBasket">
-        <span class="noItems">
-            <img src="images/basket.png" id="basketIcon" alt="Basket icon"/>
-            No items
-        </span>
-                </li>
             </ul>
         </div>
     </div>
