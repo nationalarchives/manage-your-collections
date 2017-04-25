@@ -69,7 +69,7 @@
                     <div class="collection upload">
                         <h3>GBO8972.xls - uploaded</h3>
                         <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
-                        <a class="button" href="">View in the live catalogue &gt;</a>
+                        <a class="button" href="">View in Discovery &gt;</a>
                     </div><!-- end collection -->
                 </div><!-- end item -->
 
@@ -202,7 +202,7 @@
                     <div class="collection restore">
                         <h3>Restored</h3>
                         <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
-                        <a class="button" href="">View the live collection &gt;</a>
+                        <a class="button" href="">View in Discovery &gt;</a>
                     </div><!-- end collection -->
                 </div><!-- end item -->
 
