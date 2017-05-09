@@ -170,7 +170,7 @@
 <script src="js/search-results-concat.min.js"></script>
 <script src="js/footer-img.js" defer></script>
 <script src="js/tabify.js" defer></script>
-<script src="js/manage-collections.js?dred=313"></script>
+<script src="js/manage-collections.js?dred=013"></script>
 <script>
     $( document ).ready(function() { // All content must be placed within this IIFE.
         // Apply the tabify() plugin

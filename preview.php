@@ -28,8 +28,13 @@
 
                 <!-- Search list -->
                 <h2>Preview of GBO8972.xls</h2>
-                <span role="alert" class="emphasis-block"><span>Are you happy with your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
-                <p>This is a basic preview of your recent upload which shows you how an item will appear in Discovery and how your collection hierarchy will be displayed. Please reject this preview and re-upload your file if you notice any errors.</p>
+                <span role="alert" class="emphasis-block"><span>Do you approve your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
+                <p>This is a basic preview of your recent upload, showing</p>
+                <ul>
+                    <li>how an item will appear in Discovery</li>
+                    <li>how your collection hierarchy will be displayed</li>
+                </ul>
+                <p>Please reject this preview and re-upload your file if you notice any errors.</p>
                 <h3 class="top-large">Step 1: Check a sample record</h3>
                 <div class="table table-responsive">
                     <table class="condensed striped top-none">

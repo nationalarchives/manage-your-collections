@@ -49,8 +49,8 @@
                         </div><!-- end breather -->
                     </div><!--end detail-container -->
                 </div><!-- end search-box -->
-                <h3>12 errors/54 warnings</h3>
-                <p>All errors must be resolved. Warnings can be fixed to improve the quality of your data.</p>
+                <h3>12 errors</h3>
+                <p>All errors must be resolved before data can be successfully uploaded to Discovery.</p>
                 <div class="table table-responsive">
                     <table class="striped">
                         <thead>
@@ -128,6 +128,24 @@
                             <td>End date</td>
                             <td>The value should be between 750 and 2025</td>
                         </tr>
+                        </tbody>
+                    </table>
+                </div><!-- end table-responsive -->
+                <br>
+
+                <h3>54 recommended fixes</h3>
+                <p>We advise fixing these issues to improve the quality of your data in Discovery.</p>
+                <div class="table table-responsive">
+                    <table class="striped">
+                        <thead>
+                        <tr>
+                            <th class="x-small"></th>
+                            <th class="x-small">Row</th>
+                            <th class="medium">Column name</th>
+                            <th>Problem</th>
+                        </tr>
+                        </thead>
+                        <tbody>
                         <tr>
                             <td><span class="highlight">Warning</span></td>
                             <td>66</td>

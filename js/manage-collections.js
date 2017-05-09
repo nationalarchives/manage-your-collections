@@ -10,7 +10,7 @@ $(document).ready(function () {
     $(optionBox).appendTo('#details');
 
     // Append option box to step 1
-    var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='download' class='discoveryPrimaryCallToActionLink'>Get your collection</a></div><!-- end breather --></div><!-- end option-box -->";
+    var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='download' class='discoveryPrimaryCallToActionLink'>Get the template</a></div><!-- end breather --></div><!-- end option-box -->";
     $(optionBox).appendTo('#step-1');
 
     // Append option box to step 2
@@ -54,6 +54,36 @@ $(document).ready(function () {
         $(this).toggleClass('expanded');
         e.stopPropagation();
     });
+
+/*  ----
+INTRODUCTION MESSAGE ON FIRST VISIT (only for world view page)
+ ----- */
+
+if ($("H1:contains('Manage your collections - new')").length) {
+
+    // When remove notice is clicked, set a cookie and hide the background and intro map
+    $(document).on('click', '#removeNotice', function (e) {
+        e.preventDefault();
+        document.cookie = "dontShowIntro=true; max-age=" + (60 * 60 * 24 * 7 * 4) + ";path=/";
+        $('.background, .intro').remove();
+    });
+
+    // Check to see if the cookie has been set. If not, append intro message to the container and fade it in
+
+    var introContent = $("#intro-content").html();
+    console.log(introContent);
+
+    if (document.cookie.indexOf("dontShowIntro") === -1) {
+        $('body').append('<div class="background"><div class="intro"><p><a href="#" id="removeNotice" class="button intro-button">Get started</a></p><h2>First time user?</h2>' + introContent + '</div></div>');
+
+        setTimeout(function () {
+            $('.background, .intro').fadeIn("slow");
+        }, 1000);
+    }
+}
+/*  ----
+ END INTRODUCTION MESSAGE ON FIRST VISIT
+ ----- */
 
 });
 
