@@ -28,7 +28,7 @@
                 <div class="clr">
 
                     <!-- SUMMARY BOX -->
-                    <span role="alert" class="emphasis-block"><span>Your collection is ready to download <button>Download file</button></button></span></span>
+                    <span role="alert" class="emphasis-block"><span>A request to retrive your collection has started. This may take up to 3 hours. To check the progress, please <a href="history.php">view the history page</a>.</span></span>
                     <div class="search-box" id="details">
                             <div class="detail-container">
                                 <div class="breather">

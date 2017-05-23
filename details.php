@@ -88,7 +88,7 @@
                                 <label for="excel">Excel format</label>
                             </p>
                             <div class="button-container">
-                                <input type="submit" value="Submit"/>
+                                <input type="submit" value="Retrieve file"/>
                                 <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!-- end breather -->

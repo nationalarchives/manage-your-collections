@@ -5,6 +5,10 @@
 
 $(document).ready(function () {
 
+    $('#global-container').hide();
+    var changeArchive = "<li id='change-archive'><a href='#'>Change archive</a></li>";
+    $(changeArchive).prependTo('#account-controls ul');
+
     // Append option box to summary box
     var optionBox = "<div class='option-box-primary'> <div class='breather clr'> <a id='delete' href='' class='discoveryPrimaryCallToActionLink left small'>Delete this collection</a> </div></div><div class='option-box-secondary'> <ul class='inline'> <li>To edit this collection</li><li><span>Step 1</span><a href='' class='discoveryPrimaryCallToActionLink' id='download'>Get your collection</a></li><li><span>Step 2</span><a href='' class='discoveryPrimaryCallToActionLink' id='upload'>Upload changes</a></li></ul></div>";
     $(optionBox).appendTo('#details');
@@ -84,6 +88,14 @@ if ($("H1:contains('Manage your collections - new')").length) {
 /*  ----
  END INTRODUCTION MESSAGE ON FIRST VISIT
  ----- */
+
+    // SHOW CHANGE ARCHIVE AREA
+    // When the toggler is clicked...
+    $("#change-archive").on('click', function (e) {
+        // Show the search area
+        e.preventDefault();
+        $("#global-container").slideToggle();
+    });
 
 });
 

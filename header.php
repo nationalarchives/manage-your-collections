@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="css/jquery.ui.menu.css">
     <link rel="stylesheet" href="css/jquery.ui.theme.css">
     <link rel="stylesheet" href="css/hopscotch.min.css">
-    <link rel="stylesheet" href="css/manage-collections.css?ewerw=eew15">
+    <link rel="stylesheet" href="css/manage-collections.css?ewerw=e444ee8e5">
     <!--[if IE 7]>
     <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer7.css">
     <![endif]-->
@@ -315,4 +315,15 @@
         </div>
     </div>
 </header>
+        <div id="global-container" class="container">
+            <div class="breather">
+                <form class="filter-space" action="#" method="post">
+                    <p class="form-spacer">
+                        <label for="history-options">Enter ARCON number</label>
+                        <input type="search" id="search-collections" name="search-collections">
+                        <input type="submit" name="submit" value="Go">
+                    </p>
+                </form>
+            </div>
+        </div>
 <main id="page_wrap" class="container" role="main">

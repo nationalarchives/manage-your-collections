@@ -32,13 +32,15 @@
                     <!-- Search list -->
                     <div class="search-box center border">
                         <div class="breather">
-                        <p>You currently have no collections available in Discovery</p>
+                        <p>You do not currently have any catalogue information in Discovery.</p>
                         <a href="add.php" id="download" class="discoveryPrimaryCallToActionLink">Add your first collection &gt;</a>
                         </div><!-- end breather -->
                     </div><!-- end search-box -->
                    
                     <div id="intro-content">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam maximus felis arcu, at euismod felis blandit nec. Aenean sed elementum arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pretium mollis ipsum non lobortis. Integer at placerat ipsum. Donec in augue sed dui placerat luctus at sit amet nibh. Quisque condimentum sapien et consequat placerat. Aenean et enim elit. In aliquam dignissim sapien sed dictum. Fusce ultrices augue est, id lobortis turpis aliquet at. Integer id libero sodales leo sollicitudin vulputate in ut lacus. Ut sollicitudin augue tortor, non pharetra nulla facilisis sit amet.</p>
+                        <p>Welcome to ‘Manage your collections’. This is a tool that allows archive services to add, edit, delete and restore information about their own collections in The National Archives’ online catalogue, Discovery.</p>
+                        <p>Select ‘Add a collection’ to get started. You will need to download one of our blank templates to begin the process of uploading your catalogue information.</p>
+                        <p>Select ‘Help’ for instructions to guide you through the process.</p>
                     </div>
 
             </div><!-- end breather -->

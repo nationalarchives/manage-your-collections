@@ -43,7 +43,7 @@ nav#tabs-alternative + h2 {
 .search-box .breather {
     padding: 1em;
 }
-.search-box input[type="search"] {
+.search-box input[type="search"], #global-container input[type="search"] {
     padding: 0.5em;
     border: 1px solid #ccc;
     background: #efefef;
@@ -51,7 +51,7 @@ nav#tabs-alternative + h2 {
     margin: 5px 0;
     min-width: 200px;
 }
-.search-box input[type="submit"] {
+.search-box input[type="submit"], #global-container input[type="submit"] {
     padding: 0.55em 1.5em;
     display: inline-block;
 }
@@ -72,6 +72,11 @@ nav#tabs-alternative + h2 {
 /* -- end main search box -- */
 
 /* -- Custom table styles -- */
+h4 {
+    font-size: 1em;
+    margin-top: 2.5em;
+}
+
 table {
     background-color: transparent;
 }
@@ -749,6 +754,26 @@ hr {
 #intro-content {
     display: none;
 }
+#global-container .filter-space {
+    margin-bottom: 5px;
+}
+#global-container input[type="search"] {
+    background: #fff;
+    margin-left: 10px;
+    margin-bottom: 0 !important;
+    width: 100px !important;
+}
+#global-container {
+    background: #dddddd;
+    border: 1px solid #ccc;
+    border-top: 0;
+    text-align: right;
+    font-size: 0.8em;
+    margin-bottom: 1.3em;
+}
+#global-container .breather {
+    padding: 0.5em 0.7em;
+}
 /* -- end miscellaneous custom styles/overrides  -- */
 
 @media screen and (min-width: 768px) {
@@ -776,7 +801,7 @@ hr {
     .search-box .breather {
         padding: 1em;
     }
-    .search-box input[type=search] {
+    .search-box input[type=search], #global-container input[type=search] {
         margin-bottom: 13px;
         width: 40%;
     }
