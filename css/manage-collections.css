@@ -742,7 +742,7 @@ hr {
     display: none;
     border-radius: 0.5em;
     height: 350px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .intro h2 {
     margin-top: 1.5em;

@@ -42,6 +42,7 @@
     <![endif]-->
     <!--[if IE 8]>
     <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer8.css">
+    <link rel="stylesheet" href="css/myc-ie8.css">
     <![endif]-->
     <!--[if IE 9]>
     <link rel="stylesheet" href="http://discovery.nationalarchives.gov.uk/Content/internet-explorer9.css">
