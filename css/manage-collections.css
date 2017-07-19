@@ -1,5 +1,11 @@
 /* -- Custom tabs -- */
-
+ul {
+    padding-left: 1.5em;
+}
+ul li {
+    list-style-type: disc;
+    line-height: 1.7em;
+}
 nav#tabs-alternative {
     border: 0;
     display: inline-block;
@@ -652,11 +658,14 @@ p.status {
 }
 .containing-panel ul {
      margin: 0 0 0 1.5em;
+     padding: 0;
 }
 .containing-panel ul li {
     margin: 0.5em 0;
+    line-height: 1.2em;
     font-size: 1em;
     color: #333;
+    list-style-type: none;
 }
 .containing-panel ul li.plus {
     padding: 0 0 0 1.5em;
@@ -889,6 +898,9 @@ hr {
         overflow-y: auto;
         display: block;
         white-space: normal;
+    }
+    .width-three-quarters {
+        width: 75%;
     }
 
 }

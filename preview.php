@@ -29,12 +29,12 @@
                 <!-- Search list -->
                 <h2>Preview of GBO8972.xls</h2>
                 <span role="alert" class="emphasis-block"><span>Do you approve your uploaded changes?<button>Approve</button><button class="secondary">Reject</button></span></span>
-                <p>This is a basic preview of your recent upload, showing</p>
+                <p>This is a basic preview of your recent upload, showing:</p>
                 <ul>
-                    <li>how an item will appear in Discovery</li>
-                    <li>how your collection hierarchy will be displayed</li>
+                    <li>how an example catalogue entry will appear in Discovery,</li>
+                    <li>how your collection hierarchy will be displayed.</li>
                 </ul>
-                <p>Please reject this preview and re-upload your file if you notice any errors.</p>
+                <p>If you notice any errors, please reject this preview and re-upload your catalogue information.</p>
                 <h3 class="top-large">Step 1: Check a sample record</h3>
                 <div class="table table-responsive">
                     <table class="condensed striped top-none">
@@ -63,7 +63,9 @@
                     </table>
                 </div><!-- end table-responsive -->
                 <h3>Step 2: Check your collection hierarchy</h3>
-                <p>Select a level to expand the collection</p>
+                <p>Select a level to expand the collection.</p>
+
+                <p>Please note: this preview only displays a sample of your information. You will not see more than 5 entries at each level.</p>
                 <div class="containing-panel">
                     <ul>
                         <li><span>IOR - India Office Records - 1600-1948</span>

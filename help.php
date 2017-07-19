@@ -98,8 +98,35 @@
 
                 <p>You can use the following characters to signify formatting in your catalogue data. You have the option to use either keyboard characters or symbols.</p>
 
-                <table>
+                <table class="table table-responsive striped width-three-quarters">
+                    <thead>
+                        <tr>
+                            <th>Indicates</th>
+                            <th>Keyboard (ASCII) character</th>
+                            <th>Symbol</th>
 
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>new paragraph</td>
+                            <td>&vert;</td>
+                            <td>&#182;</td>
+
+                        </tr>
+                        <tr>
+                            <td>insert line break</td>
+                            <td>&#126;</td>
+                            <td>&not;</td>
+
+                        </tr>
+                        <tr>
+                            <td>bullet point</td>
+                            <td>&num;</td>
+                            <td>&middot;</td>
+
+                        </tr>
+                    </tbody>
                 </table>
 
                 <p>When using Excel, you can also type ALT-Enter to signify the beginning of a new paragraph.</p>
