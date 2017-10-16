@@ -358,11 +358,11 @@ h2, h4 {
     font-weight: bold;
     width: 100px;
 }
-.inline {
+.horizontal {
     margin: 0;
     width: 100%;
 }
-.inline li {
+.horizontal li {
     display: inline-block;
     font-size: 0.9em;
     color: #222;
@@ -394,11 +394,11 @@ h2, h4 {
 }
 
 /* -- Inline styles -- */
-.inline li:first-child {
+.horizontal li:first-child {
     font-size: 1.2em;
     margin-right: 50px;
 }
-.inline li span {
+.horizontal li span {
     margin: 5px 10px 5px 0;
 }
 .name {
@@ -865,11 +865,11 @@ hr {
         margin: 0;
         width: auto;
     }
-    .inline {
+    .horizontal {
         margin: 7px 0;
         font-size: 0.9em;
     }
-    .inline li {
+    .horizontal li {
         font-size: 1em;
         color: #222;
         display: inline;
