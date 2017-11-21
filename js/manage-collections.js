@@ -10,7 +10,7 @@ $(document).ready(function () {
     $(changeArchive).prependTo('#account-controls ul');
 
     // Append option box to summary box
-    var optionBox = "<div class='option-box-primary'> <div class='breather clr'> <a id='delete' href='' class='discoveryPrimaryCallToActionLink left small'>Delete this collection</a> </div></div><div class='option-box-secondary'> <ul class='horizontal'> <li>To edit this collection</li><li><span>Step 1</span><a href='' class='discoveryPrimaryCallToActionLink' id='download'>Get your collection</a></li><li><span>Step 2</span><a href='' class='discoveryPrimaryCallToActionLink' id='upload'>Upload changes</a></li></ul></div>";
+    var optionBox = " <div class=\"option-box\"> <p>Edit fields in EAD or Excel<br><span class=\"caption\">Recommended for multiple changes</span></p><ul class=\"horizontal\"> <li><a href=\"\" class=\"discoveryPrimaryCallToActionLink\" id=\"download\">Step 1: Get your collection</a></li><li><a href=\"\" class=\"discoveryPrimaryCallToActionLink\" id=\"upload\">Step 2: Upload changes</a></li></ul> </div>";
     $(optionBox).appendTo('#details');
 
     // Append option box to step 1
@@ -31,7 +31,7 @@ $(document).ready(function () {
     $('.overlay').hide();
 
     // Show the relevant overlay
-    $('.option-box-primary .discoveryPrimaryCallToActionLink, .option-box-secondary .discoveryPrimaryCallToActionLink').on('click', function (e) {
+    $('.option-box-primary .discoveryPrimaryCallToActionLink, .option-box-secondary .discoveryPrimaryCallToActionLink, .option-box .discoveryPrimaryCallToActionLink').on('click', function (e) {
         var IDcheck = $(this).attr('id');
         if (IDcheck != undefined) {
             e.preventDefault();
@@ -95,6 +95,14 @@ if ($("H1:contains('Manage your collections - new')").length) {
         // Show the search area
         e.preventDefault();
         $("#global-container").slideToggle();
+    });
+
+    $('.definition').hide();
+    $('input[name="discovery_field"]').click(function(){
+
+        var target = "#" + $(this).attr("id");
+        $(".definition").not(target).hide();
+        $('div' + target).toggle();
     });
 
 });

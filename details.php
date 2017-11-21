@@ -58,6 +58,14 @@
                             </div><!--end detail-container -->
                     </div><!-- end search-box -->
 
+                    <div class="option-box">
+                        <p>Edit fields in Discovery<br><span class="caption">Recommended for small changes</span></p>
+                        <ul class="horizontal">
+                            <li><a href="" class="discoveryPrimaryCallToActionLink" id="download">Edit in Discovery</a></li>
+                        </ul>
+                    </div>
+
+
                     <!-- FORMS -->
                     <form class="form" id="delete-form" action="history-delete-confirm.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogDelete">
