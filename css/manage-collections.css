@@ -695,8 +695,8 @@ p.status {
     background: none;
     border: 0;
     text-align: left;
-    font-size: 0.8em;
-    padding: 0.6em;
+    font-size: 0.9em;
+    padding: 0.6em 0.6em 0.6em 0;
     border-top: 1px solid #666;
     border-bottom: 1px solid #666;
     margin-top: 20px;
@@ -967,7 +967,23 @@ label[for=metadata-map] {
     margin-right: 10px;
 }
 .upload {
-    margin: 20px 0 50px;
+    margin: 20px 0 50;
+}
+.upload + .filter-space p.information  {
+    padding-top: 9px;
+    border-bottom: 1px solid #ccc;
+    border-top: 0;
+    margin: 0 0 60px 0;
+    font-size: 1em;
+}
+.upload + .filter-space input[type=submit] {
+    margin-left: 0.5em;
+    font-size: 0.8em;
+    padding: 5px 10px;
+}
+
+.upload {
+    border-bottom: 2px solid #ccc;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 

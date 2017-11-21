@@ -102,7 +102,7 @@
                         </div><!-- end breather -->
                     </form>
 
-                    <form class="form" id="upload-form" action="details-uploaded.php" method="post">
+                    <!-- <form class="form" id="upload-form" action="details-uploaded.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogUpload">
                             <h4 id="dialogUpload">Upload a file</h4>
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
@@ -111,8 +111,8 @@
                                 <input type="submit" value="Upload"/>
                                 <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
-                        </div><!-- end breather -->
-                    </form>
+                    <!--</div> end breather
+                    </form>-->
 
                     <!-- RECENT ACTIVITY LIST -->
                     <h4>Recent activity for this collection</h4>
