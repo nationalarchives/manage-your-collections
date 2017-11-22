@@ -981,9 +981,11 @@ label[for=metadata-map] {
     font-size: 0.8em;
     padding: 5px 10px;
 }
-
 .upload {
     border-bottom: 2px solid #ccc;
+}
+.upload + .filter-space select {
+    margin-bottom: 0;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 
