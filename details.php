@@ -102,17 +102,37 @@
                         </div><!-- end breather -->
                     </form>
 
-                    <!-- <form class="form" id="upload-form" action="details-uploaded.php" method="post">
+                    <form class="form" id="upload-form" action="details-upload.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogUpload">
                             <h4 id="dialogUpload">Upload a file</h4>
+
+                            <p class="no-margin">Choose a file</p>
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
-                            <label for="file-input"><span></span><strong>Choose a file</strong></label>
+                            <label for="file-input"><span></span><strong>Select file</strong></label>
+                                <p class="form-spacer information">
+                                    <label for="format">What format is this file?</label>
+                                    <br>
+                                    <select id="format">
+                                        <option>Excel</option>
+                                        <option>EAD</option>
+                                        <option>Something else</option>
+                                    </select>
+                                </p>
+                                <p class="form-spacer information">
+                                    <label for="metadata-map">How would you like to map your fields to Discovery?</label>
+                                    <br>
+                                    <select id="metadata-map">
+                                        <option>Matt's metadata schema 1</option>
+                                        <option>Matt's metadata schema 2</option>
+                                        <option>Create a new mapping</option>
+                                    </select>
+                                </p>
                             <div class="button-container">
                                 <input type="submit" value="Upload"/>
                                 <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
-                    <!--</div> end breather
-                    </form>-->
+                        </div><!--  end breather -->
+                    </form>
 
                     <!-- RECENT ACTIVITY LIST -->
                     <h4>Recent activity for this collection</h4>

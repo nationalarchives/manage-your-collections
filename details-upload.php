@@ -25,36 +25,9 @@
                         <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
+                <h2>Map your fields to Discovery - our catalogue</h2>
                 <div class="clr">
                     <div class="breather">
-                        <h2>Upload a file</h2>
-                        <div class="search-box upload">
-                            <div class="detail-container">
-                                <div class="breather">
-                                    <form action="" method="post">
-                                        <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
-                                        <label for="file-input"><span></span><strong>Choose a file</strong></label>
-                                    </form>
-                                </div><!-- end breather -->
-                            </div><!--end detail-container -->
-                        </div><!-- end search-box -->
-                        <form class="filter-space">
-                            <p class="form-spacer information">
-                                <label for="metadata-map">...and choose a mapping</label>
-                                <select id="metadata-map">
-                                    <option>Matt's metadata schema 1</option>
-                                    <option>Matt's metadata schema 2</option>
-                                    <option>Create a new mapping</option>
-                                </select>
-                                <input type="submit" value="Upload"/>
-                            </p>
-                        </form>
-
-
-
-
-                        <h3>Map your fields to Discovery - our catalogue</h3>
-
                         <form action="" method="post">
                             <div class="feature-utilities-header clr">
                                 <div class="breather">

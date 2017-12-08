@@ -701,6 +701,12 @@ p.status {
     border-bottom: 1px solid #666;
     margin-top: 20px;
 }
+#upload-form .information {
+    border: 0;
+    margin-top: 7px;
+    padding: 0;
+
+}
 hr {
     margin: 10px 0 25px;
     border: 0;
@@ -902,7 +908,7 @@ hr {
 }
 .feature-utilities-header {
     background: #405480;
-    margin-top: 5px;
+    margin-top: 25px;
 }
 .feature-utilities-footer {
     background: #405480;
@@ -986,6 +992,9 @@ label[for=metadata-map] {
 }
 .upload + .filter-space select {
     margin-bottom: 0;
+}
+.no-margin {
+    margin-bottom: 5px;
 }
 /* -- end miscellaneous custom styles/overrides  -- */
 

@@ -10,7 +10,7 @@ $(document).ready(function () {
     $(changeArchive).prependTo('#account-controls ul');
 
     // Append option box to summary box
-    var optionBox = " <div class=\"option-box\"> <p>Edit fields in EAD or Excel<br><span class=\"caption\">Recommended for multiple changes</span></p><ul class=\"horizontal\"> <li><a href=\"\" class=\"discoveryPrimaryCallToActionLink\" id=\"download\">Step 1: Get your collection</a></li><li><a href=\"details-upload.php\" class=\"discoveryPrimaryCallToActionLink\" id=\"\">Step 2: Upload changes</a></li></ul> </div>";
+    var optionBox = " <div class=\"option-box\"> <p>Edit fields in EAD or Excel<br><span class=\"caption\">Recommended for multiple changes</span></p><ul class=\"horizontal\"> <li><a href=\"\" class=\"discoveryPrimaryCallToActionLink\" id=\"download\">Step 1: Get your collection</a></li><li><a href=\"details-upload.php\" class=\"discoveryPrimaryCallToActionLink\" id=\"upload\">Step 2: Upload changes</a></li></ul> </div>";
     $(optionBox).appendTo('#details');
 
     // Append option box to step 1
@@ -18,7 +18,7 @@ $(document).ready(function () {
     $(optionBox).appendTo('#step-1');
 
     // Append option box to step 2
-    var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='details-upload.php' id='' class='discoveryPrimaryCallToActionLink'>Upload file</a></div><!-- end breather --></div><!-- end option-box -->";
+    var optionBox = "<div class='option-box-primary'><div class='breather clr'><a href='' id='upload' class='discoveryPrimaryCallToActionLink'>Upload file</a></div><!-- end breather --></div><!-- end option-box -->";
     $(optionBox).appendTo('#step-2');
 
     // Wrap the forms in overlays
@@ -31,7 +31,7 @@ $(document).ready(function () {
     $('.overlay').hide();
 
     // Show the relevant overlay
-    $('.option-box-primary #download, .option-box-secondary .discoveryPrimaryCallToActionLink, .option-box #download').on('click', function (e) {
+    $('.option-box-primary .discoveryPrimaryCallToActionLink, .option-box-secondary .discoveryPrimaryCallToActionLink, .option-box .discoveryPrimaryCallToActionLink').on('click', function (e) {
         var IDcheck = $(this).attr('id');
         if (IDcheck != undefined) {
             e.preventDefault();
