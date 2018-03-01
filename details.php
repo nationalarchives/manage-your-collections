@@ -109,26 +109,21 @@
                             <p class="no-margin">Choose a file</p>
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
                             <label for="file-input"><span></span><strong>Select file</strong></label>
-                                <p class="form-spacer information">
-                                    <label for="format">What format is this file?</label>
-                                    <br>
-                                    <select id="format">
-                                        <option>Excel</option>
-                                        <option>EAD</option>
-                                        <option>Something else</option>
-                                    </select>
+                            <p class="form-spacer information">
+                                <label for="format">Are you using one of our templates?</label>
+                                <br>
+                                <p class="form-spacer">
+                                    <input type="radio" name="subject" value="template-true" id="template-true" checked>
+                                    <label for="template-true">Yes</label>
                                 </p>
-                                <p class="form-spacer information">
-                                    <label for="metadata-map">How would you like to map your fields to Discovery?</label>
-                                    <br>
-                                    <select id="metadata-map">
-                                        <option>Matt's metadata schema 1</option>
-                                        <option>Matt's metadata schema 2</option>
-                                        <option>Create a new mapping</option>
-                                    </select>
+                                <p class="form-spacer">
+                                    <input type="radio" name="subject" value="template-false" id="template-false">
+                                    <label for="template-false">No</label>
                                 </p>
+                            </p>
+
                             <div class="button-container">
-                                <input type="submit" value="Upload"/>
+                                <input type="submit" value="Continue"/>
                                 <a href="" class="cancel" role="button">Cancel</a>
                             </div><!-- end button-container -->
                         </div><!--  end breather -->

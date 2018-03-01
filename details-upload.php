@@ -25,9 +25,39 @@
                         <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
-                <h2>Map your fields to Discovery - our catalogue</h2>
                 <div class="clr">
-                    <div class="breather">
+                    <h2>Uploading a custom template</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit laoreet purus, id malesuada ligula placerat nec. Etiam sit amet lacus tincidunt, cursus lorem eget, fermentum nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat tempor metus sit amet hendrerit.</p>
+                    <br>
+                    <h3>Mapping your fields to Discovery</h3>
+                    <div class="information">
+                        <form>
+                        <p class="form-spacer">
+                                <label for="format">What format is this file?</label>
+                                <br>
+                                <select id="format">
+                                    <option>Excel</option>
+                                    <option>EAD</option>
+                                    <option>Something else</option>
+                                </select>
+                        </p>
+                        <p class="form-spacer">
+                                <label for="metadata-map">How would you like to map your fields?</label>
+                                <br>
+                                <select id="metadata-map">
+                                    <option>Create a new mapping</option>
+                                    <option>Use Matt's metadata schema 1</option>
+                                    <option>Use Matt's metadata schema 2</option>
+                                </select>
+                        </p>
+
+                        </div><!-- end information -->
+                        <div class="button-container">
+                            <input type="submit" value="Continue"/>
+                        </div><!-- end button-container -->
+                        </form>
+                        <br>
+                        <h3>Create your new mapping</h3>
                         <form action="" method="post">
                             <div class="feature-utilities-header clr">
                                 <div class="breather">
@@ -231,7 +261,7 @@
                     <input type="submit" value="Save and continue your upload">
                 </div>
                 </form>
-            </div><!-- end breather -->
+
         </div><!-- end tab panel-1 -->
         </div><!-- end breather -->
         </div><!-- end col -->
