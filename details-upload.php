@@ -27,7 +27,8 @@
                 </nav><!-- end tabs-alternative -->
                 <div class="clr">
                     <h2>Uploading a custom template</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit laoreet purus, id malesuada ligula placerat nec. Etiam sit amet lacus tincidunt, cursus lorem eget, fermentum nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat tempor metus sit amet hendrerit.</p>
+                        <p>If your field headings do not match the ones used in our template, we will need to know how to map your fields to Discovery.</p>
+                        <p>You can create a new mapping or use one that you have already set up.</p>
                     <br>
                     <h3>Mapping your fields to Discovery</h3>
                     <div class="information">

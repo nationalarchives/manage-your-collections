@@ -110,7 +110,7 @@
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
                             <label for="file-input"><span></span><strong>Select file</strong></label>
                             <p class="form-spacer information">
-                                <label for="format">Are you using one of our templates?</label>
+                                <label for="format">Is this file based on one of our templates?</label>
                                 <br>
                                 <p class="form-spacer">
                                     <input type="radio" name="subject" value="template-true" id="template-true" checked>
