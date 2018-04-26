@@ -102,25 +102,13 @@
                         </div><!-- end breather -->
                     </form>
 
-                    <form class="form" id="upload-form" action="details-upload.php" method="post">
+                    <form class="form" id="upload-form" action="details-uploaded.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogUpload">
                             <h4 id="dialogUpload">Upload a file</h4>
 
                             <p class="no-margin">Choose a file</p>
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6" accept="image/*"/>
                             <label for="file-input"><span></span><strong>Select file</strong></label>
-                            <p class="form-spacer information">
-                                <label for="format">Is this file based on one of our templates?</label>
-                                <br>
-                                <p class="form-spacer">
-                                    <input type="radio" name="subject" value="template-true" id="template-true" checked>
-                                    <label for="template-true">Yes</label>
-                                </p>
-                                <p class="form-spacer">
-                                    <input type="radio" name="subject" value="template-false" id="template-false">
-                                    <label for="template-false">No</label>
-                                </p>
-                            </p>
 
                             <div class="button-container">
                                 <input type="submit" value="Continue"/>

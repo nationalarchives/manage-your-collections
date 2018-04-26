@@ -26,22 +26,11 @@
                     </ul>
                 </nav><!-- end tabs-alternative -->
                 <div class="clr">
-                    <h2>Uploading a custom template</h2>
+                    <h2>Map your fields to Discovery</h2>
                         <p>If your field headings do not match the ones used in our template, we will need to know how to map your fields to Discovery.</p>
                         <p>You can create a new mapping or use one that you have already set up.</p>
-                    <br>
-                    <h3>Mapping your fields to Discovery</h3>
                     <div class="information">
                         <form>
-                        <p class="form-spacer">
-                                <label for="format">What format is this file?</label>
-                                <br>
-                                <select id="format">
-                                    <option>Excel</option>
-                                    <option>EAD</option>
-                                    <option>Something else</option>
-                                </select>
-                        </p>
                         <p class="form-spacer">
                                 <label for="metadata-map">How would you like to map your fields?</label>
                                 <br>

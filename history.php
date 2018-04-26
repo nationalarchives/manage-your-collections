@@ -54,6 +54,7 @@
                         <div class="progress-indicator">
                             <ul>
                                 <li class="complete">Virus scanned</li>
+                                <li class="complete">Fields mapped</li>
                                 <li class="complete">Data validated</li>
                                 <li>Previewed</li>
                                 <li>Collection updated</li>
@@ -80,12 +81,14 @@
                         <div class="progress-indicator">
                             <ul>
                                 <li class="complete">Virus scanned</li>
+                                <li>Fields mapped</li>
                                 <li>Data validated</li>
                                 <li>Previewed</li>
                                 <li>Collection updated</li>
                                 <li>Queued for publishing</li>
                             </ul>
                         </div><!-- end progress-indicator -->
+                        <a class="button" href="details-upload.php">Map fields to Discovery &gt;</a>
                     </div><!-- end collection -->
                 </div><!-- end item -->
 
@@ -97,6 +100,7 @@
                         <div class="progress-indicator">
                             <ul>
                                 <li class="complete">Virus scanned</li>
+                                <li class="complete">Fields mapped</li>
                                 <li class="incomplete">Data validated</li>
                                 <li>Previewed</li>
                                 <li>Collection updated</li>
@@ -115,6 +119,7 @@
                         <div class="progress-indicator">
                             <ul>
                                 <li class="complete">Virus scanned</li>
+                                <li class="complete">Fields mapped</li>
                                 <li class="complete">Data validated</li>
                                 <li class="complete">Previewed</li>
                                 <li class="incomplete">Collection updated</li>
@@ -133,6 +138,7 @@
                         <div class="progress-indicator">
                             <ul>
                                 <li class="complete">Virus scanned</li>
+                                <li class="complete">Fields mapped</li>
                                 <li class="complete">Data validated</li>
                                 <li class="incomplete">Previewed</li>
                                 <li>Collection updated</li>
@@ -150,6 +156,7 @@
                         <div class="progress-indicator">
                             <ul>
                                 <li class="complete">Virus scanned</li>
+                                <li class="complete">Fields mapped</li>
                                 <li class="complete">Data validated</li>
                                 <li class="complete">Collection updated</li>
                                 <li class="complete">Previewed</li>

@@ -53,6 +53,7 @@
                     <div class="progress-indicator">
                         <ul>
                             <li class="complete">Virus scanned</li>
+                            <li class="complete">Fields mapped</li>
                             <li class="complete">Data validated</li>
                             <li>Previewed</li>
                             <li>Collection updated</li>
@@ -82,6 +83,7 @@
                     <div class="progress-indicator">
                         <ul>
                             <li>Virus scanned</li>
+                            <li>Fields mapped</li>
                             <li>Data validated</li>
                             <li>Previewed</li>
                             <li>Collection updated</li>
@@ -100,6 +102,7 @@
                     <div class="progress-indicator">
                         <ul>
                             <li class="complete">Virus scanned</li>
+                            <li class="complete">Fields mapped</li>
                             <li class="incomplete">Data validated</li>
                             <li>Previewed</li>
                             <li>Collection updated</li>
@@ -128,6 +131,7 @@
                     <div class="progress-indicator">
                         <ul>
                             <li class="complete">Virus scanned</li>
+                            <li class="complete">Fields mapped</li>
                             <li class="complete">Data validated</li>
                             <li class="incomplete">Previewed</li>
                             <li>Collection updated</li>
@@ -146,6 +150,7 @@
                     <div class="progress-indicator">
                         <ul>
                             <li class="complete">Virus scanned</li>
+                            <li class="complete">Fields mapped</li>
                             <li class="complete">Data validated</li>
                             <li class="complete">Collection updated</li>
                             <li class="complete">Previewed</li>
