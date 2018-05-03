@@ -166,11 +166,10 @@
 <script src="js/jquery-2.0.3.min.js"></script>
 <!--<![endif]-->
 <!-- TNA scripts -->
-
-<script src="js/search-results-concat.min.js"></script>
 <script src="js/footer-img.js" defer></script>
 <script src="js/tabify.js" defer></script>
 <script src="js/manage-collections.js?drd=r333"></script>
+<script src="js/mapping.js"></script>
 <script>
     $( document ).ready(function() { // All content must be placed within this IIFE.
         // Apply the tabify() plugin

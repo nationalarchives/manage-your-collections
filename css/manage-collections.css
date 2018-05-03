@@ -835,6 +835,7 @@ hr {
 
 #mapping {
     padding: 5px 20px;
+    min-height: 700px;
 }
 
 #mapping label {
@@ -886,7 +887,6 @@ hr {
 }
 #mapping li a {
     font-size: 0.8em;
-    float: right;
 }
 #mapping > div {
     width: 100%
