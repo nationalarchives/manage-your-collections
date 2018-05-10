@@ -25,7 +25,7 @@ $combined.on('change', function () {
         var $field_identifier = $selected.attr('id');
 
         // Create and append the list item for matched items
-        var $match = '<li>' + $selected.val() + ' = ' + $checked.val() + '<br><a href="#" class="undo" data-attr="' + $field_identifier + '-field">Undo</a></li>';
+        var $match = '<li class="pulse">' + $selected.val() + ' = ' + $checked.val() + '<br><a href="#" class="undo" data-attr="' + $field_identifier + '-field">Undo</a></li>';
         $("#mapping ul").append($match);
 
         // Add identifiers for parent items for checked items
@@ -33,9 +33,20 @@ $combined.on('change', function () {
         $custom_container.addClass($field_identifier + '-field');
 
         // Hide the parent containers and reset radio list / definition lists
-        $discovery_container.hide();
-        $custom_container.hide();
+        $discovery_container.animate({
+            left: "+=50",
+            height: "toggle"
+        }, 200, function() {
+            $(this).hide();
+        });
+        $custom_container.animate({
+            left: "+=50",
+            height: "toggle"
+        }, 200, function() {
+            $(this).hide();
+        });;
         $('.definition').hide();
+        $('.pulse').removeClass();
         $("input:radio").removeAttr("checked");
 
         // Individual undo links - when selected show the associated items and remove this item
@@ -43,6 +54,10 @@ $combined.on('change', function () {
             e.preventDefault();
             var $binder = $(this).attr("data-attr");
             var $binderClass = '.' + $binder;
+            var $custom_label = $custom_container.children('label');
+            var $discovery_label = $discovery_container.children('label');
+            $custom_label.toggleClass('pulse');
+            $discovery_label.toggleClass('pulse');
 
             $($binderClass).show();
             $(this).parent().remove();
