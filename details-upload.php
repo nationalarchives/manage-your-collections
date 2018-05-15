@@ -27,39 +27,30 @@
                 </nav><!-- end tabs-alternative -->
                 <div class="clr">
                     <h2>Map your fields to Discovery</h2>
-                        <p>If your field headings do not match the ones used in our template, we will need to know how to map your fields to Discovery.</p>
-                        <p>You can create a new mapping or use one that you have already set up.</p>
-                    <div class="information">
-                        <form>
-                        <p class="form-spacer">
-                                <label for="metadata-map">How would you like to map your fields?</label>
-                                <br>
-                                <select id="metadata-map">
-                                    <option>Create a new mapping</option>
-                                    <option>Use Matt's metadata schema 1</option>
-                                    <option>Use Matt's metadata schema 2</option>
-                                </select>
-                        </p>
-                        </div><!-- end information -->
-                        <div class="button-container">
-                            <input type="submit" value="Continue"/>
-                        </div><!-- end button-container -->
-                        </form>
-                        <br>
-                        <h3>Create your new mapping</h3>
+                        <p>If the field names in your catalogue data are not the same as the ones we use in Discovery, we need to know how to match – or ‘map’ – your fields to ours.</p>
+                        <p>Tell us which fields in Discovery correspond to the fields in your catalogue data.</p>
+                        <p>You can create a new mapping, or reuse one that you have created previously.</p>
+                    <p><span class="mandatory">* = required fields</span></p>
+                    <div class="feature-utilities-header">
+                            <form action="#" method="post">
+                                <p class="form-spacer">
+                                    <label for="history-options">Select a mapping</label>
+                                    <select id="history-options">
+                                       <option>New</option>
+                                       <option>Matt's metadata schema 1</option>
+                                       <option>Matt's metadata schema 2</option>
+                                    </select>
+                                    <input type="submit" class="button" value="View">
+                                </p>
+                            </form>
+                    </div>
                         <form action="" method="post">
-                            <div class="feature-utilities-header clr">
-                                <div class="breather">
-                                    <label class="text-field" for="map_name">Create a name to save this mapping for future use</label>
-                                    <input type="text" id="map_name" name="map_name" placeholder="Example: london-metropolitan-mapping">
-                                </div>
-                            </div>
                             <div class="grid-within-grid-three-item clr" id="mapping">
                                 <div id="discovery-fields"><!-- start grid one -->
                                     <h3><span>1</span> Select a Discovery field</h3>
                                     <div class="data-item">
                                         <input type="radio" id="level_of_description" name="discovery_field" value="Level of description">
-                                        <label for="level_of_description">Level of description</label>
+                                        <label for="level_of_description">Level of description <span class="mandatory">*</span></label>
                                         <div class="definition" id="level_of_description">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -68,7 +59,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="title" name="discovery_field" value="Title">
-                                        <label for="title">Title</label>
+                                        <label for="title">Title <span class="mandatory">*</span></label>
                                         <div class="definition" id="title">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -77,7 +68,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="name_of_creator" name="discovery_field" value="Name of creator(s)">
-                                        <label for="name_of_creator">Name of creator(s)</label>
+                                        <label for="name_of_creator">Name of creator(s) <span class="mandatory">*</span></label>
                                         <div class="definition" id="name_of_creator">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -86,7 +77,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="scope_and_content" name="discovery_field" value="Scope and content">
-                                        <label for="scope_and_content">Scope and content</label>
+                                        <label for="scope_and_content">Scope and content <span class="mandatory">*</span></label>
                                         <div class="definition" id="scope_and_content">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -95,7 +86,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="reference_code" name="discovery_field" value="Reference code">
-                                        <label for="reference_code">Reference code</label>
+                                        <label for="reference_code">Reference code <span class="mandatory">*</span></label>
                                         <div class="definition" id="reference_code">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -104,7 +95,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="covering_dates" name="discovery_field" value="Covering dates">
-                                        <label for="covering_dates">Covering dates</label>
+                                        <label for="covering_dates">Covering dates <span class="mandatory">*</span></label>
                                         <div class="definition" id="covering_dates">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -113,7 +104,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="start_date" name="discovery_field" value="Start date">
-                                        <label for="start_date">Start date</label>
+                                        <label for="start_date">Start date <span class="mandatory">*</span></label>
                                         <div class="definition" id="start_date">
                                             <p><br> A note as to whether the records being described are Public Records
                                                 or not, as defined by the 1958 Act and its schedules (other Public
@@ -122,7 +113,7 @@
                                     </div>
                                     <div class="data-item">
                                         <input type="radio" id="end_date" name="discovery_field" value="End date">
-                                        <label for="end_date">End date</label>
+                                        <label for="end_date">End date <span class="mandatory">*</span></label>
                                         <div class="definition" id="end_date">
                                             <p>A note as to whether the records being described are Public Records or
                                                 not, as defined by the 1958 Act and its schedules (other Public Records
@@ -364,16 +355,21 @@
                                 <div id="matched-fields"><!-- start grid three -->
                                     <h3><span>3</span> Match these fields</h3>
                                     <input type="submit" value="Match" id="match">
-                </form>
-                <form action="" method="post">
-                            <h4>Matched fields &nbsp;<a href="">Undo all</a></h4>
-                            <ul>
-
-                            </ul>
+                                </form>
+                                <form action="" method="post">
+                                   <h4>Matched fields &nbsp;<a href="">Undo all</a></h4>
+                                        <ul></ul>
                     </div><!-- end grid three -->
-                </div><!--end grid within grid -->
+                    </div><!--end grid within grid -->
                 <div class="feature-utilities-footer">
-                    <input type="submit" value="Save and continue your upload">
+                    <div class="breather">
+                        <label class="text-field" for="map_name">Give this mapping a name, to save it for future use <span class="mandatory">*</span></label>
+                        <input type="text" id="map_name" name="map_name" placeholder="Example: london-metropolitan-mapping">
+                    </div>
+                </div>
+                <div class="button-container">
+                    <input type="submit" value="Save this mapping and continue uploading data">
+                    <a href="" class="secondary-call">Delete this mapping</a>
                 </div>
                 </form>
 

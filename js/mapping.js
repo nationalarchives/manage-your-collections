@@ -1,8 +1,9 @@
 
-// Hide and amend controls not needed
+/* Hide and amend controls not needed
 $('#matched-fields h3').html('<span>3</span> Matched fields <a href="#" id="undo-all" >Undo all</a>');
 $('#match').remove();
-$('#matched-fields h4').remove();
+$('#matched-fields h4').remove(); */
+
 
 // Store the two radio lists
 var $discovery_fields = $("#discovery-fields"),
@@ -10,7 +11,8 @@ var $discovery_fields = $("#discovery-fields"),
     $combined = $("#custom-fields, #discovery-fields");
 
 // If either list is changed find out whether there are checked inputs
-$combined.on('change', function () {
+$("#match").on('click', function (e) {
+    e.preventDefault();
     $checked_discovery_field = $discovery_fields.find(':checked');
     $checked_custom_field = $custom_fields.find(':checked');
 
