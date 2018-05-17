@@ -556,6 +556,7 @@
                         <ul></ul>
                 </div><!-- end grid three -->
             </div><!--end grid within grid -->
+            </div>
             <div class="feature-utilities-footer">
                 <label class="text-field" for="map_name">Give this mapping a name, to save it for future use <span
                             class="mandatory">*</span></label>
