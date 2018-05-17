@@ -906,7 +906,7 @@ hr {
     font-size: 1.1em;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
-    text-align: center;
+    text-align: left;
 }
 .feature-utilities-footer {
     margin-bottom: 30px;

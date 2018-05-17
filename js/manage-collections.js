@@ -100,8 +100,17 @@ if ($("H1:contains('Manage your collections - new')").length) {
     $('.definition').hide();
     $('input[name="discovery_field"]').click(function(){
 
-        var target = "#" + $(this).attr("id");
-        $(".definition").not(target).hide();
+        var target = "#def_" + $(this).attr("id");
+        console.log(target);
+        $("#discovery-fields .definition").not(target).hide();
+        $('div' + target).toggle();
+    });
+    $('.definition').hide();
+    $('input[name="user_field"]').click(function(){
+
+        var target = "#def_" + $(this).attr("id");
+        console.log(target);
+        $("#custom-fields .definition").not(target).hide();
         $('div' + target).toggle();
     });
 
