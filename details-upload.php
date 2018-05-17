@@ -549,7 +549,7 @@
                             <div id="matched-fields"><!-- start grid three -->
                                 <h3><span>3</span> Match these fields</h3>
                                 <input type="submit" value="Match" id="match">
-                            </div>
+                     
                     </form>
                     <form action="#" method="post">
                         <h4>Matched fields &nbsp;<a href="">Undo all</a></h4>
