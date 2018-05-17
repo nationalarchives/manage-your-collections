@@ -25,7 +25,7 @@
                         <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
-                <div class="clr">
+
                     <h2>Map your fields to Discovery</h2>
                     <p>If the field names in your catalogue data are not the same as the ones we use in Discovery, we
                         need to know how to match – or ‘map’ – your fields to ours.</p>
@@ -549,14 +549,13 @@
                             <div id="matched-fields"><!-- start grid three -->
                                 <h3><span>3</span> Match these fields</h3>
                                 <input type="submit" value="Match" id="match">
-                     
+
                     </form>
                     <form action="#" method="post">
                         <h4>Matched fields &nbsp;<a href="">Undo all</a></h4>
                         <ul></ul>
                 </div><!-- end grid three -->
             </div><!--end grid within grid -->
-            </div>
             <div class="feature-utilities-footer">
                 <label class="text-field" for="map_name">Give this mapping a name, to save it for future use <span
                             class="mandatory">*</span></label>
