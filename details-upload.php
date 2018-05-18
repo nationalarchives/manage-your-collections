@@ -45,7 +45,7 @@
                             </p>
                         </form>
                     </div>
-                    <form action="#" method="post">
+
                         <div class="grid-within-grid-three-item clr" id="mapping">
                             <div id="discovery-fields"><!-- start grid one -->
                                 <h3><span>1</span> Select a Discovery field</h3>

@@ -58,8 +58,8 @@ $("#match").on('click', function (e) {
             var $binderClass = '.' + $binder;
             var $custom_label = $custom_container.children('label');
             var $discovery_label = $discovery_container.children('label');
-            $custom_label.toggleClass('pulse');
-            $discovery_label.toggleClass('pulse');
+            $custom_label.addClass('pulse');
+            $discovery_label.addClass('pulse');
 
             $($binderClass).show();
             $(this).parent().remove();
