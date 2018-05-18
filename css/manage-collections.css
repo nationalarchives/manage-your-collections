@@ -1012,6 +1012,9 @@ label[for=metadata-map] {
 /* -- end miscellaneous custom styles/overrides  -- */
 
 @media screen and (min-width: 768px) {
+    .main {
+        min-height: 1000px;
+    }
     nav#tabs-alternative li a {
         padding: 7px 20px;
     }
