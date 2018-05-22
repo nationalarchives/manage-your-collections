@@ -55,18 +55,14 @@
                                     <label for="level_of_description">Level of description <span
                                                 class="mandatory">*</span></label>
                                     <div class="definition" id="def_level_of_description">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The position of the material in the collection's hierarchy.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="title" name="discovery_field" value="Title">
                                     <label for="title">Title <span class="mandatory">*</span></label>
                                     <div class="definition" id="def_title">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The name of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -75,9 +71,7 @@
                                     <label for="name_of_creator">Name of creator(s) <span
                                                 class="mandatory">*</span></label>
                                     <div class="definition" id="def_name_of_creator">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The name of the originating organisation(s) or individual(s).</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -86,9 +80,7 @@
                                     <label for="scope_and_content">Scope and content <span
                                                 class="mandatory">*</span></label>
                                     <div class="definition" id="def_scope_and_content">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>A summary description of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -96,9 +88,7 @@
                                            value="Reference code">
                                     <label for="reference_code">Reference code <span class="mandatory">*</span></label>
                                     <div class="definition" id="def_reference_code">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The unique reference code of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -106,27 +96,29 @@
                                            value="Covering dates">
                                     <label for="covering_dates">Covering dates <span class="mandatory">*</span></label>
                                     <div class="definition" id="def_covering_dates">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Known or estimated dates of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="start_date" name="discovery_field" value="Start date">
                                     <label for="start_date">Start date <span class="mandatory">*</span></label>
                                     <div class="definition" id="def_start_date">
-                                        <p><br> A note as to whether the records being described are Public Records
-                                            or not, as defined by the 1958 Act and its schedules (other Public
-                                            Records and FOI Acts)</p>
+                                        <p>The earliest year/date for the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="end_date" name="discovery_field" value="End date">
                                     <label for="end_date">End date <span class="mandatory">*</span></label>
                                     <div class="definition" id="def_end_date">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The last year/date for the material.</p>
+                                    </div>
+                                </div>
+                                <div class="data-item">
+                                    <input type="radio" id="extent" name="discovery_field"
+                                           value="Extent">
+                                    <label for="extent">Physical characteristics</label>
+                                    <div class="definition" id="def_extent">
+                                        <p>The physical or logical extent of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -134,27 +126,21 @@
                                            value="Physical characteristics">
                                     <label for="physical_characteristics">Physical characteristics</label>
                                     <div class="definition" id="def_physical_characteristics">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>A description of any significant conditions or access requirements.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="dimensions" name="discovery_field" value="Dimensions">
                                     <label for="dimensions">Dimensions</label>
                                     <div class="definition" id="def_dimensions">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The measurements of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="language" name="discovery_field" value="Language">
                                     <label for="language">Language</label>
                                     <div class="definition" id="def_language">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The language of the material if not English.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -162,9 +148,7 @@
                                            value="Former referemce">
                                     <label for="former_reference">Former reference</label>
                                     <div class="definition" id="def_former_reference">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Any previous unique reference codes for the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -172,36 +156,28 @@
                                            value="Conditions governing access">
                                     <label for="conditions_governing_access">Conditions governing access</label>
                                     <div class="definition" id="def_conditions_governing_access">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Access restrictions or regulations for the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="subjects" name="discovery_field" value="Subjects">
                                     <label for="subjects">Subjects</label>
                                     <div class="definition" id="def_subjects">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Any classification terms in the form of keywords or phrases.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="legal_status" name="discovery_field" value="Legal status">
                                     <label for="legal_status">Legal status</label>
                                     <div class="definition" id="def_legal_status">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Is the material a Public Record as defined by the Public Records Act 1958 and its schedules (and other Public Records and Freedom of Information Acts)?</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="accruals" name="discovery_field" value="Accruals">
                                     <label for="accruals">Accruals</label>
                                     <div class="definition" id="def_accruals">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Are further additions to the material expected? How often?</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -209,18 +185,14 @@
                                            value="Administrative/Biographical history">
                                     <label for="administrative_history">Administrative/Biographical history</label>
                                     <div class="definition" id="def_administrative_history">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Information about the creator(s) of the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="finding_aids" name="discovery_field" value="Finding aids">
                                     <label for="finding_aids">Finding aids</label>
                                     <div class="definition" id="def_finding_aids">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Identify any existing finding aids for the material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -228,9 +200,7 @@
                                            value="Publication note">
                                     <label for="publication_note">Publication note</label>
                                     <div class="definition" id="def_publication_note">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Identify any publications based on the material, including online or hard copy.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -238,9 +208,7 @@
                                            value="Related units of description">
                                     <label for="related_units">Related units of description</label>
                                     <div class="definition" id="def_related_units">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Any collections known to be related material.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -248,27 +216,21 @@
                                            value="Immediate source of acquisition">
                                     <label for="source_of_acquisition">Immediate source of acquisition</label>
                                     <div class="definition" id="def_source_of_acquisition">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>The source from which the material was acquired.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="arrangement" name="discovery_field" value="Arrangement">
                                     <label for="arrangement">Arrangement</label>
                                     <div class="definition" id="def_arrangement">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>How is the material organised?</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="note" name="discovery_field" value="Note">
                                     <label for="note">Note</label>
                                     <div class="definition" id="def_note">
-                                        <p>A note as to whether the records being described are Public Records or
-                                            not, as defined by the 1958 Act and its schedules (other Public Records
-                                            and FOI Acts)</p>
+                                        <p>Record any other relevant background information, for example the name of the cataloguer.</p>
                                     </div>
                                 </div>
                             </div><!--end grid one -->
@@ -280,11 +242,7 @@
                                            value="institution.name">
                                     <label for="user_insititution_name">institution.name</label>
                                     <div class="definition" id="def_user_insititution_name">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Black Country Living Museum</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -292,33 +250,21 @@
                                            value="institution.code">
                                     <label for="user_institution_code">institution.code</label>
                                     <div class="definition" id="def_user_institution_code">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>1430</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="user_object_number" name="user_field" value="object_number">
                                     <label for="user_object_number">object_number</label>
                                     <div class="definition" id="def_user_object_number">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>KEN</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="user_title" name="user_field" value="title">
                                     <label for="user_title">title</label>
                                     <div class="definition" id="def_user_title">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Archibald Kenrick & Sons Limited</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -326,11 +272,7 @@
                                            value="production.date.start">
                                     <label for="user_production_date_start">production.date.start</label>
                                     <div class="definition" id="def_user_production_date_start">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>1670</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -338,11 +280,7 @@
                                            value="production.date.end">
                                     <label for="user_production_date_end">production.date.end</label>
                                     <div class="definition" id="def_user_production_date_end">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>1990</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -350,22 +288,15 @@
                                            value="physical_description">
                                     <label for="user_physical_description">physical_description</label>
                                     <div class="definition" id="def_user_physical_description">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>The records of Archibald Kenrick & Sons consist of administration records, financial & accounting records, printed material, photographs and plans/maps/drawings.  The company's administration records and printed material records, due to their size, have been further divided  into mixed correspondence, land & property, certificates, employees, licences, newspapers/magazines, books & booklets and leaflets/posters/flyers.</p>
+                                        <p>The collection is a useful source for the study of the iron founding industry of the Black Country as well as for the history of iron founding in general.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="user_collection" name="user_field" value="collection">
                                     <label for="user_collection">collection</label>
                                     <div class="definition" id="def_user_collection">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Archibald Kenrick</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -373,11 +304,7 @@
                                            value="description_level">
                                     <label for="user_description_level">description_level</label>
                                     <div class="definition" id="def_user_description_level">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Fonds</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -385,11 +312,7 @@
                                            value="dimension.free">
                                     <label for="user_dimension_free">dimension.free</label>
                                     <div class="definition" id="def_user_dimension_free">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>28 boxes</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -397,11 +320,7 @@
                                            value="parts_reference">
                                     <label for="user_parts_reference">parts_reference</label>
                                     <div class="definition" id="def_user_parts_reference">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>KEN/A</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -409,22 +328,14 @@
                                            value="object_history_note">
                                     <label for="user_object_history_note">object_history_note</label>
                                     <div class="definition" id="def_user_object_history_note">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>The collection was retained by Archibald Kenrick & Sons.  The records were deposited on a loan basis in 1990 by Archibald Kenrick & Sons Ltd. for an initial period of five years.  The loan was then converted to a gift in 2006.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="user_creator" name="user_field" value="creator">
                                     <label for="user_creator">creator</label>
                                     <div class="definition" id="def_user_creator">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Archibald Kenrick & Sons</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -432,11 +343,7 @@
                                            value="acquisition.notes">
                                     <label for="user_acquisition_notes">acquisition.notes</label>
                                     <div class="definition" id="def_user_acquisition_notes">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Archibald Kenrick & Sons</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -444,11 +351,7 @@
                                            value="content.person.name.type">
                                     <label for="user_content_person_name_type">content.person.name.type</label>
                                     <div class="definition" id="def_user_content_person_name_type">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>person</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -456,11 +359,7 @@
                                            value="content.person.name">
                                     <label for="user_content_person_name">content.person.name</label>
                                     <div class="definition" id="def_user_content_person_name">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Archibald Kenrick</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -468,22 +367,22 @@
                                            value="content.subject.type">
                                     <label for="user_content_subject_type">content.subject.type</label>
                                     <div class="definition" id="def_user_content_subject_type">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>subject</p>
+                                    </div>
+                                </div>
+                                <div class="data-item">
+                                    <input type="radio" id="user_content_subject" name="user_field"
+                                           value="content.subject">
+                                    <label for="user_content_subject">content.subject</label>
+                                    <div class="definition" id="def_user_content_subject">
+                                        <p>Holloware.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="user_accruals" name="user_field" value="accruals">
                                     <label for="user_accruals">accruals</label>
                                     <div class="definition" id="def_user_accruals">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Accruals are unlikely.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -491,11 +390,7 @@
                                            value="system_of_arrangement">
                                     <label for="user_system_of_arrangement">system_of_arrangement</label>
                                     <div class="definition" id="def_user_system_of_arrangement">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>These records have been arranged into five Series that best reflect the original order of the collection. The five Series comprise: Administration Records, Financial & Accounting Records, Printed Material, Photographs and Plans/Drawings/Maps.  Due to their sizes, the company's Administration Records have been further divided into five Sub-Series levels comprising Mixed Correspondence, Land & Property, Certificates, Employees and Licences and their Printed Material has been further divided into three Sub-Series comprising Newspapers & Magazines, Books & Booklets and Leaflets/Posters/Flyers.</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -503,11 +398,7 @@
                                            value="access_category.notes">
                                     <label for="user_access_category_notes">access_category.notes</label>
                                     <div class="definition" id="def_user_access_category_notes">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p>Open</p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -515,11 +406,7 @@
                                            value="environmental_condition.notes">
                                     <label for="user_environment_condition_notes">environmental_condition.notes</label>
                                     <div class="definition" id="def_user_environment_condition_notes">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <div class="data-item">
@@ -527,22 +414,14 @@
                                            value="part_of_reference">
                                     <label for="user_part_of_reference">part_of_reference</label>
                                     <div class="definition" id="def_user_part_of_reference">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <div class="data-item">
                                     <input type="radio" id="user_part_of_title" name="user_field" value="part_of.title">
                                     <label for="user_part_of_title">part_of.title</label>
                                     <div class="definition" id="def_user_part_of_title">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum malesuada
-                                            venenatis sollicitudin. Phasellus a nibh quis lectus sagittis scelerisque.
-                                            Proin maximus vitae massa eget tristique. Vivamus sit amet ante eu turpis
-                                            accumsan malesuada. Donec purus dui, rhoncus sit amet venenatis ac, tempor
-                                            non dui.</p>
+                                        <p></p>
                                     </div>
                                 </div>
                             </div><!-- end grid two -->
