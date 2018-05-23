@@ -44,6 +44,24 @@
 
                 <!-- ITEM LIST -->
                 <div class="item clr">
+                    <p>23 May 2018 at 12:35 by Sarra Hamdi</p>
+                    <div class="collection upload">
+                        <h3>Kenrick.txt - upload in progress</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li>Fields mapped</li>
+                                <li>Data validated</li>
+                                <li>Previewed</li>
+                                <li>Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
+                        <a class="button" href="details-upload.php">Map fields to Discovery &gt;</a>
+                    </div><!-- end collection -->
+                </div><!-- end item -->
+
+                <div class="item clr">
                     <p>2 Aug 2016 at 16:18 by Bill Smith</p>
                     <div class="collection upload">
                         <h3>Upload ready to check</small></h3>

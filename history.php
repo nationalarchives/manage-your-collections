@@ -48,6 +48,24 @@
                 </div>
                 <!-- ITEM LIST -->
                 <div class="item clr">
+                    <p>23 May 2018 at 12:35 by Sarra Hamdi</p>
+                    <div class="collection upload">
+                        <h3>Kenrick.txt - upload in progress</h3>
+                        <div class="progress-indicator">
+                            <ul>
+                                <li class="complete">Virus scanned</li>
+                                <li>Fields mapped</li>
+                                <li>Data validated</li>
+                                <li>Previewed</li>
+                                <li>Collection updated</li>
+                                <li>Queued for publishing</li>
+                            </ul>
+                        </div><!-- end progress-indicator -->
+                        <a class="button" href="details-upload.php">Map fields to Discovery &gt;</a>
+                    </div><!-- end collection -->
+                </div><!-- end item -->
+
+                <div class="item clr">
                     <p>10 Jun 2016 at 19:11 by Bill Smith</p>
                     <div class="collection upload">
                         <h3>GBO8972.xls - upload ready to check</small></h3>
@@ -71,24 +89,6 @@
                         <h3>GBO8972.xls - uploaded</h3>
                         <p>Ref: 0/0432 | Title: HALTON, THOMAS</p>
                         <a class="button" href="">View in Discovery &gt;</a>
-                    </div><!-- end collection -->
-                </div><!-- end item -->
-
-                <div class="item clr">
-                    <p>2 Aug 2016 at 16:18 by Bill Smith</p>
-                    <div class="collection upload">
-                        <h3>GBO8972.xls - upload in progress</h3>
-                        <div class="progress-indicator">
-                            <ul>
-                                <li class="complete">Virus scanned</li>
-                                <li>Fields mapped</li>
-                                <li>Data validated</li>
-                                <li>Previewed</li>
-                                <li>Collection updated</li>
-                                <li>Queued for publishing</li>
-                            </ul>
-                        </div><!-- end progress-indicator -->
-                        <a class="button" href="details-upload.php">Map fields to Discovery &gt;</a>
                     </div><!-- end collection -->
                 </div><!-- end item -->
 

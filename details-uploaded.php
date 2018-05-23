@@ -100,7 +100,7 @@
                             </div><!-- end button-container -->
                         </div><!-- end breather -->
                     </form>
-                    <form class="form" id="upload-form" action="details-confirmed.php" method="post">
+                    <form class="form" id="upload-form" action="details-uploaded.php" method="post">
                         <div class="breather" role="dialog" aria-labelledby="dialogueUpload">
                             <h4 id="dialogueUpload">Upload a file</h4>
                             <input type="file" name="file-input" id="file-input" class="inputfile inputfile-6"
