@@ -168,8 +168,8 @@
 <!-- TNA scripts -->
 <script src="js/footer-img.js" defer></script>
 <script src="js/tabify.js" defer></script>
-<script src="js/manage-collections.js?drd=r333"></script>
-<script src="js/mapping.js"></script>
+<script src="js/manage-collections.js?drd=r3r33"></script>
+<script src="js/mapping.js?wrewr=ewewrr"></script>
 <script>
     $( document ).ready(function() { // All content must be placed within this IIFE.
         // Apply the tabify() plugin

@@ -27,6 +27,7 @@
                 </nav><!-- end tabs-alternative -->
 
                 <h2>Map your fields to Discovery</h2>
+                <span role="alert" class="emphasis-block"><span>Your mapping was successfully deleted.</span></span>
                 <p>If the field names in your catalogue data are not the same as the ones we use in Discovery, we
                     need to know how to match – or ‘map’ – your fields to ours.</p>
                 <p>Tell us which fields in Discovery correspond to the fields in your catalogue data.</p>
@@ -52,8 +53,7 @@
                         <div class="data-item">
                             <input type="radio" id="level_of_description" name="discovery_field"
                                    value="Level of description">
-                            <label for="level_of_description">Level of description <span
-                                        class="mandatory">*</span></label>
+                            <label for="level_of_description">Level of description</label>
                             <div class="definition" id="def_level_of_description">
                                 <p>The position of the material in the collection's hierarchy.</p>
                             </div>
@@ -89,7 +89,6 @@
                                 <p>The unique reference code of the material.</p>
                             </div>
                         </div>
-                        <p class="help-text">Provide either covering dates OR a start/end date</p>
                         <div class="data-item">
                             <input type="radio" id="covering_dates" name="discovery_field"
                                    value="Covering dates">
@@ -112,7 +111,6 @@
                                 <p>The last year/date for the material.</p>
                             </div>
                         </div>
-                        <p class="help-text">Optional fields</p>
                         <div class="data-item">
                             <input type="radio" id="extent" name="discovery_field"
                                    value="Extent">
@@ -238,7 +236,7 @@
                     </div><!--end grid one -->
                     <div id="custom-fields"><!-- start grid two -->
                         <h3><span>2</span> Select your field</h3>
-                        <p class="help-text">Uploaded from Kenrick.xls</p>
+
                         <div class="data-item">
                             <input type="radio" id="user_insititution_name" name="user_field"
                                    value="institution.name">
@@ -444,7 +442,8 @@
                     </div><!-- end grid two -->
                     <div id="matched-fields"><!-- start grid three -->
                         <h3><span>3</span> Match these fields</h3>
-                        <div id="match-navigation"><input type="submit" value="Match" id="match"></div>
+                        <input type="submit" value="Match" id="match">
+
                         </form>
                         <form action="#" method="post">
                             <h4>Matched fields &nbsp;<a href="">Undo all</a></h4>
@@ -474,6 +473,20 @@
                         </div><!-- end button-container -->
                     </div><!--  end breather -->
                 </form>
+
+                <form class="form" id="delete-mapping-form" action="details-upload-mapper-deleted.php" method="post">
+                    <div class="breather" role="dialog" aria-labelledby="dialogUpload">
+                        <h4 id="dialogUpload">Delete your mapping</h4>
+
+                        <b class="no-margin">Are you sure you want to delete <b>Matt's metadata mapping 1</b>?</p>
+
+                            <div class="button-container">
+                                <input type="submit" value="Yes"/>
+                                <a href="" class="cancel" role="button">No</a>
+                            </div><!-- end button-container -->
+                    </div><!--  end breather -->
+                </form>
+
             </div><!-- end tab panel-1 -->
         </div><!-- end breather -->
         </div><!-- end col -->

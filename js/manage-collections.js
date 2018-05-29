@@ -31,7 +31,7 @@ $(document).ready(function () {
     $('.overlay').hide();
 
     // Show the relevant overlay
-    $('.option-box-primary .discoveryPrimaryCallToActionLink, .option-box-secondary .discoveryPrimaryCallToActionLink, .option-box .discoveryPrimaryCallToActionLink').on('click', function (e) {
+    $('.option-box-primary .discoveryPrimaryCallToActionLink, .option-box-secondary .discoveryPrimaryCallToActionLink, .option-box .discoveryPrimaryCallToActionLink, #delete-mapping').on('click', function (e) {
         var IDcheck = $(this).attr('id');
         if (IDcheck != undefined) {
             e.preventDefault();

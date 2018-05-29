@@ -900,13 +900,14 @@ hr {
 .feature-utilities-footer input[type="submit"] {
     text-align: right;
 }
-.feature-utilities-header {
-    margin-top: 10px;
+#feature-utilities-header {
     padding: 13px 20px;
     font-size: 1.1em;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
     text-align: left;
+    overflow: hidden;
+    background-color: #fff;
 }
 .feature-utilities-footer {
     margin-bottom: 30px;
@@ -917,14 +918,14 @@ hr {
 #mapping {
     background: #efefef;
 }
-.feature-utilities-header h3 {
+#feature-utilities-header h3 {
     display: inline-block;
     float: left;
     margin: 8px 0 0 0px;
     font-size: 1.2em;
     color: #fff;
 }
-.feature-utilities-header input {
+#feature-utilities-header input {
     margin: 0 !important;
 }
 #mapping h3 a {
@@ -932,7 +933,7 @@ hr {
     margin-left: 10px;
     padding: 0.3em 0.5em;
 }
-#mapping h3 span, .feature-utilities-header h3 span {
+#mapping h3 span, #feature-utilities-header h3 span {
     color: #405480;
     background-image: none;
     margin: 0 5px 10px 0;
@@ -941,7 +942,7 @@ hr {
     font-family: 'Open Sans', sans-serif;
     font-size: 0.75em;
 }
-.feature-utilities-header .text-field {
+#feature-utilities-header .text-field {
     background: none;
     border: 0;
     text-align: left;
@@ -950,19 +951,19 @@ hr {
     width: 40%;
     margin-left: 15px;
 }
-.feature-utilities-header label {
+#feature-utilities-header label {
     margin-right: 20px;
 }
-.feature-utilities-header input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+#feature-utilities-header input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #999;
 }
-.feature-utilities-header input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+#feature-utilities-header input[type="text"]::-moz-placeholder { /* Firefox 19+ */
     color: #999;
 }
-.feature-utilities-header input[type="text"]::-ms-input-placeholder { /* IE 10+ */
+#feature-utilities-header input[type="text"]::-ms-input-placeholder { /* IE 10+ */
     color: #999;
 }
-.feature-utilities-header input[type="text"]::-moz-placeholder { /* Firefox 18- */
+#feature-utilities-header input[type="text"]::-moz-placeholder { /* Firefox 18- */
     color: #999;
 }
 label[for=metadata-map] {
@@ -1008,6 +1009,16 @@ label[for=metadata-map] {
     background: #efefef;
     font-size: 1em;
 }
+.help-text {
+    color: #333;
+    font-size: 0.85em;
+    margin: 1.7em 0 0.7em !important;
+    font-family: 'Bitter', sans-serif;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
+
 
 /* -- end miscellaneous custom styles/overrides  -- */
 
@@ -1089,7 +1100,7 @@ label[for=metadata-map] {
 }
 
 @media screen and (min-width: 1024px) {
-    #mapping h3 span, .feature-utilities-header h3 span {
+    #mapping h3 span, #feature-utilities-header h3 span {
         display: inline-block;
         width: 30px;
         height: 15px;
@@ -1153,6 +1164,21 @@ label[for=metadata-map] {
     .width-three-quarters {
         width: 75%;
     }
+    .sticky {
+        position: fixed;
+        top: 0;
+        padding: 20px;
+        background: #ddd;
+        border-bottom: 4px solid #ccc;
+        margin: 0 !important;
+        border-radius: 0 0 10px 10px;
+
+    }
+
+    .sticky + #mapping {
+        padding-top: 60px;
+    }
+
 
 }
 

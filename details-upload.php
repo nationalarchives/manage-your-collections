@@ -32,7 +32,7 @@
                     <p>Tell us which fields in Discovery correspond to the fields in your catalogue data.</p>
                     <p>You can create a new mapping, or reuse one that you have created previously.</p>
                     <p><span class="mandatory">* = required fields</span></p>
-                    <div class="feature-utilities-header">
+                    <div id="feature-utilities-header">
                         <form action="details-upload-mapper.php" method="post">
                             <p class="form-spacer">
                                 <label for="history-options">How would you like to map your fields?</label>
@@ -41,7 +41,7 @@
                                     <option>Matt's metadata schema 1</option>
                                     <option>Matt's metadata schema 2</option>
                                 </select>
-                                <input type="submit" class="button" value="Continue">
+                                <input type="submit" class="button" value="Select">
                             </p>
                         </form>
                     </div>
