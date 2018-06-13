@@ -1,10 +1,4 @@
 
-/* Hide and amend controls not needed
-$('#matched-fields h3').html('<span>3</span> Matched fields <a href="#" id="undo-all" >Undo all</a>');
-$('#match').remove();
-$('#matched-fields h4').remove(); */
-
-
 // Store the two radio lists
 var $discovery_fields = $("#discovery-fields"),
     $custom_fields = $('#custom-fields'),
@@ -27,7 +21,7 @@ $("#match").on('click', function (e) {
         var $field_identifier = $selected.attr('id');
 
         // Create and append the list item for matched items
-        var $match = '<li class="pulse">' + $selected.val() + ' = ' + $checked.val() + '<br><a href="#" class="undo" data-attr="' + $field_identifier + '-field">Undo</a></li>';
+        var $match = '<li class="pulse">' + $selected.val() + ' = ' + $checked.val().substring($checked.val().indexOf('|')+1) + '<input type="hidden" name="Matches" value="' + '|' + $checked.val() + '" /><br><a href="#" class="undo" data-attr="' + $field_identifier + '-field">Undo</a></li>';
         $("#mapping ul").append($match);
 
         // Add identifiers for parent items for checked items
