@@ -1046,8 +1046,8 @@ label[for=metadata-map] {
 }
 .single-container label {
     display: block;
-    font-size: 1em;
-    margin-bottom: 0.4em;
+    font-size: 1.1em;
+    margin: 1.5em 0 0.8em 0;
     font-family: 'Bitter', sans-serif;
 }
 
