@@ -896,6 +896,7 @@ hr {
 }
 #mapping input[type="submit"] {
     text-align: center;
+    font-size: 0.9em;
 }
 .feature-utilities-footer input[type="submit"] {
     text-align: right;
@@ -910,13 +911,19 @@ hr {
     background-color: #fff;
 }
 .feature-utilities-footer {
-    margin-bottom: 30px;
-    padding: 17px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 17px 0;
+    min-height: 30px;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
+    background-color: #fff;
 }
 #mapping {
     background: #efefef;
+    padding-top: 200px;
+    margin-bottom: 40px;
 }
 #feature-utilities-header h3 {
     display: inline-block;
@@ -1010,9 +1017,37 @@ label[for=metadata-map] {
     font-size: 1em;
 }
 .help-text {
-    color: #333;
-    font-size: 0.85em;
+    color: #405480;
+    font-size: 0.9em;
     margin: 1.7em 0 0.7em !important;
+    font-family: 'Bitter', sans-serif;
+}
+#map-container  {
+    position: relative;
+    margin-top: 40px;
+}
+.feature-utilities-footer .button-container {
+    float: left;
+    font-size: 0.9em;
+    margin: 20px 0 0 0;
+    display: block;
+    width: 100%;
+}
+.feature-utilities-footer label, .feature-utilities-footer input, .feature-utilities-footer a {
+    float: left;
+    display: block;
+}
+.feature-utilities-footer input[type=text] {
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+.required {
+    border: 1px solid #a6251f !important;
+}
+.single-container label {
+    display: block;
+    font-size: 1em;
+    margin-bottom: 0.4em;
     font-family: 'Bitter', sans-serif;
 }
 
@@ -1172,13 +1207,27 @@ label[for=metadata-map] {
         border-bottom: 4px solid #ccc;
         margin: 0 !important;
         border-radius: 0 0 10px 10px;
-
+        z-index: 1000;
     }
-
     .sticky + #mapping {
         padding-top: 60px;
     }
-
+    #map-container  {
+        position: relative;
+        margin-top: 30px;
+    }
+    .feature-utilities-footer .button-container {
+        float: right;
+        margin: 0;
+        width: auto;
+    }
+    .feature-utilities-footer input[type=text] {
+        width: 400px;
+        margin: 0 0 0 10px;
+    }
+    #mapping {
+        padding-top: 90px;
+    }
 
 }
 
