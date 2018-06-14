@@ -31,8 +31,7 @@
                         need to know how to match – or ‘map’ – your fields to ours.</p>
                     <p>Tell us which fields in Discovery correspond to the fields in your catalogue data.</p>
                     <p>You can create a new mapping, or reuse one that you have created previously.</p>
-                    <p><span class="mandatory">* = required fields</span></p>
-                    <div id="feature-utilities-header">
+                    <div class="single-container">
                         <form action="details-upload-mapper.php" method="post">
                             <p class="form-spacer">
                                 <label for="history-options">How would you like to map your fields?</label>
