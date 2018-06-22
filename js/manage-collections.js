@@ -75,7 +75,6 @@ if ($("H1:contains('Manage your collections - new')").length) {
     // Check to see if the cookie has been set. If not, append intro message to the container and fade it in
 
     var introContent = $("#intro-content").html();
-    console.log(introContent);
 
     if (document.cookie.indexOf("dontShowIntro") === -1) {
         $('body').append('<div class="background"><div class="intro"><p><a href="#" id="removeNotice" class="button intro-button">Get started</a></p><h2>First time user?</h2>' + introContent + '</div></div>');
@@ -101,7 +100,6 @@ if ($("H1:contains('Manage your collections - new')").length) {
     $('input[name="discovery_field"]').click(function(){
 
         var target = "#def_" + $(this).attr("id");
-        console.log(target);
         $("#discovery-fields .definition").not(target).hide();
         $('div' + target).toggle();
     });
@@ -109,7 +107,6 @@ if ($("H1:contains('Manage your collections - new')").length) {
     $('input[name="user_field"]').click(function(){
 
         var target = "#def_" + $(this).attr("id");
-        console.log(target);
         $("#custom-fields .definition").not(target).hide();
         $('div' + target).toggle();
     });
