@@ -38,7 +38,8 @@
                     <li><a href="#six">Edit catalogue data already held in Discovery</a></li>
                     <li><a href="#seven">Delete catalogue data from Discovery</a></li>
                     <li><a href="#eight">Restore catalogue data to Discovery</a></li>
-                    <li><a href="#nine">Troubleshooting</a></li>
+                    <li><a href="#nine">Map field names in Discovery to field names in your data</a></li>
+                    <li><a href="#ten">Troubleshooting</a></li>
                 </ul>
 
                 <a name="one"></a><h3>What is 'Manage your collections'?</h3>
@@ -193,7 +194,33 @@
 
                 <hr>
 
-                <h3 name="nine">Troubleshooting</h3>
+                <a name="nine"></a><h3>Map field names in Discovery to field names in your data</h3>
+
+                <p>Once you have uploaded a file of catalogue data to Discovery, you can check the progress of your upload on the ‘View history’ page.</p>
+
+                <p>If you have used one of our templates to upload catalogue data then each field already has an assigned destination in Discovery.</p>
+
+                <p>However, if the field names in your catalogue data are not the same as the ones we use in Discovery, we need to know how to match – or 'map' – your fields to ours.</p>
+
+                <p>On the 'View history' page, click on the message 'Map fields to Discovery' once it appears.</p>
+
+                <p>You can choose to create a new mapping, or reuse one that you have created previously. Select one of these options from the drop-down list on the 'Map your fields to Discovery' page, and then click on 'Select'.</p>
+
+                <p>If you are creating a new mapping, give it a name so it can be saved for future reuse. </p>
+
+                <p>Select a field from Discovery, and then select the field in your catalogue data that corresponds to it. (When you click on a Discovery field name, you will see a hint giving more detail about what this field is used for.) Once you have selected two corresponding fields, click on 'Match'.</p>
+
+                <p>If you wish to undo any field matching, click on 'Undo' next to the appropriate entry in your list of matched fields</p>
+
+                <p>You do not need to map all the Discovery fields to fields in your catalogue data.  Only match the ones that correspond to fields that you use.</p>
+
+                <p>Once you have matched all the fields in your list to fields in Discovery, give it a name Then click on 'Submit and continue'.</p>
+
+                <p class="back"><a href="">Back to top</a></p>
+
+                <hr>
+
+                <h3 name="ten">Troubleshooting</h3>
 
                 <h4>Validating your catalogue data</h4>
 

@@ -27,7 +27,7 @@
                 </nav><!-- end tabs-alternative -->
 
                 <h2>Map your fields to Discovery</h2>
-                <span role="alert" class="emphasis-block"><span>Your mapping was successfully deleted.</span></span>
+                <span role="alert" class="emphasis-block error"><span>Your mapping was successfully deleted.</span></span>
                 <p>If the field names in your catalogue data are not the same as the ones we use in Discovery, we
                     need to know how to match – or ‘map’ – your fields to ours.</p>
                 <p>Tell us which fields in Discovery correspond to the fields in your catalogue data.</p>
