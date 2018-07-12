@@ -614,9 +614,9 @@ p.footnote, .footnote span {
     background: #fee2e2 !important;
     border-bottom: 2px solid #fff;
 }
-.error    {
+.error-issue    {
     background: #fee2e2 !important;
-    border-left: 4xpx solid #CB0D07;
+    border-left: 4px solid #CB0D07;
 }
 .item .button {
     background: transparent;
