@@ -25,7 +25,7 @@
                         <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
-                <h2 class="name">London Metropolitan Archives: City of London</h2>
+                <h2 class="name">Kenrick Collection</h2>
 
                 <!-- SEARCH/BROWSE COLLECTIONS TAB -->
 

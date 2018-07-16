@@ -25,7 +25,7 @@
                         <li role="menuitem"><a href="help.php">Help</a></li>
                     </ul>
                 </nav><!-- end tabs-alternative -->
-                <h2 class="name">London Metropolitan Archives: City of London</h2>
+                <h2 class="name">Kenrick Collection</h2>
 
                 <!-- SEARCH/BROWSE COLLECTIONS TAB -->
                     <div class="search-box center">
@@ -50,11 +50,6 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td><a href="details.php" title="">0/0432</a></td>
-                                <td><a href="details.php" title="">HALTON, THOMAS</a></td>
-                                <td><a href="details.php" title="">1686</a></td>
-                            </tr>
                             <tr>
                                 <td><a href="" title="">0/194</a></td>
                                 <td><a href="" title="">BRAMLEY, JOSEPH</a></td>
@@ -99,6 +94,11 @@
                                 <td><a href="" title="">A/ATB</a></td>
                                 <td><a href="" title="">ARCHIBISHOP TENNISON'S GRAMMAR SCHOOL, KENNINGTON OVAL</a></td>
                                 <td><a href="" title="">1676 - 1923</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="details.php" title="">0/0432</a></td>
+                                <td><a href="details.php" title="">HALTON, THOMAS</a></td>
+                                <td><a href="details.php" title="">1686</a></td>
                             </tr>
                             <tr>
                                 <td><a href="" title="">A/ATG</a></td>
