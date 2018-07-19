@@ -1246,12 +1246,12 @@ label[for=metadata-map] {
     }
     .feature-utilities-footer .button-container {
         float: right;
-        margin: 0;
+        margin: 8px 0 0 0;
         width: auto;
     }
     .feature-utilities-footer input[type=text] {
         width: 400px;
-        margin: 10px 0 0 20px;
+        margin: 11px 0 0 30px;
     }
     #mapping {
         padding-top: 90px;
