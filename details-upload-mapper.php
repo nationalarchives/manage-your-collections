@@ -452,8 +452,8 @@
                         </div><!-- end grid three -->
                 </div><!--end grid within grid -->
                 <div class="feature-utilities-footer">
-                    <label class="text-field" for="map_name">Mapping name</label>
-                    <input type="text" id="map_name" name="map_name" placeholder="Example: london-metropolitan-mapping">
+                    <label class="text-field" for="map_name">Mapping name <br><span class="caption">Required so mapping can be reused</span></label>
+                    <input type="text" id="map_name" name="map_name" placeholder=" Your collection mapping">
                     <div class="button-container">
                         <input type="submit" value="Submit and continue">
                         <a href="" id="delete-mapping" class="secondary-call">Delete</a>

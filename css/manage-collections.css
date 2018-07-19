@@ -1055,7 +1055,31 @@ label[for=metadata-map] {
     font-family: 'Bitter', sans-serif;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.feature-utilities-footer input[type=text]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #999;
+}
+.feature-utilities-footer input[type=text]::-moz-placeholder { /* Firefox 19+ */
+    color: #999;
+}
+.feature-utilities-footer input[type=text]:-ms-input-placeholder { /* IE 10+ */
+    color: #999;
+}
+.feature-utilities-footer input[type=text]:-moz-placeholder { /* Firefox 18- */
+    color: #999;
+}
+
+.feature-utilities-footer input[type=text]:focus::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: transparent;
+}
+.feature-utilities-footer input[type=text]:focus::-moz-placeholder { /* Firefox 19+ */
+    color: transparent;
+}
+.feature-utilities-footer input[type=text]:focus:-ms-input-placeholder { /* IE 10+ */
+    color: transparent;
+}
+.feature-utilities-footer input[type=text]:focus:-moz-placeholder { /* Firefox 18- */
+    color: transparent;
+}
 
 
 
@@ -1227,7 +1251,7 @@ label[for=metadata-map] {
     }
     .feature-utilities-footer input[type=text] {
         width: 400px;
-        margin: 0 0 0 20px;
+        margin: 10px 0 0 20px;
     }
     #mapping {
         padding-top: 90px;
